@@ -5,6 +5,30 @@ venv/
 .ipynb_checkpoints/
 .pytest_cache/
 .env
+tmp/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local notebook and plotting state
+.jupyter/
+.ipython/
+.matplotlib/
+
+# LaTeX build products (keep source and final PDFs)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
 
 results/data/*
 !results/data/.gitkeep
+
+results/checkpoints/*
+!results/checkpoints/.gitkeep
+results/logs/*
+!results/logs/.gitkeep
