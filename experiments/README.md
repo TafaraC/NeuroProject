@@ -7,7 +7,12 @@ are implemented; commands are in the repository README.
 1. Reproduce a single module of hexagonal grids (Figure 4B; Appendix B).
 2. Once the baseline works, compare two spatial discrimination scales with a
    fixed neuron population, following Figure 8 / Appendix B.4.
-3. Repeat seeds only if time permits.
+3. Assess the baseline across matched seeds before interpreting a spatial-scale effect.
+
+The original pair did not establish the baseline. The current follow-up is the
+controlled three-condition, three-seed study in `diagnostics.md`, which tests
+two documented numerical ambiguities separately. `equation_check.py` provides
+a shared numerical contract for comparing Tafara's and Nathan's implementations.
 
 Proposed comparison: N = 64, sigma = 0.4, l = 0.5 versus l = 0.1.
 Frequency count: 31. Configuration defaults and every resolved run setting are

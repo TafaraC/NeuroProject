@@ -1,0 +1,20 @@
+\section{NeurIPS checklist: reproduction submission}
+\noindent Answers apply to our reproduction, not to Dorrell et al.'s paper. The questions below are abbreviated and paraphrased from the \href{https://neurips.cc/public/guides/PaperChecklist}{NeurIPS checklist}. Author-dependent declarations remain unconfirmed.
+\begin{enumerate}
+\item \textbf{Are the claims supported and appropriately scoped? Yes.} The review distinguishes the paper's claims, our limited reproduction, and proposed follow-up work. No successful hexagonal baseline is claimed.
+\item \textbf{Are limitations explained? Yes.} The reproduction section reports one seed per condition, numerical departures, unmet constraints, and descriptive rather than inferential grid scores.
+\item \textbf{Are new theoretical claims proved? N/A.} We introduce no new theorem; the reviewed theory is attributed to Dorrell et al.
+\item \textbf{Can the numerical findings be checked? Yes.} Saved initial/final checkpoints, configurations, metadata, evaluation summaries, and tests accompany the code. Reproduction instructions are in the repository README.
+\item \textbf{Are code, inputs, and instructions available? Yes.} The branch \href{https://github.com/TafaraC/NeuroProject/tree/codex/independent-reproduction}{codex/independent-reproduction} contains the original implementation and results. Synthetic positions are generated from recorded seeds; no external dataset is required. Include the updated source with the submission.
+\item \textbf{Are experimental choices documented? Yes.} The reproduction section and \texttt{references/implementation\_notes.md} identify the sampling scheme, budget, optimiser, targets, and deviations. Configurations accompany each checkpoint.
+\item \textbf{Is uncertainty quantified statistically? No.} The reported spatial-scale comparison has one seed per condition. Neuron-level distributions are descriptive and are not presented as confidence intervals across independent runs.
+\item \textbf{Are computing requirements fully reported? No.} The recorded CPU runs each took approximately 9.3 minutes when run concurrently, and software versions are saved. Peak memory and total compute across preliminary checks were not measured.
+\item \textbf{Have the authors confirmed compliance with the ethics code? No; pending author confirmation.} This draft cannot attest that both students have read the code. No new human or animal experiment was conducted.
+\item \textbf{Are application-specific societal risks discussed? N/A.} This is a small synthetic modelling exercise without a deployed application or personal data. Its immediate risk is scientific overinterpretation, addressed through explicit limits on claims.
+\item \textbf{Are special release safeguards required? N/A.} The released artefacts are a small spatial representation model and synthetic numerical results.
+\item \textbf{Are all asset permissions and licences verified? No.} Sources are credited and the model code was independently written, but a complete dependency/licensing audit and a repository redistribution licence remain outstanding before an upstream contribution. The course template is used for its supplied purpose.
+\item \textbf{Are newly released artefacts fully documented? No.} Methods, configurations, checkpoints, and limitations are documented; redistribution licensing is still unresolved.
+\item \textbf{Are human-participant instructions and compensation described? N/A.} No participants or crowdworkers were recruited.
+\item \textbf{Was participant ethics approval obtained where needed? N/A.} No human-subject research was performed, and no new animal data were collected.
+\item \textbf{Is substantive LLM assistance disclosed? Yes.} The AI assistance disclosure identifies assistance with code, analysis, literature checking, and drafting. The signed institutional form must still be completed by the authors.
+\end{enumerate}

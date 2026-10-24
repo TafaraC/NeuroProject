@@ -4,6 +4,11 @@ Compare the specified mathematical problems before comparing figures. A JAX
 and NumPy implementation can be equivalent, but matching parameter names alone
 does not establish that they optimise the same objective.
 
+A ready-to-share numerical fixture is now in `fixtures/equation_contract/`.
+See `diagnostics.md` for the input format and comparison command. It includes
+independently calculated NumPy losses and finite-difference derivatives. This
+enables Tafara and Nathan to compare equations without relying on RNG equivalence.
+
 | Item | This branch's primary experiment |
 | --- | --- |
 | Population and frequencies | 64 neurons; 31 sine/cosine pairs plus the constant |

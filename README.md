@@ -11,7 +11,8 @@ Independent JAX implementation on `codex/independent-reproduction`: a learned
 Fourier representation, the paper's functional and biological losses, Adam/GECO
 optimisation, resumable experiments, and held-out analysis. The target is a
 single-module grid-cell reproduction and a comparison of l=0.5 with l=0.1 at
-fixed N=64 and sigma=0.4. Repeated seeds are optional.
+fixed N=64 and sigma=0.4. The follow-up now prioritises diagnosing the baseline
+with three matched training seeds before extending the spatial-scale comparison.
 
 Read `references/implementation_notes.md` before interpreting results: the
 paper and public implementation differ in their norm loss and sigma convention.
@@ -23,6 +24,26 @@ not cleanly recover the intended hexagonal baseline. The baseline missed the
 held-out norm target. See `results/reference_runs/README.md` for the measurements,
 limitations, analysis correction, and saved checkpoints, and
 `results/figures/comparison_seed0` for the comparison figures and CSV.
+
+**Review draft:** `review/paper_review/main.tex` uses the supplied CCN style and
+centres on the paper's contribution, assumptions, scientific evidence, and
+theory-experiment loop. Its PDF includes the reproduction evidence and checklist.
+Both authors still need to assess its judgements and complete the official AI form.
+
+**Baseline diagnostics:** see `experiments/diagnostics.md` for the controlled
+three-condition, three-seed study and a portable numerical contract for comparing
+the independent implementations. New results are kept separate from the original
+spatial-scale comparison. A workflow smoke check is not evidence of convergence.
+
+**Independent equation audit:** Nathan's code is now available at `origin/Nathan`.
+The shared-input loss/gradient comparison passes after explicitly aligning the
+different functional weighting; see `results/partner_comparison`. This does not
+mean the two training configurations are equivalent.
+
+**Constraint calibration:** `results/constraint_control` measures the sampled
+norm penalty of a deliberately constructed non-negative hexagonal code. It
+exposes finite-sample effects in our chosen tolerance and is clearly separated
+from trained model results.
 
 ## Environment
 

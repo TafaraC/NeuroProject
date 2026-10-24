@@ -65,6 +65,13 @@ def main():
     )
     parser.add_argument("--block-size", type=int, default=1000)
     parser.add_argument("--evaluate", action="store_true")
+    parser.add_argument(
+        "--snapshot-steps",
+        nargs="+",
+        type=int,
+        default=[],
+        help="Also retain checkpoints at these steps (including across block boundaries)",
+    )
     args = parser.parse_args()
     if args.block_size < 1:
         parser.error("block-size must be positive")
@@ -100,6 +107,8 @@ def main():
             )
         state = initialise(config)
     target = args.stop_at if args.stop_at is not None else config.steps
+    if any(s < 1 or s > config.steps for s in args.snapshot_steps):
+        parser.error("snapshot steps must be within the configured training budget")
     if not int(state.step) <= target <= config.steps:
         parser.error(
             "stop-at must be between the current step and the configured budget"
@@ -130,8 +139,11 @@ def main():
     while int(state.step) < target:
         begin = int(state.step)
         block_start = time.perf_counter()
+        next_boundary = min(
+            [target, *[s for s in args.snapshot_steps if begin < s <= target]]
+        )
         candidate, metrics = train_block(
-            state, config, min(args.block_size, target - begin)
+            state, config, min(args.block_size, next_boundary - begin)
         )
         metrics = np.asarray(metrics)  # synchronise compiled work before timing
         if not np.isfinite(metrics).all() or not all(
@@ -159,10 +171,18 @@ def main():
             loss_parameter_step=int(state.step) - 1,
             block_start=begin,
             block_seconds=time.perf_counter() - block_start,
+            maximum_axis_frequency=float(np.max(np.abs(np.asarray(state.frequencies)))),
+            geco_clipping_active=bool(
+                np.any(np.abs(np.asarray(state.log_multipliers)) >= 19.99)
+            ),
         )
         with log_path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(row, allow_nan=False) + "\n")
         save_checkpoint(output / "checkpoint.npz", state, config)
+        if int(state.step) in args.snapshot_steps:
+            save_checkpoint(
+                output / "snapshots" / f"step_{int(state.step):06d}.npz", state, config
+            )
         print(
             f"step={int(state.step):6d} sep={row['functional']:.5f} pos={row['positivity']:.3g} "
             f"norm={row['norm']:.3g} seconds={row['block_seconds']:.2f}",

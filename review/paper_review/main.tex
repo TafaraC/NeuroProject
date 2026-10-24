@@ -1,0 +1,125 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage{ccn}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,graphicx,booktabs}
+\usepackage[round,authoryear]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\title{Actionability as an Explanation of Grid Cells:\\A Critical Review of Dorrell et al. (2023)}
+\author{{\large\bf Tafara Chibanda (2683459)}\\University of the Witwatersrand
+\And {\large\bf Nathan Le Roux (2717495)}\\University of the Witwatersrand}
+\begin{document}
+\maketitle
+
+\section{Summary}
+\citet{dorrell2023} ask why spatial representations should take the form of grid cells: neurons whose firing fields repeat on a hexagonal lattice. Their proposal is that a useful representation must preserve the consequences of actions. Moving by a given displacement should update neural activity through the same linear transformation wherever the movement begins. Combining this \emph{actionability} requirement with non-negative, bounded activity and an objective that separates distinct locations produces grid-like codes in their simulations. Representation theory restricts the code to combinations of spatial waves; the authors then explain how the other constraints favour frequency lattices and, in suitable regimes, hexagonal grids and multiple modules. Predictions concern field width, relative module orientation, and adaptation to room geometry. The paper's central contribution is an interpretable account of why these representations may be useful, rather than a detailed circuit or learning mechanism.
+
+\section{Originality}
+The distinctive contribution is the connection between consistent actions and the geometry of the neural code. Earlier continuous-attractor models already explained how recurrent networks could generate grid activity and integrate velocity \citep{burak2009}. Task-trained neural networks also produced grid-like units and supported navigation \citep{banino2018}. Thus, producing a hexagonal firing map is not itself the novelty. Dorrell et al.\ instead identify explicit representational constraints and use them to explain several features within one framework.
+
+This is a more abstract approach than specifying synaptic connectivity or training a complete navigating agent. Its advantage is that it separates a computational requirement from a particular implementation: several circuits could realise the same useful code. The framework also extends beyond planar position to variables with other transformation groups. However, it is not more general in every respect. Requiring a location-independent \emph{linear} action on activity is a substantive restriction; representations that use context-dependent or nonlinear updates are outside the analysed class. Periodic components are therefore partly a consequence of the chosen mathematical formulation, even though hexagonal organisation is not directly imposed.
+
+The claim of \emph{minimal constraints} is best read as applying to this modelling framework. The ablations in Appendix I strengthen the argument that the chosen ingredients matter within it. They do not establish that these are the uniquely necessary assumptions across all possible neural mechanisms. The paper would be stronger if this distinction were made as prominent as the unifying claim.
+
+\section{Clarity}
+The progression from angular representations to two-dimensional space is effective. It gives the reader a concrete interpretation of actionability before introducing the more demanding representation-theoretic argument. Figure 4 is particularly helpful: the frequency-space explanation connects the two spatial lengthscales to the preference for a hexagonal lattice. Figure 5 then separates the model's predictions into identifiable experimental questions. These illustrations make the mathematical framework more accessible.
+
+Some practical details are harder to reconstruct. Figure 8 describes the spatial-resolution comparison, while the principal parameter table in Appendix B.3 concerns Figure 2B; Appendix B.4 notes further adjustments to optimisation settings. A configuration file for each figure would make the chain from equations to results easier to follow. There is also a potentially consequential distinction between the main-text integral normalisation and the sampled sum in equation 22: the numerical scale of neural distances, and therefore of $\sigma$, depends on the convention.
+
+The public code helps, but does not resolve every ambiguity. In the \href{https://github.com/WilburDoz/ICLR_Actionable_Reps/blob/940659ed2773f4cbb3bcf298bdb70497b30d250c/NRT_functions/losses.py}{inspected version (commit 940659e)}, the norm routine forms normalised responses and subsequently aggregates unnormalised responses, whereas equation 25 uses normalised responses. Its \texttt{sigma\_sq} argument also needs to be distinguished from the paper's $\sigma$. These observations call for clarification of the exact figure-generating setup, rather than a conclusion that the reported results are wrong.
+
+\section{Quality}
+A major strength is the combination of analytic reasoning, numerical optimisation, and biological predictions. The frequency-space account explains why non-negativity, location discrimination, and actionability can interact to produce structured codes. The parameter studies and ablations go beyond presenting a single attractive firing map. The authors also acknowledge limitations, including firing-field intensity variation and distortions in irregular environments.
+
+The account of modules is particularly useful. Harmonic components help individual neurons construct non-negative, peaked responses, while harmonically unrelated frequencies help a population distinguish locations that would otherwise share a code. Modules provide a way to accommodate both demands. This connects a population-level objective to single-cell tuning, although the numerical evidence for several clean hexagonal modules is less robust in some parameter regimes, as Appendix B.4.2 acknowledges.
+
+The abstraction is appropriate for asking what makes a representation useful. It is less sufficient for explaining how a rodent learns and maintains that representation. The optimiser has access to position samples and an explicitly specified objective; the paper does not demonstrate a biologically local learning rule or noisy velocity integration in a circuit. Boundedness and non-negativity are reasonable biological constraints, but they do not specify spiking variability, sensory correction, or connectivity. Accordingly, obtaining an optimal code does not establish that an animal can learn it or use it robustly.
+
+The supporting evidence also varies in strength across claims. The mathematical restrictions on admissible codes are more direct than the claim that hexagonal grids globally minimise the full objective. Several lattice arguments are heuristic, and Appendix G acknowledges the non-convex frequency-selection problem and the need for further tools to prove optimality. The simulations support a plausible explanation, rather than a general certificate of the optimum. Appendix B.4 also distinguishes optimisation parameters from parameters defining the objective. That distinction is useful theoretically, but practical reliability still matters when simulation is used as evidence. Reporting distributions across initialisations, constraint residuals, and convergence diagnostics alongside the maps would clarify this boundary.
+
+Finally, the comparisons with biological data are encouraging rather than decisive. The authors describe several as rudimentary. For example, the relationship between field width and recorded cell counts depends on assumptions about sampling neurons across modules. Agreement in a qualitative trend cannot by itself distinguish the proposed explanation from alternatives. Our own unsuccessful reproduction, described below, reinforces the need for numerical clarity but does not refute the theoretical argument.
+
+\section{Significance}
+The strongest prospective contribution is a set of interpretable links between representational demands and measurable neural organisation. This complements circuit models: the theory proposes which codes are useful, while mechanistic models can investigate whether plausible networks can implement them. Recordings showing toroidal population structure in grid-cell modules \citep{gardner2022} make this relationship between population geometry and neural dynamics especially relevant. Such evidence is compatible with the framework, but does not uniquely verify its objective.
+
+A concrete theory--experiment loop follows from the prediction about room geometry. Record the same modules in an arena before and after a controlled change in aspect ratio, measure occupancy, and predict how field spacing and orientation should change under the model. Fit any free parameters using the original environment and assess predictions in the changed environment, rather than refitting each condition. The paper predicts that some codes can remain stable when they are suitable for both geometries, while others should adjust. Comparing that pattern with a competing model would be more informative than checking whether both produce grids.
+
+A useful refinement would separate changes in physical boundaries from changes in sampled occupancy, because the theory expresses environmental effects through $p(x)$. Persistent disagreement after accounting for occupancy would motivate adding sensory anchoring or learning-history effects. This would allow experiments to modify the assumptions of the model, completing the loop. The present work offers valuable hypotheses for this process; it does not yet provide a validated account of all environmental responses.
+
+\section{Reproducibility}
+We implemented a restricted test of Figure 8: $N=64$, 31 learned frequency pairs, $\sigma=0.4$, and $l=0.5$ versus $l=0.1$. Each seed-0 run used 150,000 updates. The implementation follows the sampled original-room normalisation in equations 22--25 and checks constraints in shifted rooms. Independent loss, gradient, translation, and checkpoint-continuation tests support the implementation, but cannot certify convergence.
+
+This is an explicitly specified interpretation, not an exact rerun of the authors' code. In particular, we used a norm-loss target of 0.02; this is our numerical choice, not a reported Figure 8 setting. Other conventions and departures are recorded in the repository. Both final populations showed elongated periodic patterns rather than a clean hexagonal baseline (Figure~\ref{fig:results}). Median descriptive grid scores were 0.0503 and 0.00884 respectively. Mean negative-activity penalties met their tolerance, but 3.61\% and 5.08\% of sampled rates were still below $-10^{-6}$. The $l=0.5$ run also exceeded our norm-error target (Table~\ref{tab:results}).
+
+We corrected an initially undersampled plotting grid using the learned frequencies and evaluated both final checkpoints on the same finer grid. No training result was changed by this correction. Grid scores are descriptive, without a shuffled significance test, and neurons within one trained population are not independent repetitions. With one seed per condition and an unsuccessful baseline, these results do not establish the predicted dependence on $l$ or demonstrate that the paper is irreproducible.
+
+The useful outcome is a reproducible audit of assumptions and failure modes. On identical small float64 inputs, the two independently written implementations agree on the three unweighted losses to within $3\times10^{-13}$. After explicitly aligning their functional-loss weighting, directional derivatives agree with the independent finite-difference reference to within $6\times10^{-11}$. This checks equations on that fixture, not equivalence of the full training procedures: initialisation, norm targets, and Adam conventions still differ. A controlled follow-up holds the baseline task fixed and tests the sigma interpretation and literal published norm target separately across three matched seeds. Its results are reported separately from the original spatial-scale comparison.
+
+A constructed-control check also qualifies our tolerance choice. A known non-negative hexagonal code, whose exact Gaussian room energy was nearly translation-invariant (relative error below $7.2\times10^{-8}$ in the tested rooms), had mean sampled norm penalties of 0.0961, 0.0274 and 0.00644 for 50, 150 and 600 points over 128 batches (Figure~\ref{fig:control}). Thus our 0.02 target can penalise valid geometry through sampling variation. This is a diagnostic control, not a learned result or proof of the cause of training failure.
+
+\begin{thebibliography}{4}
+\bibitem[Dorrell et al.(2023)]{dorrell2023}
+Dorrell, W., Latham, P. E., Behrens, T. E. J., \& Whittington, J. C. R. (2023).
+Actionable neural representations: Grid cells from minimal constraints.
+\emph{International Conference on Learning Representations}.
+\url{https://arxiv.org/abs/2209.15563}
+\bibitem[Burak and Fiete(2009)]{burak2009}
+Burak, Y., \& Fiete, I. R. (2009).
+Accurate path integration in continuous attractor network models of grid cells.
+\emph{PLoS Computational Biology, 5}(2), e1000291.
+\url{https://doi.org/10.1371/journal.pcbi.1000291}
+\bibitem[Banino et al.(2018)]{banino2018}
+Banino, A., Barry, C., Uria, B., et al. (2018).
+Vector-based navigation using grid-like representations in artificial agents.
+\emph{Nature, 557}, 429--433.
+\url{https://doi.org/10.1038/s41586-018-0102-6}
+\bibitem[Gardner et al.(2022)]{gardner2022}
+Gardner, R. J., Hermansen, E., Pachitariu, M., Burak, Y., Baas, N. A., Dunn, B. A., Moser, M.-B., \& Moser, E. I. (2022).
+Toroidal topology of population activity in grid cells.
+\emph{Nature, 602}, 123--128.
+\url{https://doi.org/10.1038/s41586-021-04268-7}
+\end{thebibliography}
+
+\section{Contribution statement}
+Tafara Chibanda and Nathan Le Roux implemented the model independently. This draft reports Tafara's saved reproduction runs and a shared-input numerical audit of Nathan's code at commit 7db3147. It does not merge the two implementations or compare their trained maps on unequal settings. Both authors must confirm the final account of their contributions and the review's judgements before submission.
+
+\section{AI assistance disclosure}
+OpenAI Codex assisted with literature checking, implementation, tests, analysis, and drafting this review. The draft distinguishes measured results from proposed follow-up work. This disclosure is not a signed declaration of the authors' verification or a replacement for the required Wits Science Faculty AI Ethics Form. Both authors need to review the text, adopt or revise its judgements, and complete the official form.
+
+\clearpage
+\onecolumn
+\section{Appendix: Evidence for the reproduction section}
+\begin{table}[h]
+\centering
+\caption{Final seed-0 checkpoints after 150,000 steps. Constraint measurements use eight held-out batches. Tolerances are $\exp(-9)$ for the mean negative-activity penalty and 0.02 for the norm loss; the latter is our implementation choice. These are descriptive single-run results.}
+\label{tab:results}
+\begin{tabular}{lrr}
+\toprule
+Measurement & $l=0.5$ & $l=0.1$\\
+\midrule
+Median descriptive grid score & 0.0503 & 0.00884\\
+Mean negative-activity penalty & 0.0000996 & 0.0001106\\
+Mean squared shifted-room norm error & 0.03011 & 0.01950\\
+Mean negativity target met & Yes & Yes\\
+Norm target met & No & Yes\\
+Sampled rates below $-10^{-6}$ & 3.61\% & 5.08\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.95\linewidth]{images/comparison.png}
+\caption{The two completed reproduction runs. Neuron 0 is shown by a fixed index choice, with its spatial autocorrelation and the distribution of scores across all 64 neurons. The elongated periodic patterns and near-zero median scores do not establish a hexagonal baseline. Rate-map colour scales differ between panels. Maps use 320 samples per axis over $[-1.5,1.5]^2$; the evaluator checks that learned frequencies are resolved.}
+\label{fig:results}
+\end{figure}
+\clearpage
+\section{Appendix: Constraint calibration control}
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{images/constraint_control.png}
+\caption{The constructed-code check discussed in the reproduction section. Left: one fixed-index neuron from a deliberately constructed, non-negative hexagonal population; no training is involved. Centre: the sampled norm penalty decreases with the number of positions used to estimate room energy. Error bars are one standard error across 128 independent sampling batches for the fixed code. Right: the distribution at 150 points shows why our chosen 0.02 threshold can be exceeded even with valid geometry. These sampling batches are not independent training seeds.}
+\label{fig:control}
+\end{figure}
+\clearpage
+\input{checklist}
+\end{document}
