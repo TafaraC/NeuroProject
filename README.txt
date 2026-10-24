@@ -33,3 +33,10 @@ One training seed per condition is not a robustness study.
 
 Raw run folders are excluded from Git; retain them locally or include them
 separately when sharing results. Compact comparison figures/CSV can be committed.
+
+COMPLETED SEED-0 ATTEMPT
+See results/reference_runs/README.md and results/figures/comparison_seed0.
+Both 150000-step runs completed, but did not cleanly recover the intended
+hexagonal baseline; the baseline also missed its held-out norm target.
+Versioned checkpoint snapshots and evaluation figures are included under
+results/reference_runs. Large map arrays remain in ignored results/data folders.

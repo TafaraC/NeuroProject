@@ -18,6 +18,12 @@ paper and public implementation differ in their norm loss and sigma convention.
 The chosen norm tolerance and other numerical choices are explicitly documented.
 Training completion alone does not establish successful reproduction.
 
+**First completed result:** both seed-0 conditions ran for 150,000 steps, but did
+not cleanly recover the intended hexagonal baseline. The baseline missed the
+held-out norm target. See `results/reference_runs/README.md` for the measurements,
+limitations, analysis correction, and saved checkpoints, and
+`results/figures/comparison_seed0` for the comparison figures and CSV.
+
 ## Environment
 
 Use **64-bit Python 3.14** (local setup: 3.14.3) with a project-local `.venv`.
@@ -85,6 +91,7 @@ No global Python packages or global notebook kernels are required.
 | `results/checkpoints/` | Saved parameters, excluded from Git |
 | `results/logs/` | Run records, excluded from Git |
 | `results/figures/` | Selected figures suitable for version control |
+| `results/reference_runs/` | Versioned final/initial checkpoint snapshots, settings, logs, and evaluation summaries |
 | `review/` | Contribution statement and review source |
 | `review/figures/` | Figures included in the report |
 | `tmp/` | Disposable local setup and inspection files, excluded from Git |
@@ -140,3 +147,12 @@ Each evaluation contains `summary.json`, numerical maps, all-neuron rate maps,
 spatial autocorrelations, and a frequency plot. The comparison exports a CSV,
 two figures, and a short result note. Read the positivity and norm checks before
 calling a run successful; positive grid scores alone are insufficient.
+
+Evaluation defaults to a 320-by-320 view of [-1.5,1.5] in each spatial coordinate.
+It rejects grids that undersample learned frequencies. If this happens, rerun
+`experiments.evaluate` with the reported minimum `--resolution`, using the SAME
+resolution and extent for both conditions. The completed training checkpoint is
+retained even if automatic evaluation cannot use the default grid.
+
+For comparing this branch with your groupmate's implementation, see
+`experiments/comparing_implementations.md`.

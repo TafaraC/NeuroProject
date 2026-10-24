@@ -1,5 +1,6 @@
 """Held-out constraint checks and descriptive spatial autocorrelation scores."""
 
+import hashlib
 import json
 from pathlib import Path
 
@@ -81,9 +82,23 @@ def grid_score(sac, map_size):
     }
 
 
-def evaluate(state, config, seed=12345, resolution=96, extent=5.0, batches=8):
+def minimum_map_resolution(frequencies, extent):
+    """At least four samples per shortest axis wavelength (twice Nyquist)."""
+    maximum = float(np.max(np.abs(frequencies)))
+    return max(32, int(np.ceil(4 * extent * maximum / np.pi)) + 1)
+
+
+def evaluate(state, config, seed=12345, resolution=320, extent=1.5, batches=8):
     rng = np.random.default_rng(seed)
     w, frequencies = np.asarray(state.weights), np.asarray(state.frequencies)
+    if not np.isfinite(extent) or extent <= 0 or batches < 1:
+        raise ValueError("extent and batches must be positive")
+    required = minimum_map_resolution(frequencies, extent)
+    if resolution < required:
+        raise ValueError(
+            f"Map grid undersamples learned frequencies: use resolution >= {required} "
+            f"at extent={extent}, or a smaller shared extent for BOTH conditions"
+        )
     # A fixed calibration set defines one static neural code for maps/actionability.
     calibration = rng.normal(0, config.occupancy_scale, (config.samples, 2))
     calibration_rates = np.asarray(responses(w, frequencies, jnp.asarray(calibration)))
@@ -143,6 +158,11 @@ def evaluate(state, config, seed=12345, resolution=96, extent=5.0, batches=8):
         "evaluation_batches": batches,
         "map_resolution": resolution,
         "map_extent": [-extent, extent],
+        "minimum_map_resolution": required,
+        "maximum_axis_frequency": float(np.max(np.abs(frequencies))),
+        "evaluation_source_sha256": hashlib.sha256(
+            Path(__file__).read_bytes()
+        ).hexdigest(),
         "functional_loss": float(averages[0]),
         "positivity_loss": float(averages[1]),
         "norm_loss": float(averages[2]),

@@ -13,8 +13,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("checkpoint", type=Path)
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--resolution", type=int, default=96)
-    parser.add_argument("--extent", type=float, default=5)
+    parser.add_argument("--resolution", type=int, default=320)
+    parser.add_argument("--extent", type=float, default=1.5)
     args = parser.parse_args()
     if args.resolution < 32 or args.extent <= 0:
         parser.error("Use resolution >= 32 and extent > 0")

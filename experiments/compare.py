@@ -16,21 +16,10 @@ def compare(evaluations, output):
             raise ValueError(
                 "Comparison requires completed runs, not partial checkpoints"
             )
-    comparable = (
-        "neurons",
-        "frequencies",
-        "sigma",
-        "seed",
-        "steps",
-        "samples",
-        "shifts",
-        "norm_target",
-        "positivity_target",
-        "functional_scale",
-        "dtype",
-    )
+    comparable = set(summaries[0]["config"]) | set(summaries[1]["config"])
+    comparable.discard("spatial_scale")
     for name in comparable:
-        if summaries[0]["config"][name] != summaries[1]["config"][name]:
+        if summaries[0]["config"].get(name) != summaries[1]["config"].get(name):
             raise ValueError(
                 f"Comparison differs in {name}; this script expects a paired l comparison"
             )
@@ -39,6 +28,7 @@ def compare(evaluations, output):
         "evaluation_batches",
         "map_resolution",
         "map_extent",
+        "evaluation_source_sha256",
     ):
         if summaries[0][name] != summaries[1][name]:
             raise ValueError(f"Evaluation settings differ: {name}")

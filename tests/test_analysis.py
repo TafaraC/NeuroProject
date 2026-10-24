@@ -1,6 +1,9 @@
 import numpy as np
+import pytest
 
-from src.analysis import autocorrelation, grid_score
+from src.analysis import autocorrelation, evaluate, grid_score, minimum_map_resolution
+from src.config import Config
+from src.training import initialise
 
 
 def test_grid_score_distinguishes_synthetic_patterns():
@@ -30,3 +33,12 @@ def test_grid_score_distinguishes_synthetic_patterns():
 def test_constant_map_is_undefined_not_a_grid():
     score = grid_score(autocorrelation(np.ones((32, 32))), 32)
     assert score["score"] is None
+
+
+def test_evaluation_rejects_an_aliased_grid():
+    config = Config(neurons=3, frequencies=1)
+    state = initialise(config)
+    state = state._replace(frequencies=state.frequencies.at[0].set([136.0, 10.0]))
+    assert minimum_map_resolution(np.asarray(state.frequencies), 1.5) == 261
+    with pytest.raises(ValueError, match="undersamples"):
+        evaluate(state, config, resolution=96, extent=5)

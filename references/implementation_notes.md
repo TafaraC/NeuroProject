@@ -88,7 +88,10 @@ comparing implementations.
 
 Final checkpoints are evaluated using eight independent held-out batches from
 the same distributions. Both l conditions use the same evaluation seed and
-map grid (96 by 96, [-5,5] in each coordinate). This does not establish positivity
+map grid (320 by 320, [-1.5,1.5] in each coordinate). A guard requires at least
+four samples per shortest axis wavelength across ALL learned frequencies;
+insufficient resolution is an error rather than a silently aliased figure.
+This does not establish positivity
 on the infinite plane. All 64 neurons are plotted in index order; figures are
 not selected by their grid score. Initial checkpoints are retained for comparison.
 
@@ -107,3 +110,11 @@ maps: a visually hexagonal result with unmet constraints is only a partial
 reproduction. Full source hashes, package versions, resolved settings, random
 state, optimiser moments, GECO state, and sampled rooms are recorded for audit
 and exact continuation within the same software environment.
+
+The first evaluation used 96 points across [-5,5]. Visual inspection and the
+learned spectra showed that this undersampled the final frequencies. Those
+evaluations are marked SUPERSEDED locally; final figures and scores are regenerated
+on the shared finer grid above. Training and the held-out constraints were not
+changed. Changing the plot extent changes the physical annuli used for scoring;
+only scores on the same grid should be compared. This correction is part of the
+evaluation audit, not a retraining or selection of a better checkpoint.
