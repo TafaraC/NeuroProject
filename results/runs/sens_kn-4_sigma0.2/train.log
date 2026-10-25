@@ -1,5 +1,12 @@
-resumed from C:\Users\Nathan\Documents\WITS\Comp Sci\Comp Neuro\Project\NeuroProject\results\runs\sens_kn-4_sigma0.2\ckpt.npz at step 40000
-[  40000/50000] Lf=0.006655 Lp=7.72e-05 Lb=0.0287 lam_p=23.1 lam_n=0.173 (0s)
-[  45000/50000] Lf=0.006396 Lp=6.83e-05 Lb=0.0319 lam_p=15.2 lam_n=0.219 (28s)
-[  49999/50000] Lf=0.006573 Lp=0.000127 Lb=0.042 lam_p=12.4 lam_n=0.274 (55s)
-[sens_kn-4_sigma0.2] done: 7 modules (0 hexagonal), 0% of cells with analytic gridness>0.3, actionability error 5.5e-14
+[      0/50000] Lf=0.0003206 Lp=0.0334 Lb=0.0836 lam_p=0.1 lam_n=0.005 (0s)
+[   5000/50000] Lf=0.001493 Lp=0.0028 Lb=0.0653 lam_p=0.601 lam_n=0.00859 (29s)
+[  10000/50000] Lf=0.004404 Lp=0.00166 Lb=0.0547 lam_p=2.4 lam_n=0.016 (57s)
+[  15000/50000] Lf=0.004311 Lp=0.000827 Lb=0.0511 lam_p=7.09 lam_n=0.0278 (84s)
+[  20000/50000] Lf=0.007263 Lp=0.000342 Lb=0.0657 lam_p=15.6 lam_n=0.0462 (112s)
+[  25000/50000] Lf=0.005128 Lp=2.25e-05 Lb=0.0796 lam_p=15.4 lam_n=0.0745 (141s)
+[  30000/50000] Lf=0.003789 Lp=4.82e-05 Lb=0.0317 lam_p=9.65 lam_n=0.113 (169s)
+[  35000/50000] Lf=0.004984 Lp=0.000165 Lb=0.0375 lam_p=8.52 lam_n=0.162 (197s)
+[  40000/50000] Lf=0.007175 Lp=0.000155 Lb=0.0389 lam_p=8.57 lam_n=0.223 (226s)
+[  45000/50000] Lf=0.005297 Lp=0.000102 Lb=0.0315 lam_p=9.36 lam_n=0.298 (253s)
+[  49999/50000] Lf=0.00718 Lp=0.000184 Lb=0.0348 lam_p=10.5 lam_n=0.379 (282s)
+[sens_kn-4_sigma0.2] done: 6 modules (0 hexagonal), 22% of cells with analytic gridness>0.3, actionability error 4.1e-14
