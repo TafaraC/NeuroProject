@@ -97,6 +97,14 @@ and output-map comparisons remain distinct, unfinished questions.
 
 ## Decision after the study
 
+The completed nine-run study is archived in `results/diagnostic_study`. Neither
+isolated change established a credible baseline; no final run met both common
+held-out targets. The shared-input audit passes after explicit weight alignment,
+while the constructed-code control shows that finite sampling affects the norm
+tolerance. Keep this negative result and calibrate conventions before extending
+the spatial-scale experiment. The following decision rules remain applicable
+to future studies.
+
 1. Inspect all-cell maps and both constraint errors for every seed; do not select
    a condition solely because its score looks attractive.
 2. If a justified convention gives a credible baseline across seeds, freeze that

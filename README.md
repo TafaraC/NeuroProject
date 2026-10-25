@@ -32,8 +32,10 @@ Both authors still need to assess its judgements and complete the official AI fo
 
 **Baseline diagnostics:** see `experiments/diagnostics.md` for the controlled
 three-condition, three-seed study and a portable numerical contract for comparing
-the independent implementations. New results are kept separate from the original
-spatial-scale comparison. A workflow smoke check is not evidence of convergence.
+the independent implementations. All nine 150,000-step runs are complete and
+archived in `results/diagnostic_study`. Neither isolated change resolved the
+baseline; all nine missed at least one common held-out constraint tolerance.
+These results remain separate from the original spatial-scale comparison.
 
 **Independent equation audit:** Nathan's code is now available at `origin/Nathan`.
 The shared-input loss/gradient comparison passes after explicitly aligning the
@@ -126,8 +128,8 @@ Run metadata automatically records the seed, resolved settings, code revision,
 source hashes, dependency versions, and hardware. Evaluation records held-out
 constraint checks. Keep unsuccessful runs and explain deviations from the paper.
 
-The final submission will also need the review PDF, required checklist, and AI
-declaration. This implementation does not write or revise the review for you.
+The review PDF and checklist are in `review/paper_review`. The final submission
+still needs both authors' assessment and the official completed AI declaration.
 `README.txt` contains a compact reproduction guide for submission.
 
 ## Run the reproduction

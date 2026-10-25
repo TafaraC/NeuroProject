@@ -14,9 +14,11 @@ contributions, complete the official Wits Science Faculty AI Ethics Form from
 the course materials, and confirm the ethics/checklist answers. That official
 form was not among the supplied files. The included disclosure is not a substitute.
 
-The measured findings refer to the preserved seed-0 runs under
-`results/reference_runs`; new diagnostic experiments must not be silently
-presented as the original Figure 8 comparison.
+Measured findings include the preserved seed-0 spatial-scale runs under
+`results/reference_runs`, nine completed matched-seed runs under
+`results/diagnostic_study`, the shared-input audit in `results/partner_comparison`,
+and the constructed (not trained) code in `results/constraint_control`.
+The diagnostic experiments are separate from the original Figure 8 comparison.
 
 Build with a TeX installation supporting the supplied CCN style, e.g.
 `tectonic main.tex`, or use Codex's built-in LaTeX project compiler.

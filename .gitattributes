@@ -1,0 +1,2 @@
+# Preserve archived evidence byte-for-byte so manifest checksums survive checkout.
+results/diagnostic_study/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

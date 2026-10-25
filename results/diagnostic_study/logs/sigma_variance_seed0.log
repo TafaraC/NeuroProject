@@ -1,0 +1,30 @@
+step=  5000 sep=0.28891 pos=0.0284 norm=0.153 seconds=16.79
+step= 10000 sep=0.29511 pos=0.00884 norm=0.151 seconds=18.22
+step= 15000 sep=0.29409 pos=0.00369 norm=0.213 seconds=18.44
+step= 20000 sep=0.32997 pos=0.00335 norm=0.234 seconds=18.33
+step= 25000 sep=0.37348 pos=0.000582 norm=0.273 seconds=18.42
+step= 30000 sep=0.38019 pos=0.00012 norm=0.112 seconds=17.90
+step= 35000 sep=0.38125 pos=0.000122 norm=0.0878 seconds=20.36
+step= 40000 sep=0.40016 pos=9.07e-05 norm=0.0828 seconds=23.11
+step= 45000 sep=0.42740 pos=0.000112 norm=0.0397 seconds=20.51
+step= 50000 sep=0.51910 pos=0.000291 norm=0.0171 seconds=20.06
+step= 55000 sep=0.49993 pos=8.38e-05 norm=0.0246 seconds=19.20
+step= 60000 sep=0.50653 pos=0.000122 norm=0.0176 seconds=19.80
+step= 65000 sep=0.53053 pos=8.94e-05 norm=0.0213 seconds=18.46
+step= 70000 sep=0.53704 pos=0.000178 norm=0.0214 seconds=17.43
+step= 75000 sep=0.57167 pos=8.37e-05 norm=0.0275 seconds=16.67
+step= 80000 sep=0.57147 pos=0.000107 norm=0.0255 seconds=16.16
+step= 85000 sep=0.54670 pos=8.84e-05 norm=0.0137 seconds=17.49
+step= 90000 sep=0.55869 pos=0.000109 norm=0.0238 seconds=17.82
+step= 95000 sep=0.54222 pos=0.0001 norm=0.00904 seconds=16.42
+step=100000 sep=0.54990 pos=8.68e-05 norm=0.019 seconds=16.38
+step=105000 sep=0.52700 pos=0.000117 norm=0.0145 seconds=16.01
+step=110000 sep=0.53363 pos=0.000164 norm=0.0254 seconds=16.66
+step=115000 sep=0.55449 pos=0.000101 norm=0.012 seconds=15.96
+step=120000 sep=0.55590 pos=0.000161 norm=0.0128 seconds=15.73
+step=125000 sep=0.55976 pos=0.000101 norm=0.0237 seconds=15.79
+step=130000 sep=0.56257 pos=0.000165 norm=0.0117 seconds=16.32
+step=135000 sep=0.56776 pos=0.000113 norm=0.0206 seconds=15.93
+step=140000 sep=0.56932 pos=0.000107 norm=0.0163 seconds=17.92
+step=145000 sep=0.56445 pos=0.000108 norm=0.021 seconds=16.00
+step=150000 sep=0.57429 pos=0.000102 norm=0.0222 seconds=15.98

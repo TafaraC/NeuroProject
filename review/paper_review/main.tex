@@ -15,7 +15,7 @@
 \citet{dorrell2023} ask why spatial representations should take the form of grid cells: neurons whose firing fields repeat on a hexagonal lattice. Their proposal is that a useful representation must preserve the consequences of actions. Moving by a given displacement should update neural activity through the same linear transformation wherever the movement begins. Combining this \emph{actionability} requirement with non-negative, bounded activity and an objective that separates distinct locations produces grid-like codes in their simulations. Representation theory restricts the code to combinations of spatial waves; the authors then explain how the other constraints favour frequency lattices and, in suitable regimes, hexagonal grids and multiple modules. Predictions concern field width, relative module orientation, and adaptation to room geometry. The paper's central contribution is an interpretable account of why these representations may be useful, rather than a detailed circuit or learning mechanism.
 
 \section{Originality}
-The distinctive contribution is the connection between consistent actions and the geometry of the neural code. Earlier continuous-attractor models already explained how recurrent networks could generate grid activity and integrate velocity \citep{burak2009}. Task-trained neural networks also produced grid-like units and supported navigation \citep{banino2018}. Thus, producing a hexagonal firing map is not itself the novelty. Dorrell et al.\ instead identify explicit representational constraints and use them to explain several features within one framework.
+Earlier continuous-attractor models explained grid activity and velocity integration \citep{burak2009}, while task-trained networks produced grid-like units for navigation \citep{banino2018}. More directly, \citet{gao2021} already connected path integration to group representations and linear transformations, alongside isotropic scaling. Neither grid formation nor the group-theoretic perspective is therefore entirely new. Dorrell et al.\ combine actionability with functional and biological constraints to explain several features, including modules, without the additional isotropy constraint (Appendix H). This unification is the distinctive contribution.
 
 This is a more abstract approach than specifying synaptic connectivity or training a complete navigating agent. Its advantage is that it separates a computational requirement from a particular implementation: several circuits could realise the same useful code. The framework also extends beyond planar position to variables with other transformation groups. However, it is not more general in every respect. Requiring a location-independent \emph{linear} action on activity is a substantive restriction; representations that use context-dependent or nonlinear updates are outside the analysed class. Periodic components are therefore partly a consequence of the chosen mathematical formulation, even though hexagonal organisation is not directly imposed.
 
@@ -53,11 +53,13 @@ This is an explicitly specified interpretation, not an exact rerun of the author
 
 We corrected an initially undersampled plotting grid using the learned frequencies and evaluated both final checkpoints on the same finer grid. No training result was changed by this correction. Grid scores are descriptive, without a shuffled significance test, and neurons within one trained population are not independent repetitions. With one seed per condition and an unsuccessful baseline, these results do not establish the predicted dependence on $l$ or demonstrate that the paper is irreproducible.
 
-The useful outcome is a reproducible audit of assumptions and failure modes. On identical small float64 inputs, the two independently written implementations agree on the three unweighted losses to within $3\times10^{-13}$. After explicitly aligning their functional-loss weighting, directional derivatives agree with the independent finite-difference reference to within $6\times10^{-11}$. This checks equations on that fixture, not equivalence of the full training procedures: initialisation, norm targets, and Adam conventions still differ. A controlled follow-up holds the baseline task fixed and tests the sigma interpretation and literal published norm target separately across three matched seeds. Its results are reported separately from the original spatial-scale comparison.
+The useful outcome is a reproducible audit of assumptions and failure modes. On identical small float64 inputs, the two independently written implementations agree on the three unweighted losses to within $3\times10^{-13}$. After explicitly aligning their functional-loss weighting, directional derivatives agree with the independent finite-difference reference to within $6\times10^{-11}$. This checks equations on that fixture, not equivalence of the full training procedures: initialisation, norm targets, and Adam conventions still differ.
+
+We then completed nine 150,000-step runs: baseline, $\sigma=\sqrt{0.4}$, and norm target $\exp(4)$, with three matched seeds and otherwise fixed settings. On a common evaluation grid, changing sigma modestly increased descriptive scores in each pair but did not establish a hexagonal baseline. Relaxing the norm target produced much larger held-out norm errors (1.77--3.87 versus 0.0209--0.0301 for baseline). None met both original tolerances (Figure~\ref{fig:diagnostics}). These isolated changes do not resolve our reproduction, but three seeds and our chosen tolerances cannot establish failure of the published model.
 
 A constructed-control check also qualifies our tolerance choice. A known non-negative hexagonal code, whose exact Gaussian room energy was nearly translation-invariant (relative error below $7.2\times10^{-8}$ in the tested rooms), had mean sampled norm penalties of 0.0961, 0.0274 and 0.00644 for 50, 150 and 600 points over 128 batches (Figure~\ref{fig:control}). Thus our 0.02 target can penalise valid geometry through sampling variation. This is a diagnostic control, not a learned result or proof of the cause of training failure.
 
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \bibitem[Dorrell et al.(2023)]{dorrell2023}
 Dorrell, W., Latham, P. E., Behrens, T. E. J., \& Whittington, J. C. R. (2023).
 Actionable neural representations: Grid cells from minimal constraints.
@@ -73,6 +75,11 @@ Banino, A., Barry, C., Uria, B., et al. (2018).
 Vector-based navigation using grid-like representations in artificial agents.
 \emph{Nature, 557}, 429--433.
 \url{https://doi.org/10.1038/s41586-018-0102-6}
+\bibitem[Gao et al.(2021)]{gao2021}
+Gao, R., Xie, J., Wei, X.-X., Zhu, S.-C., \& Wu, Y. N. (2021).
+On path integration of grid cells: Group representation and isotropic scaling.
+\emph{Advances in Neural Information Processing Systems, 34}.
+\url{https://arxiv.org/abs/2006.10259}
 \bibitem[Gardner et al.(2022)]{gardner2022}
 Gardner, R. J., Hermansen, E., Pachitariu, M., Burak, Y., Baas, N. A., Dunn, B. A., Moser, M.-B., \& Moser, E. I. (2022).
 Toroidal topology of population activity in grid cells.
@@ -84,7 +91,7 @@ Toroidal topology of population activity in grid cells.
 Tafara Chibanda and Nathan Le Roux implemented the model independently. This draft reports Tafara's saved reproduction runs and a shared-input numerical audit of Nathan's code at commit 7db3147. It does not merge the two implementations or compare their trained maps on unequal settings. Both authors must confirm the final account of their contributions and the review's judgements before submission.
 
 \section{AI assistance disclosure}
-OpenAI Codex assisted with literature checking, implementation, tests, analysis, and drafting this review. The draft distinguishes measured results from proposed follow-up work. This disclosure is not a signed declaration of the authors' verification or a replacement for the required Wits Science Faculty AI Ethics Form. Both authors need to review the text, adopt or revise its judgements, and complete the official form.
+OpenAI Codex assisted with literature checking, implementation, tests, analysis, and drafting this review. This disclosure is not a signed declaration of the authors' verification or a replacement for the required Wits Science Faculty AI Ethics Form. Both authors need to review the text, adopt or revise its judgements, and complete the official form.
 
 \clearpage
 \onecolumn
@@ -113,7 +120,13 @@ Sampled rates below $-10^{-6}$ & 3.61\% & 5.08\%\\
 \label{fig:results}
 \end{figure}
 \clearpage
-\section{Appendix: Constraint calibration control}
+\section{Appendix: Controlled diagnostics and calibration}
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth]{images/diagnostics.png}
+\caption{All nine final checkpoints, each trained for 150,000 steps. Lines connect matched seeds; initial states are identical within each seed. Only the named setting changes: baseline uses $\sigma=0.4$ and norm target 0.02; sigma\_variance uses $\sigma=\sqrt{0.4}$; norm\_table uses norm target $\exp(4)$. All evaluations use the same 352-by-352 grid over $[-1.5,1.5]^2$ and held-out samples. Negative rates are those below $-10^{-6}$. The norm axis is logarithmic. Descriptive grid scores have no shuffled significance calibration. The relaxed-target condition is not a full rerun of the authors' public code.}
+\label{fig:diagnostics}
+\end{figure}
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth]{images/constraint_control.png}

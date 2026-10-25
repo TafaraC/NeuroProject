@@ -25,6 +25,9 @@ dist/
 *.fls
 *.fdb_latexmk
 
+# Preserve diagnostic process logs as part of the checksummed evidence archive.
+!results/diagnostic_study/logs/*.log
+
 results/data/*
 !results/data/.gitkeep
 

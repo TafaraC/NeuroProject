@@ -23,7 +23,17 @@ Timothy E. J. Behrens, James C. R. Whittington.
 
 The proposed experiment separating physical geometry and occupancy is a
 forward-looking recommendation in the review, not an experiment conducted here.
-The review uses four scholarly references and the authors' public code link.
+The review uses five scholarly references and the authors' public code link.
+The closest additional antecedent is Gao et al. (2021), "On Path Integration
+of Grid Cells: Group Representation and Isotropic Scaling", NeurIPS 34:
+https://proceedings.neurips.cc/paper/2021/hash/f076073b2082f8741a9cd07b789c77a0-Abstract.html.
+Dorrell Appendix H.1 explicitly discusses this earlier group/linear-action
+framework and its isotropy assumption; the review does not claim Dorrell
+introduced the entire perspective.
+
+New measured evidence is in `results/diagnostic_study` (nine complete runs),
+`results/partner_comparison` (pinned independent equation audit), and
+`results/constraint_control` (sampling calibration on a constructed code).
 
 Checklist source: https://neurips.cc/public/guides/PaperChecklist, consulted
 25 October 2026. Its 16 topics are paraphrased and answered for our reproduction,

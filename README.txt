@@ -45,6 +45,8 @@ BASELINE DIAGNOSTICS
 The follow-up holds l=0.5 fixed and compares baseline settings with two isolated
 changes: treating 0.4 as sigma squared, and using the paper's literal log norm
 target. Three matched seeds are planned by default, with 150000 steps per run.
+All nine full runs are now complete: see results/diagnostic_study/README.md.
+Neither isolated change resolved the baseline; no run met both common targets.
 .\.venv\Scripts\python.exe -m experiments.diagnostics plan --output results/data/my_diagnostics
 .\.venv\Scripts\python.exe -m experiments.diagnostics run --output results/data/my_diagnostics --workers 2
 .\.venv\Scripts\python.exe -m experiments.diagnostics report --output results/data/my_diagnostics

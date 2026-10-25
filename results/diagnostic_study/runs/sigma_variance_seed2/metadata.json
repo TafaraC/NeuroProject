@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-24T23:56:14.274393+00:00",
+  "config": {
+    "neurons": 64,
+    "frequencies": 31,
+    "sigma": 0.6324555320336759,
+    "spatial_scale": 0.5,
+    "occupancy_scale": 1.0,
+    "samples": 150,
+    "shifts": 15,
+    "shift_scale": 3.0,
+    "resample_every": 5,
+    "steps": 150000,
+    "seed": 2,
+    "weight_lr": 0.1,
+    "frequency_lr": 0.1,
+    "beta1": 0.9,
+    "beta2": 0.9,
+    "adam_eps_root": 1e-08,
+    "functional_scale": 25.0,
+    "positivity_weight": 0.1,
+    "norm_weight": 0.005,
+    "positivity_target": 0.00012340980408667956,
+    "norm_target": 0.02,
+    "geco_smoothing": 0.9,
+    "geco_rate": 0.0001,
+    "frequency_init_scale": 2.0,
+    "dtype": "float32"
+  },
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "devices": [
+    "cpu:0"
+  ],
+  "git_revision": "16d422f9e9ae5b5234e8f74133ea8a722f05195a",
+  "git_status": "?? _CN_2026__Project-2.pdf\n?? _CN_2026__Review_Template.zip\n?? comparison/archive_study.py\n?? project_paper.pdf\n?? review/contribution_statement.tex",
+  "packages": {
+    "jax": "0.11.2",
+    "jaxlib": "0.11.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "experiments\\__init__.py": "758b9ff9e00bfaa87847b8bd732c5acaaa8283c25c9ba6d6077607b8e936f23d",
+    "experiments\\compare.py": "87dc77371b78cb631881922c18cfd73feb70584f0a976fe6bd137741f7a1625d",
+    "experiments\\diagnostics.py": "2499b2d3974b1e715658e9e422713eacb345abd74e38e055ccd829f5346f3ea6",
+    "experiments\\equation_check.py": "c7679defc9219a13af76920a206567fcd46abeb778a2c83e91041b67e0ed5325",
+    "experiments\\evaluate.py": "1887242ee2efd196e677c84de7ac68dc7de3293bcf300c0bdd3464d5317b8423",
+    "experiments\\run.py": "957e5d67ccfddce999eb932dbe3408cf81e3e34b5035a11bc013cbdc9ca787f3",
+    "src\\__init__.py": "2f256de71922bef3d310feb5dd6c573ec1a76ad9e95da2ac734c3125130ea337",
+    "src\\analysis.py": "957c44f82cc68d8208aae99738c1f3cd213286d84e00c877ad91d9796db59638",
+    "src\\config.py": "bbaac9ed36e0eed339965dbfc81c0a27b899b31cff68e9fa568e78ea2555a800",
+    "src\\model.py": "95b9b4840402c90766e90c623beea046166e57aced116bfd551bf7c5ce4e1836",
+    "src\\training.py": "514e8846fb341c9b560bed96f5afd8d06dbd2ca03157d6cbf55b0dd96ff6f1d2"
+  }
+}
