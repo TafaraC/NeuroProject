@@ -18,3 +18,19 @@
 resumed from /home/claude/work/NeuroProject/results/runs/main_sigma1.0_seed0/ckpt.npz at step 80000
 [  80000/150000] Lf=0.5958 Lp=8.41e-05 Lb=1.75 lam_p=32.4 lam_n=1e-08 (0s)
 [  85000/150000] Lf=0.6036 Lp=0.00013 Lb=1.86 lam_p=32.2 lam_n=1e-08 (12s)
+resumed from C:\Users\Nathan\Documents\WITS\Comp Sci\Comp Neuro\Project\NeuroProject\results\runs\main_sigma1.0_seed0\ckpt.npz at step 85000
+[  85000/150000] Lf=0.6036 Lp=0.00013 Lb=1.86 lam_p=32.2 lam_n=1e-08 (0s)
+[  90000/150000] Lf=0.5967 Lp=0.000118 Lb=1.86 lam_p=32.2 lam_n=1e-08 (29s)
+[  95000/150000] Lf=0.6005 Lp=0.000167 Lb=3.4 lam_p=32.2 lam_n=1e-08 (56s)
+[ 100000/150000] Lf=0.5925 Lp=9.2e-05 Lb=5.13 lam_p=32.4 lam_n=1e-08 (87s)
+[ 105000/150000] Lf=0.6029 Lp=0.000141 Lb=3.52 lam_p=32.3 lam_n=1e-08 (115s)
+[ 110000/150000] Lf=0.5823 Lp=0.000157 Lb=24.6 lam_p=31.8 lam_n=1e-08 (142s)
+[ 115000/150000] Lf=0.6001 Lp=0.000226 Lb=1.19 lam_p=31.6 lam_n=1e-08 (169s)
+[ 120000/150000] Lf=0.5845 Lp=0.00024 Lb=2.38 lam_p=32.3 lam_n=1e-08 (197s)
+[ 125000/150000] Lf=0.5986 Lp=0.000126 Lb=2.66 lam_p=32.4 lam_n=1e-08 (225s)
+[ 130000/150000] Lf=0.5926 Lp=9.55e-05 Lb=2.81 lam_p=32 lam_n=1e-08 (252s)
+[ 135000/150000] Lf=0.5844 Lp=0.000141 Lb=2.94 lam_p=31.8 lam_n=1e-08 (280s)
+[ 140000/150000] Lf=0.6083 Lp=0.000101 Lb=0.75 lam_p=32 lam_n=1e-08 (308s)
+[ 145000/150000] Lf=0.5814 Lp=0.000106 Lb=334 lam_p=32 lam_n=1e-08 (336s)
+[ 149999/150000] Lf=0.5825 Lp=7.11e-05 Lb=4.26 lam_p=31.8 lam_n=1e-08 (364s)
+[main_sigma1.0_seed0] done: 1 modules (1 hexagonal), 100% of cells with analytic gridness>0.3, actionability error 5.2e-14
