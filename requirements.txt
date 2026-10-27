@@ -1,0 +1,16 @@
+# Packages needed to run everything in this submission (both implementations, the smoke test and the figures).
+# Install with:  pip install -r requirements.txt
+#
+# Tested with: Python 3.12.3 (Linux): numpy 2.4.4, scipy 1.17.1, matplotlib 3.10.8, jax/jaxlib 0.11.2, pytest 9.1.1
+#              Python 3.12 / 3.13 (Windows, NumPy implementation): numpy 2.5.x, scipy 1.18.x, matplotlib 3.11.x
+#              Python 3.14 (Windows, JAX implementation): exact pins in requirements-pinned.txt
+#
+# The NumPy implementation (numpy_impl/) needs only numpy, scipy and matplotlib.
+# The JAX implementation (jax_impl/) additionally needs jax and jaxlib (CPU is enough; no GPU, no PyTorch).
+# pytest is used by the JAX unit tests only.
+numpy
+scipy
+matplotlib
+jax
+jaxlib
+pytest

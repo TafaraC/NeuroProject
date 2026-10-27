@@ -1,10 +1,17 @@
+# local environments and caches
+.venv/
 __pycache__/
 *.py[cod]
-.venv/
-venv/
-.ipynb_checkpoints/
 .pytest_cache/
-.env
-
-results/data/*
-!results/data/.gitkeep
+.ipynb_checkpoints/
+tmp/
+# LaTeX build files (the PDF is kept)
+review/*.aux
+review/*.log
+review/*.out
+review/*.bbl
+review/*.blg
+# short test runs
+results_quick/
+numpy_impl/results_quick/
+jax_impl/results/data/

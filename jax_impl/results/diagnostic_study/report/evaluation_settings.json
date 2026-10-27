@@ -1,0 +1,8 @@
+{
+  "seed": 12345,
+  "batches": 8,
+  "extent": 1.5,
+  "minimum_resolution": 320,
+  "resolution": 352,
+  "plan_sha256": "e6567cd263523b1ab5befa304c89af622696ada46c0caa1bc18ad6f9a43b2586"
+}

@@ -1,0 +1,40 @@
+WORKSHEET FOR THE WITS SCIENCE FACULTY AI DECLARATION
+This is NOT the declaration. The official form (from the course Moodle page) must be completed and signed
+by both authors and submitted with the project. These notes list the facts about AI use that the form will ask
+for, so that both of you can check them against what really happened. Complete the [brackets], correct
+anything that is wrong, and do not submit this file in place of the form.
+
+TOOLS USED
+  1. Claude (Anthropic), in the claude.ai chat interface [add model name/version if the form asks].
+  2. OpenAI Codex [add version / interface if the form asks].
+
+WHAT EACH TOOL DID
+  Claude (Nathan's side):
+    - wrote the NumPy implementation (numpy_impl/src/actionable/*.py), its unit tests, the experiment and analysis
+      scripts (numpy_impl/experiments/*.py) and numpy_impl/README.txt;
+    - drafted the merged review text (review/main.tex), the NeurIPS checklist answers (review/checklist.tex), the
+      scripts that turn result files into LaTeX numbers (review/make_review_numbers.py, review/make_figures.py),
+      smoke_test.py, the top-level README.txt and the cross-implementation audit adapter
+      (jax_impl/comparison/partner_equations.py was edited to read the NumPy core from numpy_impl/).
+  OpenAI Codex (Tafara's side):
+    - assisted with literature checking, the JAX implementation (jax_impl/src), its tests, experiments,
+      diagnostics, the constructed control, the equation audit, analysis, and the earlier review draft whose
+      structure and several paragraphs were kept in review/main.tex.
+
+WHAT THE AUTHORS DID  [each author: write this yourself, in your own words]
+  Nathan: [e.g. directed the work, ran the 60 training runs on his own PC, read and checked the code and results,
+           edited the review text, decided which claims to keep]
+  Tafara: [e.g. directed the JAX work, ran the 150000-step runs on his PC, inspected the authors' public code
+           (commit 940659e), edited the review text]
+
+HOW THE OUTPUT WAS CHECKED
+  - Unit tests of both implementations pass (python smoke_test.py).
+  - Every number in the review is generated from saved result files (review/make_review_numbers.py).
+  - The NumPy and JAX loss/gradient code were compared on shared inputs (agreement 2.8e-13 / 5.1e-11).
+  - Claims about the paper were checked against the paper's text. [Add: what you personally re-checked.]
+  - Two statements describe the authors' public code (Clarity, last paragraph). They come from Tafara's
+    inspection and were not independently verified by the drafting assistant. [Tafara: confirm or delete.]
+
+STATEMENT OF RESPONSIBILITY
+  The brief asks that the opinions expressed are the authors' own. Before signing, each author should read the
+  whole review and change any sentence that does not reflect what they actually think.

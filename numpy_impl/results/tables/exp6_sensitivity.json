@@ -1,0 +1,472 @@
+{
+ "baseline": {
+  "sigma0.2": {
+   "n_modules": {
+    "mean": 4.666666666666667,
+    "sd": 1.4907119849998596,
+    "values": [
+     2.0,
+     3.0,
+     6.0,
+     5.0,
+     4.0,
+     6.0,
+     4.0,
+     7.0,
+     5.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 0.3333333333333333,
+    "sd": 0.6666666666666666,
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     2.0,
+     0.0,
+     1.0,
+     0.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.09027777777777778,
+    "sd": 0.12030636207687787,
+    "values": [
+     0.0,
+     0.0,
+     0.0,
+     0.078125,
+     0.0,
+     0.234375,
+     0.15625,
+     0.34375,
+     0.0
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.1371527777777778,
+    "sd": 0.12008066990132349,
+    "values": [
+     0.265625,
+     0.0,
+     0.015625,
+     0.03125,
+     0.109375,
+     0.234375,
+     0.203125,
+     0.34375,
+     0.03125
+    ]
+   },
+   "n_runs": 9
+  },
+  "sigma1.0": {
+   "n_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.828125,
+    "sd": 0.0,
+    "values": [
+     0.828125
+    ]
+   },
+   "n_runs": 1
+  }
+ },
+ "rows": [
+  {
+   "label": "k_n = -4",
+   "runs": [
+    "sens_kn-4_sigma0.2"
+   ],
+   "baseline": "sigma0.2",
+   "n_modules": {
+    "mean": 6.0,
+    "sd": 0.0,
+    "values": [
+     6.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 0.984375,
+    "sd": 0.0,
+    "values": [
+     0.984375
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.21875,
+    "sd": 0.0,
+    "values": [
+     0.21875
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.21875,
+    "sd": 0.0,
+    "values": [
+     0.21875
+    ]
+   },
+   "n_runs": 1
+  },
+  {
+   "label": "k_n = -4",
+   "runs": [
+    "sens_kn-4_sigma1.0"
+   ],
+   "baseline": "sigma1.0",
+   "n_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "n_runs": 1
+  },
+  {
+   "label": "D = 20",
+   "runs": [
+    "sens_D20"
+   ],
+   "baseline": "sigma0.2",
+   "n_modules": {
+    "mean": 5.0,
+    "sd": 0.0,
+    "values": [
+     5.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.546875,
+    "sd": 0.0,
+    "values": [
+     0.546875
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.453125,
+    "sd": 0.0,
+    "values": [
+     0.453125
+    ]
+   },
+   "n_runs": 1
+  },
+  {
+   "label": "init freq sd 2",
+   "runs": [
+    "sens_freqstd2"
+   ],
+   "baseline": "sigma0.2",
+   "n_modules": {
+    "mean": 5.0,
+    "sd": 0.0,
+    "values": [
+     5.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 3.0,
+    "sd": 0.0,
+    "values": [
+     3.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.546875,
+    "sd": 0.0,
+    "values": [
+     0.546875
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.453125,
+    "sd": 0.0,
+    "values": [
+     0.453125
+    ]
+   },
+   "n_runs": 1
+  },
+  {
+   "label": "init freq sd 8",
+   "runs": [
+    "sens_freqstd8"
+   ],
+   "baseline": "sigma0.2",
+   "n_modules": {
+    "mean": 4.0,
+    "sd": 0.0,
+    "values": [
+     4.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 0.984375,
+    "sd": 0.0,
+    "values": [
+     0.984375
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "n_runs": 1
+  },
+  {
+   "label": "norm = mean",
+   "runs": [
+    "sens_normmean_sigma0.2"
+   ],
+   "baseline": "sigma0.2",
+   "n_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.015625,
+    "sd": 0.0,
+    "values": [
+     0.015625
+    ]
+   },
+   "n_runs": 1
+  },
+  {
+   "label": "norm = mean",
+   "runs": [
+    "sens_normmean_sigma1.0"
+   ],
+   "baseline": "sigma1.0",
+   "n_modules": {
+    "mean": 18.0,
+    "sd": 0.0,
+    "values": [
+     18.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 0.984375,
+    "sd": 0.0,
+    "values": [
+     0.984375
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0
+    ]
+   },
+   "n_runs": 1
+  },
+  {
+   "label": "l = 0.2",
+   "runs": [
+    "sens_l0.2_sigma0.2_seed0",
+    "sens_l0.2_sigma0.2_seed1"
+   ],
+   "baseline": "sigma0.2",
+   "n_modules": {
+    "mean": 5.0,
+    "sd": 1.0,
+    "values": [
+     6.0,
+     4.0
+    ]
+   },
+   "n_hex_modules": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0,
+     0.0
+    ]
+   },
+   "frac_in_modules": {
+    "mean": 1.0,
+    "sd": 0.0,
+    "values": [
+     1.0,
+     1.0
+    ]
+   },
+   "frac_grid_analytic": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0,
+     0.0
+    ]
+   },
+   "frac_grid_windowed": {
+    "mean": 0.0,
+    "sd": 0.0,
+    "values": [
+     0.0,
+     0.0
+    ]
+   },
+   "n_runs": 2
+  }
+ ]
+}

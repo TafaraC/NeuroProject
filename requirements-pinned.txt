@@ -1,0 +1,19 @@
+# Exact versions used while developing the JAX implementation (Windows x64, Python 3.14).
+# optax and absl-py were pinned originally but are never imported (Adam is implemented in jax_impl/src/training.py), so they are omitted here.
+# For a normal installation use requirements.txt instead.
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.66.1
+jax==0.11.2
+jaxlib==0.11.2
+kiwisolver==1.5.1
+matplotlib==3.11.2
+ml_dtypes==0.6.0
+numpy==2.5.4
+opt_einsum==3.4.0
+packaging==26.3
+pillow==12.3.0
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+scipy==1.18.1
+six==1.17.0

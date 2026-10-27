@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-10-24T13:35:57.083690+00:00",
+  "config": {
+    "neurons": 64,
+    "frequencies": 31,
+    "sigma": 0.4,
+    "spatial_scale": 0.1,
+    "occupancy_scale": 1.0,
+    "samples": 150,
+    "shifts": 15,
+    "shift_scale": 3.0,
+    "resample_every": 5,
+    "steps": 150000,
+    "seed": 0,
+    "weight_lr": 0.1,
+    "frequency_lr": 0.1,
+    "beta1": 0.9,
+    "beta2": 0.9,
+    "adam_eps_root": 1e-08,
+    "functional_scale": 25.0,
+    "positivity_weight": 0.1,
+    "norm_weight": 0.005,
+    "positivity_target": 0.00012340980408667956,
+    "norm_target": 0.02,
+    "geco_smoothing": 0.9,
+    "geco_rate": 0.0001,
+    "frequency_init_scale": 2.0,
+    "dtype": "float32"
+  },
+  "python": "3.14.3",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "devices": [
+    "cpu:0"
+  ],
+  "git_revision": "dca93cb892d144254fa964c14b1e6fd2d687a3e8",
+  "git_status": "?? _CN_2026__Project-2.pdf\n?? _CN_2026__Review_Template.zip\n?? project_paper.pdf\n?? review/contribution_statement.tex",
+  "packages": {
+    "jax": "0.11.2",
+    "jaxlib": "0.11.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  },
+  "source_sha256": {
+    "experiments\\__init__.py": "758b9ff9e00bfaa87847b8bd732c5acaaa8283c25c9ba6d6077607b8e936f23d",
+    "experiments\\compare.py": "84fe5f5cb0ef50cad1c14a048b12948f7fc1bdafea85b99f466f9c3d82e0db56",
+    "experiments\\evaluate.py": "a8dcaf34bc9b80b9d0ad42bd3a4f788d147138098b5d5fda7985dc3c62ccc658",
+    "experiments\\run.py": "20f7add729740461f2766de86699da691d80c1cfbf5b971199f67d29ca73e87e",
+    "src\\__init__.py": "2f256de71922bef3d310feb5dd6c573ec1a76ad9e95da2ac734c3125130ea337",
+    "src\\analysis.py": "e3669d3895e8d7652f0e1827468338c3f6c10c8b2bd17eeb97de760c0362c876",
+    "src\\config.py": "bbaac9ed36e0eed339965dbfc81c0a27b899b31cff68e9fa568e78ea2555a800",
+    "src\\model.py": "95b9b4840402c90766e90c623beea046166e57aced116bfd551bf7c5ce4e1836",
+    "src\\training.py": "514e8846fb341c9b560bed96f5afd8d06dbd2ca03157d6cbf55b0dd96ff6f1d2"
+  }
+}
