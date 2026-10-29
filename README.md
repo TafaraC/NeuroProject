@@ -28,7 +28,9 @@ limitations, analysis correction, and saved checkpoints, and
 **Review draft:** `review/paper_review/main.tex` uses the supplied CCN style and
 centres on the paper's contribution, assumptions, scientific evidence, and
 theory-experiment loop. Its PDF includes the reproduction evidence and checklist.
-Both authors still need to assess its judgements and complete the official AI form.
+Both authors confirmed its judgements on 26 October. Tafara will append the
+official AI declaration before upload. `submission/README.txt` and the package
+builder describe the first-deadline deliverables, including Nathan's snapshot.
 
 **Baseline diagnostics:** see `experiments/diagnostics.md` for the controlled
 three-condition, three-seed study and a portable numerical contract for comparing

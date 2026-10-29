@@ -1,5 +1,11 @@
 # Independent implementation comparison
 
+Update, 26 October: Nathan's newer results at `df44d69` are compared in
+`../partner_results_20261026/README.md`, including a complete checkpoint inventory
+and five evaluations using Tafara's common settings. The core source is unchanged,
+so the equation audit below still applies. Its earlier comments on the number of
+available completed runs describe the 25 October snapshot only.
+
 Compared Tafara's JAX equations with Nathan's NumPy implementation at commit
 `7db3147a434adb20b9b0514e3201bec40700d99b` (`origin/Nathan`, fetched 25 October
 2026). The model implementations remain separate. No partner training code was

@@ -63,5 +63,7 @@ NumPy expectations. Each implementation should evaluate those exact inputs.
 REVIEW
 review/paper_review/main.tex and main.pdf contain the paper-centred review draft,
 supporting results, contribution wording, AI disclosure, and NeurIPS checklist.
-Both authors must review the judgements and complete the official institutional
-AI form before submission; the included disclosure does not replace that form.
+Both authors confirmed the judgements and contributions on 26 October 2026.
+Tafara will append the official institutional AI declaration before submission.
+The first-deadline package instructions are in submission/README.txt; that
+package includes both implementations, the joint review and all saved evidence.

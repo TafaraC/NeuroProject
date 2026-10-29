@@ -37,7 +37,7 @@ The abstraction is appropriate for asking what makes a representation useful. It
 
 The supporting evidence also varies in strength across claims. The mathematical restrictions on admissible codes are more direct than the claim that hexagonal grids globally minimise the full objective. Several lattice arguments are heuristic, and Appendix G acknowledges the non-convex frequency-selection problem and the need for further tools to prove optimality. The simulations support a plausible explanation, rather than a general certificate of the optimum. Appendix B.4 also distinguishes optimisation parameters from parameters defining the objective. That distinction is useful theoretically, but practical reliability still matters when simulation is used as evidence. Reporting distributions across initialisations, constraint residuals, and convergence diagnostics alongside the maps would clarify this boundary.
 
-Finally, the comparisons with biological data are encouraging rather than decisive. The authors describe several as rudimentary. For example, the relationship between field width and recorded cell counts depends on assumptions about sampling neurons across modules. Agreement in a qualitative trend cannot by itself distinguish the proposed explanation from alternatives. Our own unsuccessful reproduction, described below, reinforces the need for numerical clarity but does not refute the theoretical argument.
+Finally, the comparisons with biological data are encouraging rather than decisive. The authors describe several as rudimentary. For example, the relationship between field width and recorded cell counts depends on assumptions about sampling neurons across modules. Agreement in a qualitative trend cannot by itself distinguish the proposed explanation from alternatives. Our contrasting reproduction outcomes, described below, reinforce the need for numerical clarity but does not refute the theoretical argument.
 
 \section{Significance}
 The strongest prospective contribution is a set of interpretable links between representational demands and measurable neural organisation. This complements circuit models: the theory proposes which codes are useful, while mechanistic models can investigate whether plausible networks can implement them. Recordings showing toroidal population structure in grid-cell modules \citep{gardner2022} make this relationship between population geometry and neural dynamics especially relevant. Such evidence is compatible with the framework, but does not uniquely verify its objective.
@@ -47,17 +47,17 @@ A concrete theory--experiment loop follows from the prediction about room geomet
 A useful refinement would separate changes in physical boundaries from changes in sampled occupancy, because the theory expresses environmental effects through $p(x)$. Persistent disagreement after accounting for occupancy would motivate adding sensory anchoring or learning-history effects. This would allow experiments to modify the assumptions of the model, completing the loop. The present work offers valuable hypotheses for this process; it does not yet provide a validated account of all environmental responses.
 
 \section{Reproducibility}
-We implemented a restricted test of Figure 8: $N=64$, 31 learned frequency pairs, $\sigma=0.4$, and $l=0.5$ versus $l=0.1$. Each seed-0 run used 150,000 updates. The implementation follows the sampled original-room normalisation in equations 22--25 and checks constraints in shifted rooms. Independent loss, gradient, translation, and checkpoint-continuation tests support the implementation, but cannot certify convergence.
+We independently implemented the Fourier model and sampled losses in equations 22--25, using JAX (Tafara) and NumPy (Nathan). On identical float64 inputs, the three unweighted losses agree within $3\times10^{-13}$. After aligning the different functional-loss weights, directional derivatives agree with an independent finite-difference reference within $6\times10^{-11}$. Tests also check translations and checkpoint continuation. These checks support the equations, but cannot certify convergence or equivalence of the training procedures.
 
-This is an explicitly specified interpretation, not an exact rerun of the authors' code. In particular, we used a norm-loss target of 0.02; this is our numerical choice, not a reported Figure 8 setting. Other conventions and departures are recorded in the repository. Both final populations showed elongated periodic patterns rather than a clean hexagonal baseline (Figure~\ref{fig:results}). Median descriptive grid scores were 0.0503 and 0.00884 respectively. Mean negative-activity penalties met their tolerance, but 3.61\% and 5.08\% of sampled rates were still below $-10^{-6}$. The $l=0.5$ run also exceeded our norm-error target (Table~\ref{tab:results}).
+Tafara tested the Figure 8 spatial-scale prediction with $N=64$, 31 frequency pairs, $\sigma=0.4$, and $l=0.5$ versus $0.1$, using 150,000 updates per seed-0 run. The norm target 0.02 was an explicit implementation choice, not a reported Figure 8 setting. Both populations showed elongated periodic patterns rather than a clean hexagonal baseline (Figure~\ref{fig:results}); median descriptive scores were 0.0503 and 0.00884. Mean negativity penalties passed their tolerance although 3.61\% and 5.08\% of sampled rates remained below $-10^{-6}$. The $l=0.5$ run also missed the norm target (Table~\ref{tab:results}). These single-seed outcomes do not establish the predicted dependence on $l$.
 
-We corrected an initially undersampled plotting grid using the learned frequencies and evaluated both final checkpoints on the same finer grid. No training result was changed by this correction. Grid scores are descriptive, without a shuffled significance test, and neurons within one trained population are not independent repetitions. With one seed per condition and an unsuccessful baseline, these results do not establish the predicted dependence on $l$ or demonstrate that the paper is irreproducible.
+Nine further 150,000-step runs compared baseline, $\sigma=\sqrt{0.4}$, and norm target $\exp(4)$ over three matched seeds. Changing sigma modestly increased descriptive scores without establishing a hexagonal baseline. Relaxing the norm target increased held-out norm errors to 1.77--3.87 from baseline's 0.0209--0.0301. None met both original tolerances (Figure~\ref{fig:diagnostics}). This is a sensitivity study of specified numerical choices, not an exact rerun of the authors' setup.
 
-The useful outcome is a reproducible audit of assumptions and failure modes. On identical small float64 inputs, the two independently written implementations agree on the three unweighted losses to within $3\times10^{-13}$. After explicitly aligning their functional-loss weighting, directional derivatives agree with the independent finite-difference reference to within $6\times10^{-11}$. This checks equations on that fixture, not equivalence of the full training procedures: initialisation, norm targets, and Adam conventions still differ.
+Nathan's results provide a contrasting outcome (Table~\ref{tab:joint}). His two 150,000-step runs at $\sigma=1.0$ each produced one module satisfying his stated geometric criteria; analytic grid scores exceeded 0.3 for all cells. At $\sigma=0.2$, none of three full runs met the module criteria. At $\sigma=0.4$, two 50,000-step seeds gave opposite outcomes. His functional weight, initialisation, norm target and Adam convention differ from Tafara's. Thus these are positive geometry examples and evidence of sensitivity, rather than a controlled ranking of implementations. The accompanying code preserves both implementations and their configurations.
 
-We then completed nine 150,000-step runs: baseline, $\sigma=\sqrt{0.4}$, and norm target $\exp(4)$, with three matched seeds and otherwise fixed settings. On a common evaluation grid, changing sigma modestly increased descriptive scores in each pair but did not establish a hexagonal baseline. Relaxing the norm target produced much larger held-out norm errors (1.77--3.87 versus 0.0209--0.0301 for baseline). None met both original tolerances (Figure~\ref{fig:diagnostics}). These isolated changes do not resolve our reproduction, but three seeds and our chosen tolerances cannot establish failure of the published model.
+Analysis choices matter too. Nathan uses spectral autocorrelation with windows scaled to spatial period; Tafara uses finite-window Pearson autocorrelation. Re-evaluating five Nathan checkpoints with Tafara's common grid and held-out samples gave norm errors of 1.85--5.83. The broad hexagonal examples nevertheless received negative median finite-window scores: the small window contains too few repeats to assess their geometry reliably. Scores are descriptive, without shuffled significance tests, and neurons are not independent repetitions. We also corrected an initially undersampled grid in Tafara's analysis using the learned frequencies, without changing training results.
 
-A constructed-control check also qualifies our tolerance choice. A known non-negative hexagonal code, whose exact Gaussian room energy was nearly translation-invariant (relative error below $7.2\times10^{-8}$ in the tested rooms), had mean sampled norm penalties of 0.0961, 0.0274 and 0.00644 for 50, 150 and 600 points over 128 batches (Figure~\ref{fig:control}). Thus our 0.02 target can penalise valid geometry through sampling variation. This is a diagnostic control, not a learned result or proof of the cause of training failure.
+Finally, our tolerance itself needs calibration. A constructed non-negative hexagonal code with nearly invariant exact Gaussian room energy (relative deviation below $7.2\times10^{-8}$ in tested rooms) had mean sampled norm penalties 0.0961, 0.0274 and 0.00644 at 50, 150 and 600 points over 128 batches (Figure~\ref{fig:control}). Finite sampling can therefore penalise valid geometry under our 0.02 target. This control is not learned evidence or proof of why training failed. Together, the positive and negative results support the paper's geometric possibility while showing why figure-specific settings, constraint calibration and explicit analysis scales are needed for a convincing reproduction.
 
 \begin{thebibliography}{5}
 \bibitem[Dorrell et al.(2023)]{dorrell2023}
@@ -88,10 +88,10 @@ Toroidal topology of population activity in grid cells.
 \end{thebibliography}
 
 \section{Contribution statement}
-Tafara Chibanda and Nathan Le Roux implemented the model independently. This draft reports Tafara's saved reproduction runs and a shared-input numerical audit of Nathan's code at commit 7db3147. It does not merge the two implementations or compare their trained maps on unequal settings. Both authors must confirm the final account of their contributions and the review's judgements before submission.
+Tafara Chibanda (2683459) developed the JAX reproduction, matched-seed diagnostics, equation comparison and sampling-calibration control. Nathan Le Roux (2717495) developed the independent NumPy reproduction, parameter sweeps, ablations and module analysis. The report brings these results together while preserving their distinct numerical conventions.
 
 \section{AI assistance disclosure}
-OpenAI Codex assisted with literature checking, implementation, tests, analysis, and drafting this review. This disclosure is not a signed declaration of the authors' verification or a replacement for the required Wits Science Faculty AI Ethics Form. Both authors need to review the text, adopt or revise its judgements, and complete the official form.
+OpenAI Codex assisted with literature checking, implementation, tests, analysis, and drafting this review. Both authors have reviewed and agreed with the review's judgements and confirmed their contributions. The required Faculty AI declaration is supplied separately by the authors.
 
 \clearpage
 \onecolumn
@@ -134,5 +134,37 @@ Sampled rates below $-10^{-6}$ & 3.61\% & 5.08\%\\
 \label{fig:control}
 \end{figure}
 \clearpage
+\section{Appendix: Independent implementation comparison}
+\begin{table}[h]
+\centering
+\caption{Nathan's completed runs from commit df44d69. Module classification requires analytic grid score $>0.3$, six-peak angular error $<15^\circ$ and radial spread $<25\%$. These are descriptive criteria, not shuffled significance tests. Runs within each row share the stated settings; rows do not constitute a matched comparison with Tafara's optimiser.}
+\label{tab:joint}
+\begin{tabular}{lrrl}
+\toprule
+Setting & Seeds & Updates per run & Hexagonal modules per seed\\
+\midrule
+$\sigma=1.0$, $l=0.5$ & 0, 1 & 150,000 & 1, 1\\
+$\sigma=0.2$, $l=0.5$ & 0, 1, 2 & 150,000 & 0, 0, 0\\
+$\sigma=0.4$, $l=0.5$ & 0, 1 & 50,000 & 1, 0\\
+\bottomrule
+\end{tabular}
+\end{table}
+\begin{table}[h]
+\centering
+\caption{Common evaluation of five Nathan checkpoints. All use eight held-out batches (seed 12345), sum normalisation, and a 352-by-352 map over $[-1.5,1.5]^2$, matching Tafara's diagnostic evaluation. The norm tolerance 0.02 is Tafara's assessment choice; Nathan trained with $\exp(4)$. Small-window scores do not reliably capture broad grid structure, so negative scores here do not negate the spectral geometry results above.}
+\begin{tabular}{lrrr}
+\toprule
+Checkpoint & Median grid score & Norm loss & Mean negativity\\
+\midrule
+$\sigma=0.2$, seed 0, 150k & 0.0238 & 5.8261 & 0.0001878\\
+$\sigma=1.0$, seed 0, 150k & -0.0969 & 3.1925 & 0.0001943\\
+$\sigma=1.0$, seed 1, 150k & -0.1907 & 2.6302 & 0.0000858\\
+$\sigma=0.4$, seed 0, 50k & -0.0809 & 2.5480 & 0.0000770\\
+$\sigma=0.4$, seed 1, 50k & -0.0414 & 1.8502 & 0.0001619\\
+\bottomrule
+\end{tabular}
+\end{table}
+\clearpage
 \input{checklist}
+\input{ai_declaration}
 \end{document}

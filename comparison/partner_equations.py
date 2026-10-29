@@ -25,7 +25,7 @@ PARTNER_SOURCE_SHA256 = (
 ROOT = Path(__file__).resolve().parents[1]
 
 
-def compare(revision, fixture, output):
+def compare(revision, fixture, output, source_path=None):
     if not re.fullmatch(r"[0-9a-f]{40}", revision):
         raise ValueError("Use a full immutable 40-character Git commit hash")
     if revision != PARTNER_REVISION:
@@ -34,7 +34,7 @@ def compare(revision, fixture, output):
         )
     if output.exists() and any(output.iterdir()):
         raise ValueError("Comparison output must be empty")
-    source = subprocess.check_output(
+    source = source_path.read_bytes() if source_path else subprocess.check_output(
         ["git", "show", f"{revision}:src/actionable/core.py"], cwd=ROOT
     )
     if hashlib.sha256(source).hexdigest() != PARTNER_SOURCE_SHA256:
@@ -137,8 +137,9 @@ def main():
         "--fixture", type=Path, default=ROOT / "experiments/fixtures/equation_contract"
     )
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--source", type=Path, help="Local core.py from the packaged Nathan snapshot; the pinned SHA256 is still enforced")
     args = parser.parse_args()
-    result = compare(args.revision, args.fixture, args.output)
+    result = compare(args.revision, args.fixture, args.output, args.source)
     print(json.dumps(result, indent=2))
     if not result["passed_matched_equations"]:
         raise SystemExit(1)
