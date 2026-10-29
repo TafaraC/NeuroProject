@@ -1,6 +1,7 @@
 COMPUTATIONAL NEUROSCIENCE: FIRST-DEADLINE SUBMISSION
 Tafara Chibanda (2683459) and Nathan Le Roux (2717495)
-Deadline: 27 October 2026, 17:00, South Africa time.
+Original deadline: 27 October 2026, 17:00, South Africa time (extended because
+the submission portal had not opened).
 
 START HERE
 Review.pdf is the joint paper review, followed by supporting evidence and the
@@ -27,6 +28,16 @@ Internet access is required for the initial dependency installation.
   .\.venv\Scripts\python.exe -m pip check
 On another platform, use its Python 3.14 executable and .venv/bin/python instead.
 Other operating systems have not been tested. GPU support is not required.
+
+INSTALL AND VERIFY (Linux/macOS equivalent, untested)
+  python3.14 -m venv .venv
+  .venv/bin/python -m pip install -r requirements-test.txt
+  .venv/bin/python -m pip check
+  .venv/bin/python -m pytest tests -q
+  .venv/bin/python -m unittest discover -s nathan/tests -v
+Every later command works the same way: replace .\.venv\Scripts\python.exe
+with .venv/bin/python. For Nathan's results path, use
+  ACTIONABLE_RESULTS=results_new ../.venv/bin/python experiments/exp1_grid_emergence.py --job main_sigma1.0_seed0
 
 VERIFY THE CODE (no long experiment needed)
   .\.venv\Scripts\python.exe -m pytest tests -q
