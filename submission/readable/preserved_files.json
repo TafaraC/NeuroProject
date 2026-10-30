@@ -1,0 +1,3797 @@
+[
+  {
+    "source": "Contribution_statement.pdf",
+    "destination": "Contribution_statement.pdf",
+    "sha256": "06058c787eea10655eab0ebb9f7e453473ba2d074fb0440f8c322a0c90195a88"
+  },
+  {
+    "source": "jax_impl/comparison/__init__.py",
+    "destination": "code/jax_impl/comparison/__init__.py",
+    "sha256": "7b756d2a4c7ead8ae25c36055a4db25aeba533b900b9feb20f3adca55005ff6e"
+  },
+  {
+    "source": "jax_impl/comparison/archive_study.py",
+    "destination": "code/jax_impl/comparison/archive_study.py",
+    "sha256": "ea8ad4cf9afbcd6fe49ecf6b9a6a0ad3752c81ff72a2906eb38269748e4cbc14"
+  },
+  {
+    "source": "jax_impl/comparison/constraint_control.py",
+    "destination": "code/jax_impl/comparison/constraint_control.py",
+    "sha256": "b0e1024532f08e5996f20b72b2976c5c92ef029131a2c3b88a0dcc03a17295d6"
+  },
+  {
+    "source": "jax_impl/comparison/partner_equations.py",
+    "destination": "code/jax_impl/comparison/partner_equations.py",
+    "sha256": "8754004f6e173886571b030c28cf215a48be44662cfb2ab49176812d0cc8aed1"
+  },
+  {
+    "source": "jax_impl/comparison/partner_results.py",
+    "destination": "code/jax_impl/comparison/partner_results.py",
+    "sha256": "899c369a5e11b892f10a354f7c15d64d4f89ea1cb8fb4b4078153985219d664e"
+  },
+  {
+    "source": "jax_impl/experiments/__init__.py",
+    "destination": "code/jax_impl/experiments/__init__.py",
+    "sha256": "8f457994d6797f009930d781891929ccf632bfcb4e3b8c726b05c8dad0293d19"
+  },
+  {
+    "source": "jax_impl/experiments/compare.py",
+    "destination": "code/jax_impl/experiments/compare.py",
+    "sha256": "8b1b4911ddf31ef8ecaf76ed24303d71c75280ba1037950f12300e605214d348"
+  },
+  {
+    "source": "jax_impl/experiments/configs/baseline.json",
+    "destination": "code/jax_impl/experiments/configs/baseline.json",
+    "sha256": "7f7fc84af0f09bd83972cfe62f784607c57acb8713794bb876e6b9d8a6bc6ae3"
+  },
+  {
+    "source": "jax_impl/experiments/configs/fine_resolution.json",
+    "destination": "code/jax_impl/experiments/configs/fine_resolution.json",
+    "sha256": "5cd6a787d08a5b50febc24bcad0903a0fd9499814d97846d0a6eea23a2234bad"
+  },
+  {
+    "source": "jax_impl/experiments/diagnostics.py",
+    "destination": "code/jax_impl/experiments/diagnostics.py",
+    "sha256": "7c1502f49fe986c0ed39ecad1ee8450bf023db23bfd94f55ad47235e77729498"
+  },
+  {
+    "source": "jax_impl/experiments/equation_check.py",
+    "destination": "code/jax_impl/experiments/equation_check.py",
+    "sha256": "8990efd03f39df8b4dbe5821db14c290921c360d9f19ea7c0d6f7ae575d83f08"
+  },
+  {
+    "source": "jax_impl/experiments/evaluate.py",
+    "destination": "code/jax_impl/experiments/evaluate.py",
+    "sha256": "ae548d9a1329f19157a09ad8dc14bc69aed11766fc7bf12059cbf2e27fb76350"
+  },
+  {
+    "source": "jax_impl/experiments/fixtures/equation_contract/config.json",
+    "destination": "code/jax_impl/experiments/fixtures/equation_contract/config.json",
+    "sha256": "e9ac6ef78922e7505f4ffdb3fc975d95b936e810d1e826936751178cd347b302"
+  },
+  {
+    "source": "jax_impl/experiments/fixtures/equation_contract/expected.json",
+    "destination": "code/jax_impl/experiments/fixtures/equation_contract/expected.json",
+    "sha256": "9abb96c39d6bb861c3d21ed9e0795e271c2d9f5a7137208c2334b1185c162a79"
+  },
+  {
+    "source": "jax_impl/experiments/fixtures/equation_contract/inputs.npz",
+    "destination": "code/jax_impl/experiments/fixtures/equation_contract/inputs.npz",
+    "sha256": "9b6482ae1297ad554f6313e54d7c35c63ee3047a63d0012f1eb3d3e983c8592b"
+  },
+  {
+    "source": "jax_impl/experiments/fixtures/equation_contract/manifest.json",
+    "destination": "code/jax_impl/experiments/fixtures/equation_contract/manifest.json",
+    "sha256": "9d7bf3654ed447d5313a9266334df7fbdba20ac2bfdd1a44833cb4633dbae008"
+  },
+  {
+    "source": "jax_impl/experiments/run.py",
+    "destination": "code/jax_impl/experiments/run.py",
+    "sha256": "4f742656287ebf691cb52ce2b8961078f46c511e536bc7532a0895bfe08f94ef"
+  },
+  {
+    "source": "jax_impl/requirements-dev.in",
+    "destination": "code/jax_impl/requirements-dev.in",
+    "sha256": "8bebb6e9c6dfe943fcddf04950f52a5683874242b5007fa33424db57ae003135"
+  },
+  {
+    "source": "jax_impl/requirements-dev.txt",
+    "destination": "code/jax_impl/requirements-dev.txt",
+    "sha256": "3bb5632310fdbeb44b613ce4eea9e60d3801d7d6087ef334b2c5b08126d23396"
+  },
+  {
+    "source": "jax_impl/requirements.in",
+    "destination": "code/jax_impl/requirements.in",
+    "sha256": "4d33a617abdf346ad671dd87c1ecc736dc4b5153ffa3acedccaf7d19bed3fb31"
+  },
+  {
+    "source": "jax_impl/requirements.txt",
+    "destination": "code/jax_impl/requirements.txt",
+    "sha256": "c6add28286d7593de83e452db00cb18b7eb4e98c38e47598129ed74e608e6684"
+  },
+  {
+    "source": "jax_impl/results/constraint_control/batches.csv",
+    "destination": "code/jax_impl/results/constraint_control/batches.csv",
+    "sha256": "a62b0a1c2224b5a0638eff84de5aa2ff69a28c6950f39782167cb1f7db547c7a"
+  },
+  {
+    "source": "jax_impl/results/constraint_control/constructed_code.npz",
+    "destination": "code/jax_impl/results/constraint_control/constructed_code.npz",
+    "sha256": "c0f417dc48e7149d8be36c9ff8bc0f1f9343857d0c051b3c51985b032173841e"
+  },
+  {
+    "source": "jax_impl/results/constraint_control/summary.json",
+    "destination": "code/jax_impl/results/constraint_control/summary.json",
+    "sha256": "ac531b663abe2d0a6db22787f77b314328d666c54e53cf909d65a3985a5a800d"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/archive_manifest.json",
+    "destination": "code/jax_impl/results/diagnostic_study/archive_manifest.json",
+    "sha256": "f15d14011006ba45d3ebc1505bf8cd1e46597141e54ab42d2eb4a817686bbb3c"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/baseline_seed0.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/baseline_seed0.json",
+    "sha256": "824d81138efd28245e36c2925860c798ee16ea5161c555ea197a5ae57600af85"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/baseline_seed1.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/baseline_seed1.json",
+    "sha256": "9f6d620729d224a5ae8ccd86ba3d278dfd1d0f908c5174ae969866e6969f8fa5"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/baseline_seed2.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/baseline_seed2.json",
+    "sha256": "af2d4983c1ea14a1c539a0288d5097597a3d8c60de384802dcfe6e9e3ab8a5ec"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/norm_table_seed0.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/norm_table_seed0.json",
+    "sha256": "9655ad797a907796ec69db4cad0a5a6f588205593de320e6918105328b9dcdce"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/norm_table_seed1.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/norm_table_seed1.json",
+    "sha256": "30e5317e8d95c1f80735641d82eb7e6d80eafc84e805d6c9e8f62920226407f9"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/norm_table_seed2.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/norm_table_seed2.json",
+    "sha256": "1d98dd7107120a811102880c3b13eb268320fcca43507fd9fd4fa7636fd8f080"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/sigma_variance_seed0.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/sigma_variance_seed0.json",
+    "sha256": "828811ab54e3143b83b9d393fa002537abe781f9409c8a788e8c2113f00ba2aa"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/sigma_variance_seed1.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/sigma_variance_seed1.json",
+    "sha256": "a562e2f30ffb405ffbcbeb08545aede47a3b300d1a62d229bb62782a0f679093"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/configs/sigma_variance_seed2.json",
+    "destination": "code/jax_impl/results/diagnostic_study/configs/sigma_variance_seed2.json",
+    "sha256": "b19595694a51224444b36fc780e24c17801bf8dee9dcbd00c03a5c550ce9e992"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/baseline_seed0.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/baseline_seed0.log",
+    "sha256": "a9d658f367d96f6ce45036806ad5b1ef40083c5dadaa08e5d5ade2249287bb8b"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/baseline_seed1.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/baseline_seed1.log",
+    "sha256": "17e187674a4b30d8287b0194b0e321729f6bbc385eed5e7dfdc2956a1677fe1c"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/baseline_seed2.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/baseline_seed2.log",
+    "sha256": "84a2931f58bdbab55668bddf7a668e2412395513a19acd931c5b43c9e14e5d56"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/norm_table_seed0.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/norm_table_seed0.log",
+    "sha256": "5350ce897378bb313ba9b5199d3124083108db9874567619c1c24d8731626e3c"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/norm_table_seed1.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/norm_table_seed1.log",
+    "sha256": "50fcb4725d31d4692d8121ff50aa0e6887813038da74cf9907f6bfa97d43bc48"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/norm_table_seed2.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/norm_table_seed2.log",
+    "sha256": "a376a84e1b58932b3d499b5be89305d9b300620a3202282560f56cc5a48903b8"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/sigma_variance_seed0.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/sigma_variance_seed0.log",
+    "sha256": "6a5b30a6e73f695422a364c88d8c8527ff7a04e3849f0045aec9eadb79991147"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/sigma_variance_seed1.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/sigma_variance_seed1.log",
+    "sha256": "ced7e5b81b7f824d31911ac1f2625becf9a0cd4a51ea8147f0796b5cb84254d9"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/logs/sigma_variance_seed2.log",
+    "destination": "code/jax_impl/results/diagnostic_study/logs/sigma_variance_seed2.log",
+    "sha256": "aa9801228180696c878f560e5b690e608dca605dec1b0cc318390e7298841944"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/plan.json",
+    "destination": "code/jax_impl/results/diagnostic_study/plan.json",
+    "sha256": "e6567cd263523b1ab5befa304c89af622696ada46c0caa1bc18ad6f9a43b2586"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/baseline_seed0/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/baseline_seed0/summary.json",
+    "sha256": "e4a4ffb4ac8907dc1b2a543bfe6ee401a926b9d959bbf91745687302f050927c"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/baseline_seed1/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/baseline_seed1/summary.json",
+    "sha256": "c00104ed39b67a002318d5c9b0d9249c857de2c9abd996cc0f3c71a82a35ba71"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/baseline_seed2/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/baseline_seed2/summary.json",
+    "sha256": "bca7a46d8fb13880283f45d7cf3dcadde81e77b80382db1b8842a5af7c0ffe4a"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/evaluation_settings.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/evaluation_settings.json",
+    "sha256": "c282354502b3802b417ab2c10ff2a1263683ea3a95e0f619b82944a62e6631b4"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/norm_table_seed0/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/norm_table_seed0/summary.json",
+    "sha256": "0cb5ee1519e0d72f5409dd19fc162a0f817c31369d0646bdc80705fbf9ce73c1"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/norm_table_seed1/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/norm_table_seed1/summary.json",
+    "sha256": "4b290fbe82b8042388dbcd41485009bb54646fa83c738fa06815870bbdb1d85f"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/norm_table_seed2/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/norm_table_seed2/summary.json",
+    "sha256": "2db5e9d8c0a79edee791792824ed4e869c9d49cbc2729ba1b90b3942ba16e006"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/paired_differences.csv",
+    "destination": "code/jax_impl/results/diagnostic_study/report/paired_differences.csv",
+    "sha256": "1a1828a298ca69c52f5cdb16adb2b040dcd350d4f91011586f4712c81747ab8d"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/runs.csv",
+    "destination": "code/jax_impl/results/diagnostic_study/report/runs.csv",
+    "sha256": "dc39414b60a258365426b85b42cb692a64916a4b0a3422156b239dc792a64969"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/sigma_variance_seed0/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/sigma_variance_seed0/summary.json",
+    "sha256": "812a99e43f763b535c3f2228cbda0270d3087087af471a25e2bc6a89b78eecfb"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/sigma_variance_seed1/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/sigma_variance_seed1/summary.json",
+    "sha256": "0d73dd4afd22512272f9e4aa395292ebc5ceddab3e0fa8d2779de7aeb9b37033"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/sigma_variance_seed2/summary.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/sigma_variance_seed2/summary.json",
+    "sha256": "9b9a1a2e3f34bd81e791e52dde3b5b9fc64b39ad0f5c3b686bc20b29a9db35ec"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/report/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/report/status.json",
+    "sha256": "0ff075ba3e424a0e42947af6036546f3ed55530418be60fc5037c5766b954291"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/checkpoint.npz",
+    "sha256": "becc0e8455f511152aa0601c5d6efd010b6f504cfdb945890e30d056c05c6ef8"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/config.json",
+    "sha256": "522862197de2b57c597f80a8638a4f788bd5d15d41b6d16513825ef7a95fb77e"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/history.jsonl",
+    "sha256": "1735f476c94d98ef543e1ddf3b152d061cfc2437b25ff47a51230d0635438ef6"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/initial.npz",
+    "sha256": "8fb567f09b20e3352ce4e6f9de88c5e0ca681960fce5b86ba8fb8fb3066b5635"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/metadata.json",
+    "sha256": "14fd023ced2f6f6e2aca5c424ea9a8705ad8d5937788341d7d8371a2e5b03a8d"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/snapshots/step_025000.npz",
+    "sha256": "a3028c97d7c6126adedfc2c203c3618891ae1df8fcb640795c6ccd39f44fbe11"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/snapshots/step_075000.npz",
+    "sha256": "91f050a6e57cece46f6da7e629ae634fad24c98c081a2db93ea89b35c919e3b6"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed0/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed0/status.json",
+    "sha256": "61b10746c971bc9964646b89e682fe466890ebfbd7129d9ccab516c45b05c6a4"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/checkpoint.npz",
+    "sha256": "98cbf13d47d315d131540d891d0973f629921f87ef2baeaa6011e74ad382e6f9"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/config.json",
+    "sha256": "6447ef0e4bfd9954576a2a64469907067bdc80df5ebac06d09515bbfca4e598c"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/history.jsonl",
+    "sha256": "3a3d3c957ebe739f39945af4cb49ac6d3ca9aa7e67e0f96fb0d343f316758a3d"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/initial.npz",
+    "sha256": "799d4ceb3c8e92581216b0756b53e4feddfe603f647dfbe9c70619249c8963d2"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/metadata.json",
+    "sha256": "76e96addb5288b3e23b5b9f21a1336a7d37d817a603f6fc14b76bfd113dd27f8"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/snapshots/step_025000.npz",
+    "sha256": "73437467d760d0d666ae088ae860a3413ed16015d5f4aa82c0e4c2937d365155"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/snapshots/step_075000.npz",
+    "sha256": "704598b3536ab82f7c1d16dea37280c89ead07aaa461c32c86a947243f75c91b"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed1/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed1/status.json",
+    "sha256": "3dc9441b9d8446ed8b7e5d89da74c7639b23503ee0720a5341823ddf470db8f1"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/checkpoint.npz",
+    "sha256": "0565d5174449692b521cf332fc490f06f48b5ed3e26da9f1f858803299d9a008"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/config.json",
+    "sha256": "7328b4c3c39105c76f7aa836f988ee170f17ccf71fcfe9a27abb1766a2491816"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/history.jsonl",
+    "sha256": "9ee5fe2d46e4deb762a71cd83b9be128ca99b86a043a52939de1d87dd9aabed9"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/initial.npz",
+    "sha256": "1f9d4bd4f2e1468477a391904af2a820145eb30d6c5f43ef61a22cc77dad1c6a"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/metadata.json",
+    "sha256": "bc3e03443c076730a9078c587f4670b46a6b9b5b4cd30f570b2a7f6b5a561f58"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/snapshots/step_025000.npz",
+    "sha256": "8ecf92caf33dc99f76d26b248c30a1c5c319bfbea391446a09791e6162a937e2"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/snapshots/step_075000.npz",
+    "sha256": "7a533f237cbbcebf92164513063885b89a36f7700b7035f607037e1d91723bd5"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/baseline_seed2/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/baseline_seed2/status.json",
+    "sha256": "44080049dbb35eae57a5678b443d2b385eb85ae3a3906658cb598eb7881b2834"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/checkpoint.npz",
+    "sha256": "ebd901dc11015c259bc992771d84cb506ebfe6342b93ff1c320eddac7fdb3989"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/config.json",
+    "sha256": "8767de80c4f930db536c72bdb890276a5e0d3abde1ddaf133ebfdf2e889ace03"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/history.jsonl",
+    "sha256": "f2252529b1b4b2b86844b63bbb91ba63b7bccbd9b686915e29683d19f9a584b8"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/initial.npz",
+    "sha256": "0f24aaa6340396f52ed86f0af84b76e98d99fb185da42d235f836cb5365bdb9c"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/metadata.json",
+    "sha256": "4a9a59df191acd611d2991742afc40941835d0cc5d0e10fe09f2807e9fa9eb7d"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/snapshots/step_025000.npz",
+    "sha256": "d8a53866bd45e18b60d7e31c06368d0eb0bc82bb996060d6951511ba018d4d67"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/snapshots/step_075000.npz",
+    "sha256": "60c80355d3047b3c0fd248321b06c32383a0d71a8cb3c73b22e69eac7d30df66"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed0/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed0/status.json",
+    "sha256": "fd3e9e438e81996b2ee60e858ceb118139a3dafac8cff3cb8907cfe2bb5d57e9"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/checkpoint.npz",
+    "sha256": "7e1ae6a8c2dd90564872b3a3ae627bf3a45c3ededb9e9f622a9ae6e1e95bd6cb"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/config.json",
+    "sha256": "c216123ed78f77362a2636f9b4c9d44fb55ea94e86027d0d6bdb27d3f7bbb76a"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/history.jsonl",
+    "sha256": "3794495b152c316430122cbc60145a15dc732eb96a13601571571fdc81e0eab9"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/initial.npz",
+    "sha256": "c21e4fddbb2a16661225163bf93f060bcf696bc5995010b574af1edcd1089958"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/metadata.json",
+    "sha256": "c00df923f339cabc6b289abc428524e73a9441c3d574ffcafd45376f276398e7"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/snapshots/step_025000.npz",
+    "sha256": "14da5f5d7347afb6755279c981135e8e4993218ec741922b0633e0fb2f92341b"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/snapshots/step_075000.npz",
+    "sha256": "369722a52b4a6bc79b5c2da7473c93f3f30783a792b6f187bd94998143c364ec"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed1/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed1/status.json",
+    "sha256": "47eec8e4efd4b9e8d84e87ebf9dc0f1d47dd64cf2b2e744a70ffed44b3b55266"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/checkpoint.npz",
+    "sha256": "5f2b7e9269778eae52b639f9028598d3cf96158f950db5fa6495b5bba0e5cae6"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/config.json",
+    "sha256": "a9a0a80ec926cf7e290532c5ce732f63500ece8ac9ec4a84985f665be76cff48"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/history.jsonl",
+    "sha256": "515bf71051423138e27f03879504e2a35dfcd91447b05f03780c5bee14e126e7"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/initial.npz",
+    "sha256": "cf9ad9c75d85669af7bfe0dd35d27359b981c3b0f0917ca00ac9546a5d091a51"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/metadata.json",
+    "sha256": "fdd18b6102943deb43b0c1893f229f7577b56c33e330a1d7a86deccefdfa5b25"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/snapshots/step_025000.npz",
+    "sha256": "2e7ae1983b28149b0f9912d1969552d5cbf206912a44bd2d95a17b8d5436306f"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/snapshots/step_075000.npz",
+    "sha256": "75ca20ad3e2469b47afb00f21b1755f996a0e558a8843259cfba5f48a1cdf813"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/norm_table_seed2/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/norm_table_seed2/status.json",
+    "sha256": "de0f3a39584020bfc63b22e2a2f4c878b191b8d198da6464a5443f960ea4c0d4"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/checkpoint.npz",
+    "sha256": "5a3691a04dd62e267cdc86cc5bed1568290b2a928e206f3ef4af6fc6aa335b77"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/config.json",
+    "sha256": "ed2f5d7c376467fec9b57eb59b63f9b520fd66914b3a3f1d82636f237244da67"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/history.jsonl",
+    "sha256": "a4679af818f5ca922c3a5f45c8101e2b2ea269cf31e4691fcedc94fe67e82d70"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/initial.npz",
+    "sha256": "48c19fde348997dd7175879093d6db51c5b58007b3f6912d9bc1c033157eb0de"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/metadata.json",
+    "sha256": "1708baa36e000fb1b0b80d9ffcdc1cb65119860140c144cfde1be0d8d8d342e1"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/snapshots/step_025000.npz",
+    "sha256": "7778145deab5847c1b20f90b8d5731254bcaf3de6e139d36dfadec7ff48fe152"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/snapshots/step_075000.npz",
+    "sha256": "397e59fbe1ccba3e89a059557d8560430389f4057be1d535c7cf12f53805f7d5"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed0/status.json",
+    "sha256": "594d89ee8fb49451f5f99e888192df5e2c071681644a17edf68b62adb6f1dce0"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/checkpoint.npz",
+    "sha256": "575acf1357ef8a933c2b592f2adb3377735d18f4d534df02f31034ff65df6e5d"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/config.json",
+    "sha256": "76dc2807587fba05ac2de2742b15585bda8056b3c090c5bd5086844b56e4cac2"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/history.jsonl",
+    "sha256": "e0685ddaed00c123aaac880d7fe3db14c73d50663507ac177762141beda45757"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/initial.npz",
+    "sha256": "549f5f7be7a4b204f7ac1b35f4b416c193e485ede77ffeb352ec4245b502e9e3"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/metadata.json",
+    "sha256": "5de608c9e24b8857799d9dfcab9d15b42b5ca9ba5c6bb6fee02c4d54e4be0bb8"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/snapshots/step_025000.npz",
+    "sha256": "f07711529a3fa9a3b2648d6ded9f0a8272182c972d2873138412aa869ea0f211"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/snapshots/step_075000.npz",
+    "sha256": "f14b5751bf3effe852cd6539ce123cba4fe780853c3eaf054ddd196289b94069"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed1/status.json",
+    "sha256": "055bf1e9815fbeaf7e4a74be64f5c4e70076a72df2e77a03d869076045e922bc"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/checkpoint.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/checkpoint.npz",
+    "sha256": "fabd0b4b0188ec6cc8ae5350902c9807fe29a4022ca5972bae959ff05a9a3696"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/config.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/config.json",
+    "sha256": "ac1c8c107dec554ed6b55eb28584b4fc99b026f56983e7de5a12ec0cea410363"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/history.jsonl",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/history.jsonl",
+    "sha256": "00f15c4e7bad07bed8030e37de27ecf29ab3cd61cf52d2a202977ded20e9922b"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/initial.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/initial.npz",
+    "sha256": "dc0abcaba1aa266488b90564091d1db36bc6e727f21b250a33c43e9a5ab1f93f"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/metadata.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/metadata.json",
+    "sha256": "f98160cd8a9c118c7ef7c87d5f51aac763908368c27e22ee211442c0b2090250"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/snapshots/step_025000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/snapshots/step_025000.npz",
+    "sha256": "f973a8404184ba9994fe573da88ef6877a7ee1f6d9c3c503ea44467dd2468362"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/snapshots/step_075000.npz",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/snapshots/step_075000.npz",
+    "sha256": "84cea476e519645839c1b8a80999245915b4f7da8793abbe38f6f151020289fe"
+  },
+  {
+    "source": "jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/status.json",
+    "destination": "code/jax_impl/results/diagnostic_study/runs/sigma_variance_seed2/status.json",
+    "sha256": "2c51460197064ea6e39319ad250f7a0a3282ae34594190e8468d5535d6711cb2"
+  },
+  {
+    "source": "jax_impl/results/figures/comparison_seed0/comparison.csv",
+    "destination": "code/jax_impl/results/figures/comparison_seed0/comparison.csv",
+    "sha256": "abfd9c1ba240843739535d097622b66994354bfd0b28bf15d1eb87bf3189fedd"
+  },
+  {
+    "source": "jax_impl/results/partner_comparison/comparison.json",
+    "destination": "code/jax_impl/results/partner_comparison/comparison.json",
+    "sha256": "d5f0a26277acc10ae3f6a7f3f23a28f1ae8579cd3d9923743748ba8e34a23518"
+  },
+  {
+    "source": "jax_impl/results/partner_comparison/partner_candidate.json",
+    "destination": "code/jax_impl/results/partner_comparison/partner_candidate.json",
+    "sha256": "80d50fcaae72e1cb9150795143820fc1611b398dad27f10106f05d49e433af34"
+  },
+  {
+    "source": "jax_impl/results/partner_results_20261026/common_evaluation.csv",
+    "destination": "code/jax_impl/results/partner_results_20261026/common_evaluation.csv",
+    "sha256": "3ee485c43ea04e0b9202311d51743b74c8a656fa1aa033a6de69fc584a8a4a5b"
+  },
+  {
+    "source": "jax_impl/results/partner_results_20261026/inventory.csv",
+    "destination": "code/jax_impl/results/partner_results_20261026/inventory.csv",
+    "sha256": "0bea5fa4a5269b27b8b06357cfef240119c4ce96513ae28ad1d5e77a7334f273"
+  },
+  {
+    "source": "jax_impl/results/partner_results_20261026/main_sigma0.2_seed0/summary.json",
+    "destination": "code/jax_impl/results/partner_results_20261026/main_sigma0.2_seed0/summary.json",
+    "sha256": "ac591986232058d8c1efc1aa02927794073fa76ba33de582592472074764af4b"
+  },
+  {
+    "source": "jax_impl/results/partner_results_20261026/main_sigma1.0_seed0/summary.json",
+    "destination": "code/jax_impl/results/partner_results_20261026/main_sigma1.0_seed0/summary.json",
+    "sha256": "78cfaa55657433d3728875672b6274580129f1209a793322f51b6bd9676b7a17"
+  },
+  {
+    "source": "jax_impl/results/partner_results_20261026/main_sigma1.0_seed1/summary.json",
+    "destination": "code/jax_impl/results/partner_results_20261026/main_sigma1.0_seed1/summary.json",
+    "sha256": "43fc2155c8a5b77b0b30b61d949c15029a70c6155eef67ea5f63ca1d3b9d179d"
+  },
+  {
+    "source": "jax_impl/results/partner_results_20261026/sweep_sigma0.4_seed0/summary.json",
+    "destination": "code/jax_impl/results/partner_results_20261026/sweep_sigma0.4_seed0/summary.json",
+    "sha256": "a1ec5a6fa3852258f885888fde52e1702848aa36bb67e7c529bb05cef0185683"
+  },
+  {
+    "source": "jax_impl/results/partner_results_20261026/sweep_sigma0.4_seed1/summary.json",
+    "destination": "code/jax_impl/results/partner_results_20261026/sweep_sigma0.4_seed1/summary.json",
+    "sha256": "7a55677f45bcfab34b4473d01c4df34db01642d78c2e2307f4412ac21a2911c3"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/baseline_seed0/checkpoint.npz",
+    "destination": "code/jax_impl/results/reference_runs/baseline_seed0/checkpoint.npz",
+    "sha256": "becc0e8455f511152aa0601c5d6efd010b6f504cfdb945890e30d056c05c6ef8"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/baseline_seed0/config.json",
+    "destination": "code/jax_impl/results/reference_runs/baseline_seed0/config.json",
+    "sha256": "522862197de2b57c597f80a8638a4f788bd5d15d41b6d16513825ef7a95fb77e"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/baseline_seed0/evaluation/summary.json",
+    "destination": "code/jax_impl/results/reference_runs/baseline_seed0/evaluation/summary.json",
+    "sha256": "91df9ed4d854c1b62cc18154b8942281d1aa419ab8bba3878ab243d888cba8b5"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/baseline_seed0/history.jsonl",
+    "destination": "code/jax_impl/results/reference_runs/baseline_seed0/history.jsonl",
+    "sha256": "528bd2ef60b9314a42bd127ca6b7a2d33be686d366f9eeb91e5b07fe1df87c0c"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/baseline_seed0/initial.npz",
+    "destination": "code/jax_impl/results/reference_runs/baseline_seed0/initial.npz",
+    "sha256": "8fb567f09b20e3352ce4e6f9de88c5e0ca681960fce5b86ba8fb8fb3066b5635"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/baseline_seed0/metadata.json",
+    "destination": "code/jax_impl/results/reference_runs/baseline_seed0/metadata.json",
+    "sha256": "2d229ab78e43f609f88844166ea6a94ad2b244d0b46b1b2e46d91582fe10af89"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/baseline_seed0/status.json",
+    "destination": "code/jax_impl/results/reference_runs/baseline_seed0/status.json",
+    "sha256": "b1e97c48fdd2db99b2dc7b225c956e4e85454590edb8dcadc3ea5fa9e8717648"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/fine_seed0/checkpoint.npz",
+    "destination": "code/jax_impl/results/reference_runs/fine_seed0/checkpoint.npz",
+    "sha256": "1db374caa6052148488e71c02b96ba469e1386b543860945dab394a3642a67c1"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/fine_seed0/config.json",
+    "destination": "code/jax_impl/results/reference_runs/fine_seed0/config.json",
+    "sha256": "3fd9e939c46fe47af0b0d2ca1b063bc53062abe6599bacc1ce7d3ad1cf747ed1"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/fine_seed0/evaluation/summary.json",
+    "destination": "code/jax_impl/results/reference_runs/fine_seed0/evaluation/summary.json",
+    "sha256": "aef42c4bb26631c7b4389c3803126b98f1a513b0ec093d77cc4d602cabfd7169"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/fine_seed0/history.jsonl",
+    "destination": "code/jax_impl/results/reference_runs/fine_seed0/history.jsonl",
+    "sha256": "886e656d8cf2cc95ec44aac77fc3855d3c93407994ffeb3942ba05ad9a6c04ab"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/fine_seed0/initial.npz",
+    "destination": "code/jax_impl/results/reference_runs/fine_seed0/initial.npz",
+    "sha256": "24bd7a7227937f9a2243e74441c2a6d3bcf89460def2e0ed558675f2d460d528"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/fine_seed0/metadata.json",
+    "destination": "code/jax_impl/results/reference_runs/fine_seed0/metadata.json",
+    "sha256": "5467c70f8511f1c2b203eb6be4b3e75df4984ec72f037521901461c84b7b9deb"
+  },
+  {
+    "source": "jax_impl/results/reference_runs/fine_seed0/status.json",
+    "destination": "code/jax_impl/results/reference_runs/fine_seed0/status.json",
+    "sha256": "4e02870f3ac3aa1c493da1ccafd4628a0d6ec5824e940f3660fcdbac13224839"
+  },
+  {
+    "source": "jax_impl/src/__init__.py",
+    "destination": "code/jax_impl/src/__init__.py",
+    "sha256": "1a049a4d31b3aeba2b55101d3c8533157e6d0db4689d979526ea5efe932ccaea"
+  },
+  {
+    "source": "jax_impl/src/analysis.py",
+    "destination": "code/jax_impl/src/analysis.py",
+    "sha256": "47b000fde073568acea35a328877ab15e8c2977c98dbc9d971655ca4e4e7959b"
+  },
+  {
+    "source": "jax_impl/src/config.py",
+    "destination": "code/jax_impl/src/config.py",
+    "sha256": "ccd65abfefbe3b103bcb398037ec59892befa5f7f4358c8e3d67f300425a6d71"
+  },
+  {
+    "source": "jax_impl/src/model.py",
+    "destination": "code/jax_impl/src/model.py",
+    "sha256": "000bd3d775862a8b1c634ec3ee081b3a55376e8221af4dfa07f73ca4d899df00"
+  },
+  {
+    "source": "jax_impl/src/training.py",
+    "destination": "code/jax_impl/src/training.py",
+    "sha256": "5af0f25a5ffe95906666c75d7899f22bab3545cd811e1d08c354b801bcd88aa7"
+  },
+  {
+    "source": "jax_impl/tests/test_analysis.py",
+    "destination": "code/jax_impl/tests/test_analysis.py",
+    "sha256": "6b83cceb6d2c9de869fe9a455ded24475689c8345e7ebf3f15fb08f526f8efc3"
+  },
+  {
+    "source": "jax_impl/tests/test_constraint_control.py",
+    "destination": "code/jax_impl/tests/test_constraint_control.py",
+    "sha256": "40b38e962f7eba5b88e6349429f049e669994d6c3ded18cf5ac47bff5bc15eec"
+  },
+  {
+    "source": "jax_impl/tests/test_diagnostics.py",
+    "destination": "code/jax_impl/tests/test_diagnostics.py",
+    "sha256": "2b9ad77aa157cf360fcb7e3701649b443c1ae8b037e0fabdfa9e1ceab4ee779a"
+  },
+  {
+    "source": "jax_impl/tests/test_model.py",
+    "destination": "code/jax_impl/tests/test_model.py",
+    "sha256": "46a6c4b873f9f8c4bddf6fe4c929e4bc84e9921af8500ca8932c719133f98455"
+  },
+  {
+    "source": "numpy_impl/experiments/common.py",
+    "destination": "code/numpy_impl/experiments/common.py",
+    "sha256": "f1515c26b72e5445ed2c2179b69822e771239f714220c3600a088089f5c109a2"
+  },
+  {
+    "source": "numpy_impl/experiments/exp1_grid_emergence.py",
+    "destination": "code/numpy_impl/experiments/exp1_grid_emergence.py",
+    "sha256": "864bfc1db4ea19b483b35eb075e2841fa99276bc8214cfbfbedfbe57ab2c9fa4"
+  },
+  {
+    "source": "numpy_impl/experiments/exp2_1d_lattice.py",
+    "destination": "code/numpy_impl/experiments/exp2_1d_lattice.py",
+    "sha256": "4730c18885733076061f67be3857909ed502fd8a4295682eb98972e140a144e0"
+  },
+  {
+    "source": "numpy_impl/experiments/exp3_sharpness.py",
+    "destination": "code/numpy_impl/experiments/exp3_sharpness.py",
+    "sha256": "50df2e9fd8315fb468d727869b91201f1c81fc9498150c970a3ec6cd727f2c26"
+  },
+  {
+    "source": "numpy_impl/experiments/exp4_module_angle.py",
+    "destination": "code/numpy_impl/experiments/exp4_module_angle.py",
+    "sha256": "0128bcfe48543c60b3aac698bc98b38e40eb12f13123f09e53c94a913e3afdd6"
+  },
+  {
+    "source": "numpy_impl/experiments/exp5_ablations_sigma.py",
+    "destination": "code/numpy_impl/experiments/exp5_ablations_sigma.py",
+    "sha256": "46e72844a4746441a6000bf8b634fcdf2a1a96e3871a169b855877d467d4fedc"
+  },
+  {
+    "source": "numpy_impl/experiments/exp6_sensitivity.py",
+    "destination": "code/numpy_impl/experiments/exp6_sensitivity.py",
+    "sha256": "b60b63be60bda9c513f6085fd4a8218efc70cc09826dea7227f0d61b4c2c8dd3"
+  },
+  {
+    "source": "numpy_impl/experiments/jobs.py",
+    "destination": "code/numpy_impl/experiments/jobs.py",
+    "sha256": "f05d4083c62c789b8682081c203a19b0a030f299479b67b78ba3945988bb4a02"
+  },
+  {
+    "source": "numpy_impl/experiments/make_figures.py",
+    "destination": "code/numpy_impl/experiments/make_figures.py",
+    "sha256": "36f7f1f8e497eb8c297b0f8d4d74fffe0bbcb7db1457260bbebb509eb3b1dc50"
+  },
+  {
+    "source": "numpy_impl/experiments/make_numbers.py",
+    "destination": "code/numpy_impl/experiments/make_numbers.py",
+    "sha256": "6b20dd14c0cab4fa0113b402dd961819aa1f93011e93e067cd8133653a2c45e0"
+  },
+  {
+    "source": "numpy_impl/experiments/reanalyse.py",
+    "destination": "code/numpy_impl/experiments/reanalyse.py",
+    "sha256": "d4a29984d21139fe56094d5501862461e69bccd9d99278839de9234766a4b1da"
+  },
+  {
+    "source": "numpy_impl/experiments/run_all.py",
+    "destination": "code/numpy_impl/experiments/run_all.py",
+    "sha256": "251463c3dd0ef4ca4dc2f4474bfca35a62cede259f867dccfab5380b43f92f5d"
+  },
+  {
+    "source": "numpy_impl/requirements.txt",
+    "destination": "code/numpy_impl/requirements.txt",
+    "sha256": "7fee09f63801df59cc08a6515acdf2fbe36f57d437e443c81e9ec8fc6c541272"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/ckpt.npz",
+    "sha256": "c49989490eb0bc3cd654e9680abc62ee0f4e4dae91963b7d8e78487799adfea1"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/config.json",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/config.json",
+    "sha256": "0f7d5e6c264f904dccd1bc025642ec14fa228d3cb8cf956df9a676acfadaf310"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/hist.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/hist.npz",
+    "sha256": "6e98c82146f7936651ae11a46ff69831657acfce74e8ec611d82ab3504869b0c"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/metrics.json",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/metrics.json",
+    "sha256": "ae0e24aefd2ce40ad9e255c23eb044b21092213958345f25395f65a8cac3439a"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/params.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/params.npz",
+    "sha256": "107d810800b87e3ffda155ff2e6fd8fcc09e36e95b06c787603b40daf260f8f2"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/train.log",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/train.log",
+    "sha256": "7519927ed8fd7bc95128dc3a80aa188e9a25a50bf9212c9edab797e1fa08f0a7"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/ckpt.npz",
+    "sha256": "af9d9ed3da53b32036b6b0a617911f60de47ef455273bfebefbde3cbd0a2dbf1"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/config.json",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/config.json",
+    "sha256": "6b2d236611bbdd826f5e6c67f8c3312f01d424a398c2f64d865ecee11cc922f3"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/hist.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/hist.npz",
+    "sha256": "8c229518c5c525ec46a77778d4f7067c45982fffe1ed025666a9b33cdae0acaf"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/metrics.json",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/metrics.json",
+    "sha256": "dbcc57cfa49773f5ba0cc9fd86e3fbfe8baac8a0366e7fc929a7f476eac8081d"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/params.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/params.npz",
+    "sha256": "f87ce932a25a5bbc825a61057c85b0a8cb3973e115b6b73c797f905a2b342a3a"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/train.log",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/train.log",
+    "sha256": "c162e442e10a81f902bf7db3c1ff8093dddd78f32e3fd3d7f6c2f0aacaf3a01f"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/ckpt.npz",
+    "sha256": "4cc7fc4ad44a2ccb4873809e3e1b97d05759bae62ae74458ea3a2bf78474ea7d"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/config.json",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/config.json",
+    "sha256": "a48ff98fa86fc2b3b048b7573b8fd3c42775c26e03535dd481e52fce058e6c3b"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/hist.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/hist.npz",
+    "sha256": "221d4b5ad9e8ddeb24d2423d6e4eeb45c4bd221ab6bd449a3b871424344e3f41"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/metrics.json",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/metrics.json",
+    "sha256": "1cc5c8fccacd27130857546707b93411ed3d7a4e4f4949fcb76c48702164338a"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/params.npz",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/params.npz",
+    "sha256": "b77698b0691863f39213905430547ab6b6f0a33625b0b9741af51b94f30b7f2a"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/train.log",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/train.log",
+    "sha256": "38eb59d1f94972033f1bb53a193ded251164dbe81bbb5bcb72f6704f93546b25"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/ckpt.npz",
+    "sha256": "3daacb1c95096c955e02e91662af0fde8beed09315a286d7edd63d2d2ee7c231"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/config.json",
+    "sha256": "320195596ca9b4e14e0a46450ea2203787e3d56b280a9f6553824812583c3726"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/hist.npz",
+    "sha256": "b70c598d3c50b214fa70ffc3bbcc8b42e4e0183b04671d9179c3bc23a0720424"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/metrics.json",
+    "sha256": "741462a0937236e3449a39ce7fd4831736db1bb3e58b19d70db2c52a66f0962a"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/params.npz",
+    "sha256": "08253506c34837deb5d480a4d723dbbc0af9f4ef39bab8d146754034cb4a3391"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/train.log",
+    "sha256": "47c432ee69d7a9b98d936e2b9dd97df8abaf4ff5dcb5ebcc2bf254f7e4643dba"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/ckpt.npz",
+    "sha256": "f52d8c038955e69958f3f3d031eac26c1307553ec040b9ecb48b52b6e0d6ef65"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/config.json",
+    "sha256": "8590708ae89738b92e6d93d28b8189395afbfc8fc03e38977ae77fa7b712c5ef"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/hist.npz",
+    "sha256": "3e3b86a390786198ca99493ab8c8ca95198df8c44e7a4110a295731f2f809640"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/metrics.json",
+    "sha256": "bc688158191cb2293400a567645b9a22d08e166b56b4aff600f29e47fe45e9aa"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/params.npz",
+    "sha256": "414e79cfc5f85e96cad8ef098b7aae700a569d59f3dc350f8091cdfd98504f6b"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/train.log",
+    "sha256": "35d22cde5854cec672c43e9d46504172305b2c69ef605b7c842e88c4b5cd0a9c"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/ckpt.npz",
+    "sha256": "8773a1622c54f6e2289182c74fa378460a895b964a7dc6449c7c7ffe5e76388b"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/config.json",
+    "sha256": "1771dc4dfcb454fc2829bac32185afbac3c56dfd5ba7a5d6be46837737549973"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/hist.npz",
+    "sha256": "374a7588087d56f3603b33d27bd44637cd1dbd27eb1d200a204b0b5e2f8550ff"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/metrics.json",
+    "sha256": "d0c46b02104f7881e9ada14f24253f6f9ac43321ab2021900e3931489995b8b2"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/params.npz",
+    "sha256": "fe72b9fb2091f81ba92f8b4fc649ba3a2207e3e99ff6aca324f2f499fb9d07df"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/train.log",
+    "sha256": "237fad102f410a8e7b3f74477764ce20f1948fe1c32c367c2c58c8f3013b7661"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/ckpt.npz",
+    "sha256": "2a102106cf7c3dc7db480936b5189eff7c12fa7f8e802454a57de8148bdfd3e5"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/config.json",
+    "sha256": "0d1304e76244b353785398d4eebf18ef321ca349fa2fa1b10bfa54b0623a9b75"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/hist.npz",
+    "sha256": "db978b4fbf42e7e8745dbe477643397a0428a28330a6abc79f3c5bfe4f64af6a"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/metrics.json",
+    "sha256": "b782c3073a7cb034765d5335cb4c59efbe854b069bcd50ed02be6f22b93d11b3"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/params.npz",
+    "sha256": "2e67ff914482a8e8f601c181f1be3c4b3b0bb0dd7dc88e203103a94e87cfcced"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/train.log",
+    "sha256": "42743bf4789c28e7ece3a6085d1b1da899a586308f3324a4f0ac317ee370770f"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/ckpt.npz",
+    "sha256": "c578fc3958b525fc15dfb4c5bd895396f88412beb75eb10f0f6ddf3aca9ce7c6"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/config.json",
+    "sha256": "60f880d3a58e6261831a4cf04c9d25f601218a15aa9f96d290709d5394b282b0"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/hist.npz",
+    "sha256": "21dbd6f1035f7d803c9e4f530589c8107abf12528f675e4dfd82c05e902cc8c0"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/metrics.json",
+    "sha256": "e870ed1e85d887e58a1c905170be00ad827d5e29d29b22756532a1f29384955a"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/params.npz",
+    "sha256": "6760bf67372a5ceb44a2b17e3bbe6f392275b8c1a684220e680a664f986ae34d"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/train.log",
+    "sha256": "dd821252e0b89a66f0dad5dd93d43c9190b588153aa96e00861972285acfa7ad"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/ckpt.npz",
+    "sha256": "19eea8cce792dc63bc0713d7c84531723e1504ab0b681eb3a804c635dc85d54b"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/config.json",
+    "sha256": "f9af7d8add26c1fda0764dfaeaa813cbed110b1460ba982082abb80d5240cbfb"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/hist.npz",
+    "sha256": "e19766ef9d85d7007bd0d663dd7ef0c4057ceccd63b363097a4f44989f132381"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/metrics.json",
+    "sha256": "211974eb2c5aa2f36f6a154e0f6743187ff9178ded4797facd41567dbe223c76"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/params.npz",
+    "sha256": "1e604ab5d779d056d83b47bb0e9152e4e2d49e21c1354d7c32deb1de9519967f"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/train.log",
+    "sha256": "d35fa0ce86f06ceacec490a87f3085d6a5ef0b1f4fc8d34a9d2727bf036819f1"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/ckpt.npz",
+    "sha256": "b4ad0999da204bacc653001e293afcd7bb4be268beac4f18d073dbb5b79e3ea4"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/config.json",
+    "sha256": "e329341468f2703c529a28ad7c28dcb388d3628200a6ab8c1607213076b132e1"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/hist.npz",
+    "sha256": "58b79c6144524247850f8e14878a0d6872f35ff020a27c44fd49716949e130dd"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/metrics.json",
+    "sha256": "ea076c627c69c2c70af620f7ea4d8b8ff47479308f2e776b2eef9fca94455b49"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/params.npz",
+    "sha256": "72c94118dc6619c65f1218fe1065637d2db7cfa4e7c9dcfd003c238bb18862db"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/train.log",
+    "sha256": "2edd6da8fd61b3aed6c31f42ff9519f84f3d1faa7fb815b11e53b2b66ff960de"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/ckpt.npz",
+    "sha256": "788bc1a90674534adf7e77780e7703f014dba887a99830426b0c0ab0efcc01a0"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/config.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/config.json",
+    "sha256": "9b1d63e86c3d27f0029e1dfcf9c81fa6647fadd15b31ed8eec03ead67170c1fe"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/hist.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/hist.npz",
+    "sha256": "9fa0d662b1da96e7e3cabe66400b0afb997f4a2bdbe240be3db1010c59fc6a01"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/metrics.json",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/metrics.json",
+    "sha256": "399d2b3f4baae7bc1d756984e32ff65ba24536a5c9e09afb9410e79132dbccdd"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/params.npz",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/params.npz",
+    "sha256": "c7a508b17398069575ed807b3e10ef2f0c08d997b93eec35fb100d06528dfdd8"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/train.log",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/train.log",
+    "sha256": "bf194a5e280ba559406bd10da9e6b4d2391181c6dc2085937e3af3cdb39329b8"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/ckpt.npz",
+    "sha256": "0ebcab2d8bd7147f91fb796ffbc675595148b2773852d2854a0099175cc9efd7"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/config.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/config.json",
+    "sha256": "2de43f6b78c8dcd7586a424a67ee062f1f7b8a9bb917065969d51df6aa29be4a"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/hist.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/hist.npz",
+    "sha256": "668bb5919f116a67fbde49fdbee9f08cf4e3a0876c57329ea6d0e64fdd7ff9f9"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/metrics.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/metrics.json",
+    "sha256": "84a2813d014b79509e5e67e907d709df81ed41e47c28e09a3ad2026ae96b3cd6"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/params.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/params.npz",
+    "sha256": "0a75a80dc5c91392244fe9b4c4e13d80dcd312b64455f979e74ac9d012ba65c2"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/train.log",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/train.log",
+    "sha256": "04696f7122fd9dbd89b8ecdf41c029f35cae1a1af708ef6283b6f222e5e46d93"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/ckpt.npz",
+    "sha256": "d319a692cfc9e283d5aca442c17b55cc476bd87062f03f30d634914045df389b"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/config.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/config.json",
+    "sha256": "5ebcd22e05b64e3ca24513a1cb20aa0fc0a59a1a904760acf42eb0cc6d3470f4"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/hist.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/hist.npz",
+    "sha256": "0e0df1786c0cf66e8e43b2c829788957371bc0afb31561672bf44f0edcf249df"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/metrics.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/metrics.json",
+    "sha256": "e653e37287f6b0ee424c34b9c62302f49db21191d05d629bfbb708647c24d563"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/params.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/params.npz",
+    "sha256": "28fa29090548cea873637a1224ba2f1d859007fdf33eece0509a287b1dae7935"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/train.log",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/train.log",
+    "sha256": "47c0ca259f5d4abb30bc8082a8907230272a25962ce2eb90cff5e112399f52aa"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/ckpt.npz",
+    "sha256": "c97e09f85c4b02d6f3bbbf31594384979498053de7bd1023f25a248479ab92c2"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/config.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/config.json",
+    "sha256": "d1b39a21c8450bd7849959d206566db6827c706854d54a20b363256d3952765f"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/hist.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/hist.npz",
+    "sha256": "6c1176026cf79f0c479b88639f864d4fbd61220fd00afbb4992412f7dba724ec"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/metrics.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/metrics.json",
+    "sha256": "8087e84837286f59947979dcdba4b48f41ff79fc9057da97e6875905366b111e"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/params.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/params.npz",
+    "sha256": "08b7aea3c662b970fa42d7119726b8196f368e7be9a7229d30fbab602982e048"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/train.log",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/train.log",
+    "sha256": "4d3e48ca266cef26d1d66c030ac5a111cc6b74d01342bfd5abb07ddf269fa4b2"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/ckpt.npz",
+    "sha256": "d113ca6061438117b5e8cfcf110196cb1a8e9b7291917eadff9e494705a34b2d"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/config.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/config.json",
+    "sha256": "33c76228e5fe9b4e25f2dd2f49520775514b53d54b01cb74dd88a5dcdb0c8ae3"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/hist.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/hist.npz",
+    "sha256": "9e8609c48655186fafb4dd82c10ff2b0c51050a79f236bc1a928c86a9bbe4262"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/metrics.json",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/metrics.json",
+    "sha256": "f455b3a625c0a8aefd537e01d7827b301d8d162de12624898c0108b4f83e0374"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/params.npz",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/params.npz",
+    "sha256": "ba867a184d4327dbd57c63a05d2e712ad4d79ede7ff04e36b0aff02715697c8c"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/train.log",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/train.log",
+    "sha256": "8f71c7b030a90f30de5865114fa4eb6f68ecfdf2102930ae9d1b717d56e6b18b"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/ckpt.npz",
+    "sha256": "152b3df469c62dc5c36b1944cdca8cf82fb742b805306cd47f177b76d680c144"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/config.json",
+    "sha256": "c0d922e17bad293f22a8b812aaad8caff70fa42ce28df3bdfd0d8c70851ebbfd"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/hist.npz",
+    "sha256": "db1c0ad298b567a9c4e45658cd8d129c8b713fa097c51f54f841c01b76071684"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/metrics.json",
+    "sha256": "db470e7d414fe36535f4c7fc6fdd897c7dd33e8a208f2a6068f9730e9c57379a"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/metrics_snap50000.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/metrics_snap50000.json",
+    "sha256": "3e7c99735b9c6b41d14005c279f58906f0b495d644ae9178dce43e5299ecbbd9"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/params.npz",
+    "sha256": "7562113acd1249cd236c82f56ce1b6c98b7e7d903e55d22e1f8ea8729013b464"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/snap_100000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/snap_100000.npz",
+    "sha256": "0fb9bef473d5386a7d00773b44d78a24fb46a3d77542be0bedfb952f31ddf05a"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/snap_125000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/snap_125000.npz",
+    "sha256": "086291eacb018a97311fc09d9b8497618c12bf202e4515f37b147d088c74705b"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/snap_25000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/snap_25000.npz",
+    "sha256": "b5c98711378320cbc8e330936f880827391760642ebded2d91af7d4d4be22723"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/snap_50000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/snap_50000.npz",
+    "sha256": "8824ca7a747e013bb1c6eb0102c0f1c56baec54de9b94726db72d4160e27ee6d"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/snap_75000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/snap_75000.npz",
+    "sha256": "309df91d4ccd04ddb05bd8ed6e407afc9c371fc61f750eae7c1accccc70127e2"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/train.log",
+    "sha256": "ed81005a2bd4a808a8ec3352e6c1647e8c7cee005d2d05daa0c1307baf1a49c0"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/ckpt.npz",
+    "sha256": "e9861ec7e21854105daec085443f9a92c35ed8c0637b56bc9bf693c9164fccfd"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/config.json",
+    "sha256": "82b53fcfabc52819c19c15e6867f4ad0ab9087acb9273a563f29f54c955bc542"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/hist.npz",
+    "sha256": "1e88ade82aaf7207a2f91367d23c4ace69dacd5ac86bd357dd2058da2e2f1656"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/metrics.json",
+    "sha256": "e7d55e70e88298bc3c9e062ba62b32c39de15f357830d60bb0d8002e0bf25da8"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/params.npz",
+    "sha256": "e10a415fee8c2d30a167d65db4bde1f0500af6cb358c8fa763db39e7eccf93be"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/train.log",
+    "sha256": "eb1b7dcc0d6e3743bc8188f06c24638cc1437fb07412baa75d8dcd23eb9b9e65"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/ckpt.npz",
+    "sha256": "ed2f6d103041897dfbc374e631d45f58a206424939fd6544215b288d527c8230"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/config.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/config.json",
+    "sha256": "cca253101a7a1b951d7b063fc5192b0e9a476edde84221fa5f811d9b6ab82b5a"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/hist.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/hist.npz",
+    "sha256": "156b4c27aa4b7a87e012f1bd87a1a346db51fca7b83cf14870a1e222a2c81ea6"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/metrics.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/metrics.json",
+    "sha256": "0515961de88a23ff44efee5ce35bd7588e91a6262e54d08021764a8826b5a014"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/params.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/params.npz",
+    "sha256": "816ba9a065427f79aca2ce5098c6f2a67d6fd125c758314fbecdaf4f5e4ab4f8"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/train.log",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/train.log",
+    "sha256": "8fe80f67de784607fdf060b13e81670c14705ed8e9d142279da80bcb4cf1af4b"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/ckpt.npz",
+    "sha256": "a36544f18b2118c61763251691856b49614dfdfe96f7228bdbcfefcf947e7129"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/config.json",
+    "sha256": "c0b77913baa809cd277db943cdc93757c80754cce999408164c6228d1cf6effd"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/hist.npz",
+    "sha256": "ee3b38d1b232417b03a6d12a9b444506c522abfe3d2a0fa7268701026f1825a8"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/metrics.json",
+    "sha256": "494fed19a09d729ec27310d08d8eb99d0d3890bf4b62f1aef89e86690d447e96"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/metrics_snap50000.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/metrics_snap50000.json",
+    "sha256": "9918b49447b28a6f23097be3183ab7700d238273cf4a421689a6479bcac6e2df"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/params.npz",
+    "sha256": "fff574abde25bbb911294afa010b578a88ce1dbfa11760a38901302a600d6360"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/snap_100000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/snap_100000.npz",
+    "sha256": "a58ccb4f54e62d6b300320291b6b43c900ddb37f8d681c756e55771da83b32b9"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/snap_125000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/snap_125000.npz",
+    "sha256": "109522efd3905a9ec9985df730b8561307196653b65a2a191843ba9b24958fb3"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/snap_25000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/snap_25000.npz",
+    "sha256": "09be714e85d7422ecc8897669e87bcd7ae73479e1762d5ce6ff7641816479fc6"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/snap_50000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/snap_50000.npz",
+    "sha256": "1a9df194985d648c7a9d514b1f497da7c91484cfe1bd45d66a1f1242b9e3083e"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/snap_75000.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/snap_75000.npz",
+    "sha256": "b158190e6d3047c0346e119da126cc978fed47224c78bf1c0c91fdb8556f9e38"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/train.log",
+    "sha256": "f29bab51cca6ac9caa6b29478bbc5a81cc383ad1ad8b2f273a49d1b7bbc4b61b"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/ckpt.npz",
+    "sha256": "55701bb4b31ed3d6cb1cf10bd3de3e476418b24fb5db66bac2ea6b0ed62dcb4d"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/config.json",
+    "sha256": "64c1f5c6e359618a683162cd090ad4be84e2da4a1d57dfbc546b9b8306fad5db"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/hist.npz",
+    "sha256": "48d40230c7532453c4960732436f66da6dfcfa4e5db9fe2fd372e433a35af51b"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/metrics.json",
+    "sha256": "f121108af5e309f95f7da01b30a836ed167c4258e063f9738bb232088b60e54f"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/params.npz",
+    "sha256": "8465b47590a7c736de02063e0c56c4b96355beba142bda38694f0f3ddf343b64"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/train.log",
+    "sha256": "32bf47f96f33b9447f1e410c67107065ba48a981d312f9f71517a4a361fb0ae4"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/oned_l0/ckpt.npz",
+    "sha256": "d3f84d057f5c12f38689c7aa02d3e9cd62d13e667a6e965a183967709f35156d"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0/config.json",
+    "destination": "code/numpy_impl/results/runs/oned_l0/config.json",
+    "sha256": "2081764ccb38004f0caa7ce6fad2364a6b3f7aad5d9d26187bfe22f1b949bd82"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/oned_l0/hist.npz",
+    "sha256": "c47b39d973ab77b6b9b21b76caddddb7198f88c5789b8edbc438c78cc83a27b6"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/oned_l0/metrics.json",
+    "sha256": "37891a780aae6e5cc0759438e24feae66ca1f33830b172ad1506982767ca0455"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0/params.npz",
+    "destination": "code/numpy_impl/results/runs/oned_l0/params.npz",
+    "sha256": "114bfceff3d4e6ff8e3e339fc494e124b3cb472d2d34eea969f04ee94732928b"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0/train.log",
+    "destination": "code/numpy_impl/results/runs/oned_l0/train.log",
+    "sha256": "06f6d2b4f4fd9e0e27c2e7f808f68eaa06b1e3c13edbe5146382c3e536a8bccf"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0_uniform/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/oned_l0_uniform/ckpt.npz",
+    "sha256": "bba6e08bf21a2583275693f73f2b61c65c17e7e50638986b22c76c0e782571a0"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0_uniform/config.json",
+    "destination": "code/numpy_impl/results/runs/oned_l0_uniform/config.json",
+    "sha256": "32e9f8fde73d424e03b0cc740d62d8f25877e4c62227e12df45a5c1d9af801fc"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0_uniform/hist.npz",
+    "destination": "code/numpy_impl/results/runs/oned_l0_uniform/hist.npz",
+    "sha256": "ae71d275855afce45710ccc6cfd1e2bd2b8cd069c6e808c3cf94534d4af20f40"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0_uniform/metrics.json",
+    "destination": "code/numpy_impl/results/runs/oned_l0_uniform/metrics.json",
+    "sha256": "3f34e994004d2efe4cf69a5b9f31906ffe20c4ddbda4aae92913c55e66f84277"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0_uniform/params.npz",
+    "destination": "code/numpy_impl/results/runs/oned_l0_uniform/params.npz",
+    "sha256": "b2f41abe229477cbd572ad4d4872fb54e1897800cdde5e0ad84e075ca43e7ecb"
+  },
+  {
+    "source": "numpy_impl/results/runs/oned_l0_uniform/train.log",
+    "destination": "code/numpy_impl/results/runs/oned_l0_uniform/train.log",
+    "sha256": "1c4ac5a59195addc828222526b9b7d57348eb179f8f70bdec7a2655f849153d2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_D20/ckpt.npz",
+    "sha256": "cbfe124dce0ecf718747fbba6a4e5a5da0a09c02c66fe4117f7c41d0833773e3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_D20/config.json",
+    "sha256": "5ed7f0db8e8b060fee7ca7a1915e5ac12c542f7da766d2c4e0fdd575c3f11d37"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_D20/hist.npz",
+    "sha256": "145ff298b2bf241e15145439a7e015acde4de797330da2f03f5ae1aa7874cd79"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_D20/metrics.json",
+    "sha256": "1f80a6a4763cf13151f2b01c59f2e1f5ff1442be96ec9700026f7f0b57ec39f9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_D20/params.npz",
+    "sha256": "8300a8bd7ffd106a4cbdb4825327f0e64f2bed76b0965b8d7ea895c3a4456a2a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_D20/train.log",
+    "sha256": "52d15526221c43c7983860ff57bd580d613c54294f79487cbfdb3f183a7bcaee"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/ckpt.npz",
+    "sha256": "83309fa371de30da32f13e1d7f2b10e5406e96f67fea991169025534863f4c05"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/config.json",
+    "sha256": "16cf13b85ba3b8d57eee34d00af9017af33bf26cb980b9c5d1796645eea3c576"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/hist.npz",
+    "sha256": "ac54220e9f44aeac009a5e70d68fc1c3cc27e3253f82eb15162edfaaefea9ce8"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/metrics.json",
+    "sha256": "2cccc6422d178625c15a9ea5d808b5338a5f5bef6e3a5ba536c930ff592dc90f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/params.npz",
+    "sha256": "a2fc26718f5da5d109b4f2c7a3fe4f3d79cde808dfdeca6e255584771c8273c7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/train.log",
+    "sha256": "87bb950446636e5a2ecf04a4d62f9558a87f56959401235b5c4aed9ef2b413ec"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/ckpt.npz",
+    "sha256": "4c800276efa0592345c87a09d998005d106ea52aec94fd897251e2d280bffda6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/config.json",
+    "sha256": "400c33d2760a2659323045ef370bd0d449b5cbb88dadb36f6f300f68fe7c5b73"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/hist.npz",
+    "sha256": "527acb05e5497302c14c45bcce69daba7e73560eaaff954bfa6cd9910415b0d7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/metrics.json",
+    "sha256": "c7780e6437dba58845820510d85fac0d8a6149ee09005b7dd2e23b489d9833ff"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/params.npz",
+    "sha256": "3e5430d78f97bb548390d3f19cfa91961cf917b9b8f740f2c82d9dbc0664c88d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/train.log",
+    "sha256": "fa3630558a428ac095d19d70e8de1592f8ed05f32ad855d2b0086e61cd80627d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/ckpt.npz",
+    "sha256": "4b42eec56e84356e04aa5d46bb2098cc8f18fe6d248b574d29d79a1e1716080b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/config.json",
+    "sha256": "153e8dc36c32f7e822514e4ce5ffcafed0408dd8f57db34f2a9e03660d95e7f4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/hist.npz",
+    "sha256": "4f6abf4f8362246b4760112212334d15a1a64914501327cc989fe8c302780222"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/metrics.json",
+    "sha256": "9a2ec8f6b6a1e76cc3961ba7bf8abdf121725019adf7f6737e91a116eec14b02"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/params.npz",
+    "sha256": "fdb4ed039a956a867d3edd0876bbc57817877d19d229be284d9d0e1442fc57f3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/train.log",
+    "sha256": "a897d48e0cb6fe906f1acad016813570f6e8f0b3ec8996a37dbbf14a15dff437"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/ckpt.npz",
+    "sha256": "000aace4d8eb70e8a2bd964d269ef3eab8399d6979da816ac1a6863fd9d374c0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/config.json",
+    "sha256": "f7b390c5df97d917c42db68e52d87eba9ab0fc108325fa90672615a0294a51b6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/hist.npz",
+    "sha256": "81d2c9be5fcdb08b8f23da6fe69700d8fb24ca47aa076cd4c34282905d0d0c58"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/metrics.json",
+    "sha256": "6511c9bfd952c725d7124fb1aac43d33698d73a2a02ef8e494ee374bb0011aaa"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/params.npz",
+    "sha256": "10c7a5ab1c50309081534cd65f05c9711485aa67442546964ff5fc022c3c27c5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/train.log",
+    "sha256": "cb62041ed9d5f4a10ffe1d665ad6216317a4303eaae8063b41271981ef3f9985"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/ckpt.npz",
+    "sha256": "752fd2485e0ecf50810edd4d9270a60917e34639f5b62ebc6b066e4f6658590c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/config.json",
+    "sha256": "b47eb773afc1d2f4aa722206afbc063e7e088fbe75150008200bb2b40da05d8b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/hist.npz",
+    "sha256": "527fb6009a69effe76e73cc672a6b4ac8fcce4db1f65c934e870ac6b3227b9b1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/metrics.json",
+    "sha256": "cac4516a36a8397b42de2035c328138d59b89119bbb2ad4fbaa1ea9598421643"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/params.npz",
+    "sha256": "c2bdfadd6d23fc854bc790fee068a487bb2fa3ae569bb78aa19a16d34728e09d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/train.log",
+    "sha256": "64deea1629f4fbec97616da6eb7a16e40414a08f2c21616d9c9c78d96e12f740"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/ckpt.npz",
+    "sha256": "80094903514467d39f5889cdd7f250e0f7e64b5c5c613ffa194d8557b6f1189a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/config.json",
+    "sha256": "d3e0c7cd087a273ff9f9f351a3696ab09312e15880bdb14a5d5a69fa200de6b1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/hist.npz",
+    "sha256": "cd5a0e69da187c1adfdc72ec8db0342289da8afa9ee4d1d045013669385735f7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/metrics.json",
+    "sha256": "908c8eadc5ab9b3ae0c713d80a77003db8b93f8edb9dcc1451024f1021db9647"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/params.npz",
+    "sha256": "107a9f4f0d9b6d322355542da0055b8e85b6ceb21cae86e178ec8b862b457f85"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/train.log",
+    "sha256": "efaba0f9e8c1a427a3673d302cb2b3bc1e1d454fd42d2d8be0a27ac591b6719f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/ckpt.npz",
+    "sha256": "da837219728b78d191c8018fc7091f626d555c20f6482177a0a9685d5926f0f1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/config.json",
+    "sha256": "285252a468426c34927e982c586a91dc705f43d35a793bf114affa132e2042f5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/hist.npz",
+    "sha256": "d8aec380d6baaddd4d426b0b79e6e5b6d04002d6922b8d6f868f1074bd7eca56"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/metrics.json",
+    "sha256": "06aedcddd7daf2fa6acaaee222cb2ef74d5a58dcf71a08bc39bf19bdb28921bc"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/params.npz",
+    "sha256": "d1cfaa05a4c10d94062b7d3f3138da5db46efd5ed88b06accda940bf80898be0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/train.log",
+    "sha256": "f5f349f2847a80531fe40e0780339fdb54e4652a2af5a59f3d9cb56c15f42c7c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/ckpt.npz",
+    "sha256": "c925ebc856973ef7899463adb1f5a9571ea3bc57a152c0f24acbe27eb8ce978f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/config.json",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/config.json",
+    "sha256": "707045fc61314dcbacc50a938b6610af9e8bbca6fb34de205c80bbef66b820f4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/hist.npz",
+    "sha256": "783fd77af05f5b260afc1175f57d2dd1fe281830c784d824aa2565a44093ed53"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/metrics.json",
+    "sha256": "8890b88bc27d8253f69c2fa9ecba5cef4a6278a78356e6dd95171f8b39a597a2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/params.npz",
+    "sha256": "b2d1ae0c848640661905618e00d2a504089c4a00b53f8f7128253aab4e7fba08"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/train.log",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/train.log",
+    "sha256": "04b7c6be8e39db149188c61abc752122a54e3225cd2f9d302a5d9ab24aec7526"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/ckpt.npz",
+    "sha256": "ee62b176c18cd0b7dd8838dd7f012d39783c06df05dcf1522a549a3a88710da0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/config.json",
+    "sha256": "14e12f8fcdc8f98270c79ed90764b6d4ce0053f2f12abefcf9fa6a18062257ce"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/hist.npz",
+    "sha256": "a4eaa70d78d3cbdcf968a6bb5e486daee7946b3b5f1fba35cdcd1d8d310e4393"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/metrics.json",
+    "sha256": "26de43dfb6ee58786d07b26d4f5153bca891278092b2d8d975057b0f88498de7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/params.npz",
+    "sha256": "36314f7d51b731f3e00261b11e4607fc93a66f8f65a8671f7a6a4aa0a134c439"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/train.log",
+    "sha256": "92fa878c84ed901fe84ac736699d2ad823e2f7a5adbb9696da798093c93b617d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/ckpt.npz",
+    "sha256": "98e4206d2ee8b7564060f71b0da53dac339d3877b995582de98fc9a51f117c4b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/config.json",
+    "sha256": "9930cbced81dcf63333f2c38614c6faed3bbc154f6220e9ceff5a06e5e13e4f3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/hist.npz",
+    "sha256": "9f7a689b6fea8c1101a5934fac78ee80df92263b70faeb10dd90563d7359d604"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/metrics.json",
+    "sha256": "98d1a44b3ae84e5a3583591e483b4b43ed9d6180d2e9566f1685d0a7d6d5231b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/params.npz",
+    "sha256": "73ae95a6dfe4828fa698b31b59d5a3616d6b3b5cad921fba8a0d941a7b41e6fd"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/train.log",
+    "sha256": "800c1bef40db58abf7fb8057dd844fd2d1a52d606adc4e5c73151b245e14cf39"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/ckpt.npz",
+    "sha256": "0644212d0dd97ad6566047484ea4fb54e65e2117398417a25e4de417f136dd80"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/config.json",
+    "sha256": "8da15b8fa33c62c389cf07df1403a0d4fd5bfc747f80dddf13a0b37b0034d38b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/hist.npz",
+    "sha256": "83580f0a487dd1526a22066523471ae5421ff8dc3101c9bf6d14eff4024e7402"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/metrics.json",
+    "sha256": "8f9a273476c7b5583622276b894094bf25ea8b162154329db1672bb23dfff2d5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/params.npz",
+    "sha256": "ae53ebfb406b6570b625edfd18135b448dba359b6cb20c760b0614b32ec6876a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/train.log",
+    "sha256": "5617a979f4dd1c85083e62f9093dd54f71dfcc519cce669c464ea59103f516d4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/ckpt.npz",
+    "sha256": "19c471393cb5314e7b69b1c133c27ed6d22ef67e257e9d8dab791ca0799fc809"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/config.json",
+    "sha256": "3daa0d3868c35ff5c27da35bd17e9e20e43fe231631e437e8b5a999a151545db"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/hist.npz",
+    "sha256": "af02c4ee00760bc4a0e41b895ac7397916f7f2f69a3c7dfa3622c0d36c1eb846"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/metrics.json",
+    "sha256": "bcf572c55ba6274c9dd5c9cd8e9afb022c6d804adf404f61229b75aab9e51ee8"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/params.npz",
+    "sha256": "40d86b0e078fd3e17eb7f9a990dc5bafafd1acde6d2284a2c47cff56b5d3e287"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/train.log",
+    "sha256": "224a12291828823e59af06d14d8e1f741c35054aa5dad2823204301751c7c1d9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/ckpt.npz",
+    "sha256": "5c3caedb53052f48f6aa91f607732dceaff9efea7df5855639844f360098740d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/config.json",
+    "sha256": "d1e79dc7d6b424819b890afaa45e066b3f64868193086cef292ed9284c64e0bb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/hist.npz",
+    "sha256": "84eb2280812808b44c4e96d873ab94dee09123f8c887939298427074de953905"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/metrics.json",
+    "sha256": "307c4abd8a28cb600e0f528ad2ebae55f1183a1aaafb5fb02b94d7f36232da72"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/params.npz",
+    "sha256": "c1b8597b1d1c5e2a64cc7e02182dc819143d9dff2f8070c9d893591b06284e5b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/train.log",
+    "sha256": "a3f239ab39b035c3a15b1cde6357c72fe030bf264ba241d59a76405e14ecc3a3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/ckpt.npz",
+    "sha256": "d209b7422ef3620d259f9cbd8b84c67ccca5b5f1c4a912dad11178a75fd91646"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/config.json",
+    "sha256": "1c5b996ff12ce8c1db02f74599286dc16f91082b018edddca813ca457766647e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/hist.npz",
+    "sha256": "6be68e9a08bcbc43cbdfc730e186c4e53a3a755d082843611518efffd0d67005"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/metrics.json",
+    "sha256": "40c000c7ff37b6ca03a493365d2a66f641e2a5e07c9529dd65a2e4034b4aa55d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/params.npz",
+    "sha256": "6a76b0245b33dc7796818d84408a578c25753914fecbc0229bf5501bf1d13f58"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/train.log",
+    "sha256": "287f52252bf88bb81db68646974398969d2e671c43ff0508e5a91c857f5cb08f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/ckpt.npz",
+    "sha256": "035652dd794d403bc378c840e26701ae4453999aea9f50e804ca979265076354"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/config.json",
+    "sha256": "6278c3537309f0a78d2db1a83b363367c24d0a208fc68ca05f21e219feaa6ff4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/hist.npz",
+    "sha256": "6e3b5f2687e4b3edd53e8004077983c22603cbecde8d7a14d8fd186ac4672d3b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/metrics.json",
+    "sha256": "47b98bfc77f78c728d44b55404ab1ed3f2a529ced9014ea093827093d5e6ad37"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/params.npz",
+    "sha256": "7b38693730a0aef50b943198c3f638c0dd3987a88e138a22521dea81c76b9cc7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/train.log",
+    "sha256": "a47a5081f4319b35ae84e0f38277642fba29fb787e78babec9184cea4010641e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/ckpt.npz",
+    "sha256": "c8049da1b8fd350cd3c15c6e06afadc28487a327f8c8872a972ff94923b81ba1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/config.json",
+    "sha256": "c7f48bb9b8b38f0ac794bf40ee738638ce1b13dd19ac0526cbf0c519b9ea7882"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/hist.npz",
+    "sha256": "93a0f66cab44a26120fdb93d1cc97b2fb787575dab1a1d7a4e156a3eccc7b225"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/metrics.json",
+    "sha256": "08acbd4389cda53f1bac0df78a29f06e567c856c3e8f143fed9dc05a1deedcaf"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/params.npz",
+    "sha256": "b74cfe78556cf45039d9c4c2e798741d7e83374d3f2c2a04636b58694235027b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/train.log",
+    "sha256": "55dc31e7b21e5de950f6b5ec7f73f54102367087b950f525e585b1092a06fab1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/ckpt.npz",
+    "sha256": "266c0d1f72f2bf9b7cb9684ae4e48d1c3bd2be4a06c498334681d912b0aa7ee5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/config.json",
+    "sha256": "1b2fad4ddafb54ae0efb9941eaf1f50190b1427bd1977001d84dfd8e3c4cb126"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/hist.npz",
+    "sha256": "45dc248d7d59a77a554cc80e42ecbe87ad0227305a02a2187a143c95e9c5571d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/metrics.json",
+    "sha256": "0a4c5dbe261563ad08cd9d1f1f62322a68a0483ae04c591d8e7002b2f7f88beb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/params.npz",
+    "sha256": "a17904003cb3ec8714a58677159f162d1a2370320705855f9b300c6c846e9d01"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/train.log",
+    "sha256": "1331b49ea180865e51ccbf02b2ae56fae817e795ce4f39d8424d41c68b765de5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/ckpt.npz",
+    "sha256": "35f0ffd3a6adb5553cfa4cb6d4639af458dcf3f62880a24b90f889fa449e98d1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/config.json",
+    "sha256": "e034c6d4357cc05d89f008a03883e63d013ecc2d75c3f1d8928b95111602fb9d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/hist.npz",
+    "sha256": "17584e4437f217862d24b176de81c9d8b028b94b0e4e251c10d84b83d517bcbb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/metrics.json",
+    "sha256": "efc18cd73bba431eef8978f11ed8955d56f7ac2acc646a01f7ea904e922464c8"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/params.npz",
+    "sha256": "cbe2757047734059c251d5f84c0e8a9a23ebbbc2c24d9e58e80676a334e5378c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/train.log",
+    "sha256": "f522c27bca2d56324c4c096a7719454433849cb334ef3dd21c81e585a755e080"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/ckpt.npz",
+    "sha256": "0b1618de87941c360a75a9bde67e3067a14df3812c99410d2968de2b31ff8a73"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/config.json",
+    "sha256": "2b0188a7c261cbac46c6b2bef7d0211669cd63b8af10d889ded859fedab736d0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/hist.npz",
+    "sha256": "e943dd39ba3dbe7cefc033fa8452763cf4f5456fe531c2c44cf79fc9ded09e5d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/metrics.json",
+    "sha256": "ce0375eb6bf91fc2e411a812e535a94cd9269da0614f477063b556b442d712e5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/params.npz",
+    "sha256": "973749c7e19f01273b3df8fdda5f5bde081598783271c9cdd3fcabc150422542"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/train.log",
+    "sha256": "7ee2f82572cbd65b06776211c01d03f876aa4b1034ee825889fec140d6ab82d4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/ckpt.npz",
+    "sha256": "6b77ccb9fffd04a5bea5326a182d0560ad47f4a4f144842f966df0f02ff40aef"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/config.json",
+    "sha256": "67b9a1d353d500c1230aa481acf2eb538adea105b6fde942100fc07405670368"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/hist.npz",
+    "sha256": "d9876d4727b2ab7cf6a2e6227dcc0f06054dab425e9319c7c3921a8d98f70cb3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/metrics.json",
+    "sha256": "6fd95f3b024b80b036bd2e84a08e3fd8f315ea6467119d2a361ea780e0f692bf"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/params.npz",
+    "sha256": "5431fc960c360fee7b1e6cad0f0bbaeb001584c6ab38e72ce206f035335a88a1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/train.log",
+    "sha256": "937f8ffe48fcd132d0ab88dce26a891fc1a56d3a85b29a2c3728c67b02de8882"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/ckpt.npz",
+    "sha256": "79e947a08cf7e915ba14805be61250b8f6f46675f44e7134df3ad018add8944d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/config.json",
+    "sha256": "6a4e72cd093e09f34a84d02f24d4bc0336f6b7b6d1f6828a09837d92b455e0fc"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/hist.npz",
+    "sha256": "1799c93a84e2e2145b2c26cec91d80ff82bec7405d0af9b2838a216751dbd932"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/metrics.json",
+    "sha256": "9eee378830790622caaee2b2f67e804c908e6fd91f44eada277e19d29e3cdaf2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/params.npz",
+    "sha256": "349447e81deca058e728ec36f6eae9b10a28a5f96a88fb5de52f74f71c94a3e2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/train.log",
+    "sha256": "c4a42ad312c27a9fa452b1e01f848d36c2139935861c6c65274bcb32520907fa"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/ckpt.npz",
+    "sha256": "005ec57bfec56af4a0bd3df61fff7898d8dcad0b09af3f775c86c6b2795d403b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/config.json",
+    "sha256": "11b6ebd8a51084e99c84e97a9a824b0a08de88ebad08304cb5878f9d05d3d364"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/hist.npz",
+    "sha256": "f6c0470856a5c0085ed97549b6d3ed5fd3ed29669e1ea93a93d8461156c3bbdd"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/metrics.json",
+    "sha256": "f055b3e534d429d5a9898dbd30e8632858d0219af3edc94f4f8da597d6863fd5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/params.npz",
+    "sha256": "7e57e9c7af7f9301beaea67dbdc662320e5418a559881061b1ff6662786d4497"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/train.log",
+    "sha256": "d1dd23d1cf05a019052eb5510825979aaf847dd2d31a2d580aa2aef99dbeb018"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/ckpt.npz",
+    "sha256": "672198346e9e89336616448a487363a07b135f24eff3c9076cb66c82821ac58d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/config.json",
+    "sha256": "66a7071b7c57084c93d6c8bf4b434b1553bc799e3e5192ea53522dbeb07045c0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/hist.npz",
+    "sha256": "bf46ec70144dd45d7c4085b719f3e127e8f0b85de270c07d3aeaaa4ec5f9224b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/metrics.json",
+    "sha256": "0822a1619870e4d48b6da99f6707bda59741e4d9da437632ad63f2ed9ac78c3a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/params.npz",
+    "sha256": "1819edfd8a2619770dfda31494df09d8311c4d4b0db648b4415c87f7d5021fec"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/train.log",
+    "sha256": "7e3405744d0afaae7d32d9f9fd57ec963307c0bef7316cab44616f2225206ae3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/ckpt.npz",
+    "sha256": "77ca5ea3889f0a192e98eafdfe53ed29eadc591e0a68480d750a4632e860f904"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/config.json",
+    "sha256": "35b543a595c0b43cd9ea5e1a4b305fb99077ab4aef1b317896324b4a12883a5c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/hist.npz",
+    "sha256": "43849e4b6623ac92b706377098bfff706b0bc6b3695b06b93fcb20def6050319"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/metrics.json",
+    "sha256": "5c8a97923d26905e12c4122fbd78d2c219f78ab8c67199cb17265d6ec976e0f2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/params.npz",
+    "sha256": "c5d69e9e09a94616a778eddfc22f89e2c9494e29b66567debd6f4e6e912a138d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/train.log",
+    "sha256": "dd986709905ea7280865d9bdc4027531ee43df6d215921ad7df3bbbe4cc42811"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/ckpt.npz",
+    "sha256": "82f13ac0d3b3797107c2649621ff3d2d3b6d8da82336834de19ff1d8870c8f06"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/config.json",
+    "sha256": "7fc2c5bc077b96e715398d85124643392b620fcbf8dc2ad3c677389521753fbd"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/hist.npz",
+    "sha256": "448a22e94c7bcda48601bfcb0a2e1890146ed4cdb00ae9824805ce93a225ff00"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/metrics.json",
+    "sha256": "7b024937e9e2bf53d966c65894d6f86dbf4b4484b88fa9475832b519ced90749"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/params.npz",
+    "sha256": "d905d60f016bf1313b482ebcf93781894ea7f323b72cc1ce0ae2dffbf994eb56"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/train.log",
+    "sha256": "2955b621123bdf8cc867f1498cf82fa2c68f14ff8ea1b58eda9308f2c0564802"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/ckpt.npz",
+    "sha256": "8de53b943f0ebed20d888182a35d7b0f2f233cb48348dcaab772d51bb0f998bb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/config.json",
+    "sha256": "584d821de71b72c706203ce538c556ed9ce0957f01fe4ae361003d5d1956e6f8"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/hist.npz",
+    "sha256": "4ab526488d9614b68e031b7bf82d9167ed0e5a7670bc502598ce22d20c6aa5c7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/metrics.json",
+    "sha256": "7be220826e9123521e5aa885126383afc01c8866459a6cd452a5f5415a970425"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/params.npz",
+    "sha256": "13ae4240e4923418fd1a9f250551dd09d8c9e0f9dcf63098dd987c410f5aa9ac"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/train.log",
+    "sha256": "c1362bf8ce17ae766720eeb22c3d3d9315803483bc29412e577ead3e8ca256bb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/ckpt.npz",
+    "sha256": "a532624df4a534336fef7031850bb8243725f0fd344ac1c3974e52f5d3757a0d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/config.json",
+    "sha256": "5c4d0bc989de48d3075082ee589e0614fa540b4e66f6b120dd6a5d34707c7d19"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/hist.npz",
+    "sha256": "feae90e576fb05fdb47db6ce8ef770c612ab47a82b2f6c2b940b06b0bcc5b8d9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/metrics.json",
+    "sha256": "1155f1b29ac59dbcaa8671a1fd9eeb253fa75826c4656ed02e59aa1b2114f254"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/params.npz",
+    "sha256": "dfd11de4aec599bcf18a54553fe306200f2a5364ad3fc222b561b60a5b5f2704"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/train.log",
+    "sha256": "e88b057e68ef925a055feb72c3891d14444e5d1ae58a9e66876c0388f1643e87"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/ckpt.npz",
+    "sha256": "9eb1386a5f3cdd958ba70917fa76551a27ca4efb993b37054dff5fe389e388a4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/config.json",
+    "sha256": "869c679145e98a38ac03037b0ab1083a799dbadfae7815ac0518d8f777f8e0d5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/hist.npz",
+    "sha256": "65c1f85e6395839f647b91ccba30f6ce4b055db1ed0c4d30a7fbfc2524ed3545"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/metrics.json",
+    "sha256": "d0e9828bee576e6d87d7f89d4b293204c78ca5844023df42bcfc2e4f01f18b74"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/params.npz",
+    "sha256": "906c448109288d8d38e168e83140fadb27686d6244e55cc3dfa290b8b4b5cc50"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/train.log",
+    "sha256": "a306219356aead056a5cfe3400f31bd9c930d46a2de55a519836245fa05156c2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/ckpt.npz",
+    "sha256": "883e9583f19a1c115aa9a72e8090540ce6542fc8e694cc61fb31acecd57f2c55"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/config.json",
+    "sha256": "d275a4140b91a1c312128f8b72eec948974242008f4d7f412d1d12f0a166f3b4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/hist.npz",
+    "sha256": "14408a9385ca3becfd70cec4d54d133cd97449419bc292d2974bb0f3e5d59b13"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/metrics.json",
+    "sha256": "4e4a70ed97d719024c9f5f5fe8ae94e30cc18c32aff163fb5ce3ea13403270a0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/params.npz",
+    "sha256": "b845af6542d8061fa5d1c026469b29dd464717d8b9fdffd54b0afc7ce323b928"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/train.log",
+    "sha256": "3ec47ac8cfd0af9cf687c22effdf649d340840cc11eea995d1fcf7953b8b40b0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/ckpt.npz",
+    "sha256": "a536b2db5bd0c167754f0072981dd185498f23cc401fbb21ebe9d736c47a3678"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/config.json",
+    "sha256": "8ac0ef916ec32eeb0c49ce9012b24551f8bc74f11db1f050c96cd8341f2e68a9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/hist.npz",
+    "sha256": "fd2955edc00676ad4370b3b7ff37bb9f1377d478cadcb222558e07b72977abdd"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/metrics.json",
+    "sha256": "42a1b65319f667684677ec70e1af822232e340e7beb5956a874b291fe66811b4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/params.npz",
+    "sha256": "6f75aff92c978e16b93aa9916145120e2c83cb048e661a20639edc4d0797782a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/train.log",
+    "sha256": "c7de43e6decd32faa69e6c79a9c136f328a84d7ea77fb4f9c646704b719df704"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/ckpt.npz",
+    "sha256": "94c42f5ec9ad05db6531c011eb4fe5bdc81166b63f60d6a8d1ba5206756d8703"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/config.json",
+    "sha256": "35d3328196e76a3cbf4bcf1e050b0b5517060ec896d378b940bfb409d77b928d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/hist.npz",
+    "sha256": "f27d000696acf186eee6ae647412c1bc1d6793ff5bb083130de5e66efd7b1f81"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/metrics.json",
+    "sha256": "b7bc78b05291bed3bc279593af9a962e0d3c55ed8c665506dbe5e438e52bf104"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/params.npz",
+    "sha256": "60d6027ce39ea5761dff7f28611a26abf2ce43c567193ef0a5ecc490f42d68d1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/train.log",
+    "sha256": "d4adb37414f6ad3f25833d5817e2dd3a1ceacf6fe0d3ec0932ca790a71f92445"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/ckpt.npz",
+    "sha256": "77ca5ea3889f0a192e98eafdfe53ed29eadc591e0a68480d750a4632e860f904"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/config.json",
+    "sha256": "35b543a595c0b43cd9ea5e1a4b305fb99077ab4aef1b317896324b4a12883a5c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/hist.npz",
+    "sha256": "43849e4b6623ac92b706377098bfff706b0bc6b3695b06b93fcb20def6050319"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/metrics.json",
+    "sha256": "0b69bae39d25633601d74faa2dbea5106aedaa4f73c5de9088acc8b026f53aba"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/params.npz",
+    "sha256": "c5d69e9e09a94616a778eddfc22f89e2c9494e29b66567debd6f4e6e912a138d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/train.log",
+    "sha256": "809c8a37cbd90f8b57a185c37d7d65ffdc7d9bab93e244a4a21589cd6b63d5ca"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/ckpt.npz",
+    "sha256": "16b170b4314154059825155258622b236eef27db9a7c9d8635ffefc8726c3599"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/config.json",
+    "sha256": "3d68f3d997d8f72df39ecf389c3665ef3078ad9f644ca25b5286b6780c582b46"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/hist.npz",
+    "sha256": "492baedbae81aaa9b5fba530b77b8ccf80b2f5f7702d644ddf478551b7aa918b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/metrics.json",
+    "sha256": "a669a94058b4869613c910c9b580749a565be0dbfaafd2b014346460963e2271"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/params.npz",
+    "sha256": "bcfc06d5b96da6551ab7d98534183dce31ac938b9363dca456a0aac9dbcec088"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/train.log",
+    "sha256": "de59b4f5c60db5cc4e812b064d86b8fa4ad1d07a480410da3793931ac5303ee3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/ckpt.npz",
+    "sha256": "5261cbed91133c6f667977940c04725fd6b1b04b0f87493c14a32e78d6616f43"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/config.json",
+    "sha256": "1fd14434d0a1917ed632de0fb19520c82f93b159b7789976acaf13484331eb08"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/hist.npz",
+    "sha256": "e1b1413aae550a4ba20210b1753356a4100148429d308e2cfda9f119357450a9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/metrics.json",
+    "sha256": "c7b49e56ab198aad866c284a600c17540a2b257b27d0df98933f2dde4d7ff78b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/params.npz",
+    "sha256": "14fe533b2a939ef1539cc0bb41d0afdc682ed07a81ec35775f5a006fb86fecd0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/train.log",
+    "sha256": "2777e59830720d381e246c71a9996e4367c19275c3e9dac1baeb156f2f0938bf"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/ckpt.npz",
+    "sha256": "d28546c6e9d363f15bf40b6f4be6cfff2c22550ce5e498d3a11a9fc6b327500d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/config.json",
+    "sha256": "0db5e0e506b516d2a9e3698b3b7a819830d491f48c5c624a2989d04fbf246524"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/hist.npz",
+    "sha256": "390b6a53150cb1033108a97ee4aee9da86fdfc9b81283f10a9bbfd4bb62afe78"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/metrics.json",
+    "sha256": "e3582d64c3826a9025c3bc97ebed432f42919a409cca742906623c14ce2662f6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/params.npz",
+    "sha256": "be914f144d10de703098405a8af21ec84a23f6e68f3fa92572a65f0f84b6b31d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/train.log",
+    "sha256": "3e255e839e87d26bd90f3af35009a47907a197230fbab34af4faf49b9677ee02"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/ckpt.npz",
+    "sha256": "ec2c4a8716c891378ac16c143b95fb9b040a73d56a5b31b9909f44ee89f09999"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/config.json",
+    "sha256": "fb1b27be158a59640d2403ad0ec38933747313911d68fcc3af66a1744e3774f6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/hist.npz",
+    "sha256": "22245e93910fbb175edc8c59e272bf9e9c36028a1b3893a498e2eadeb6945001"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/metrics.json",
+    "sha256": "a34c57ecacc9ef90607cc1e5e13925f267e657b2c26694e9f77b3d8f294f130d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/params.npz",
+    "sha256": "db11f22021b0909671bb575d972814495c421b48256e3d9bf93248f6cc5af03e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/train.log",
+    "sha256": "0efc70a5af615b69b999c31c472d2bc196efb968237ef3e25c175efb9f854b0f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/ckpt.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/ckpt.npz",
+    "sha256": "3808d24cc7b98a01fbf53a084e6164f33752a66022c155068c9b69de5b7a7ca5"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/config.json",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/config.json",
+    "sha256": "7fdfd2344a3f15381dd1e2a6e36a9a7a46aced1df2bb7d963f2497d64f6eb2ac"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/hist.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/hist.npz",
+    "sha256": "89e479272354156ca58bd0e01fac5bf91ebd809961d6463764865c57e21abd4e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/metrics.json",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/metrics.json",
+    "sha256": "7c19eb2497894a2420e8fc69f50dc6ef319b2ab4869b80350893a6986e522ee8"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/params.npz",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/params.npz",
+    "sha256": "d7767bc172b9089b30b7d81e0c2cb2b010e5937c53ce88e4191d51720a66a9ff"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/train.log",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/train.log",
+    "sha256": "0b5e756544b651c2552455d90b7dbf58a8bbb9dd4cfcce9b23cc55eaccdbd2a2"
+  },
+  {
+    "source": "numpy_impl/results/tables/exp2_1d.json",
+    "destination": "code/numpy_impl/results/tables/exp2_1d.json",
+    "sha256": "13b239c19e655d7a65f117ee5dce4d5730c621b7fc932baa4cbb0fad1164f716"
+  },
+  {
+    "source": "numpy_impl/results/tables/exp3_sharpness.json",
+    "destination": "code/numpy_impl/results/tables/exp3_sharpness.json",
+    "sha256": "660c7d5ab0014475f4ebf650663582e967a2a8d25c597c34b3515992de4d9e7f"
+  },
+  {
+    "source": "numpy_impl/results/tables/exp4_module_angle.json",
+    "destination": "code/numpy_impl/results/tables/exp4_module_angle.json",
+    "sha256": "df2cdf7caf00ba47abad88dd62fe640e30b6b2c09bcbb371b150b9dbefa0f3f8"
+  },
+  {
+    "source": "numpy_impl/results/tables/exp5_ablations_sigma.json",
+    "destination": "code/numpy_impl/results/tables/exp5_ablations_sigma.json",
+    "sha256": "d557bb2740e6ca41a10e8eaa66062466ca311992cffae85e23a8326362ca5091"
+  },
+  {
+    "source": "numpy_impl/results/tables/exp6_sensitivity.json",
+    "destination": "code/numpy_impl/results/tables/exp6_sensitivity.json",
+    "sha256": "c7476c9d4b77c89c8e460ab8c04e029dc4245a98811a9ac278de13b925a0f000"
+  },
+  {
+    "source": "numpy_impl/review/tables/ablation_table.tex",
+    "destination": "code/numpy_impl/review/tables/ablation_table.tex",
+    "sha256": "7db94efa0d76075fb56b1416c75c8d3fd04bf69343ae37e5156fde5d822a174f"
+  },
+  {
+    "source": "numpy_impl/review/tables/numbers.tex",
+    "destination": "code/numpy_impl/review/tables/numbers.tex",
+    "sha256": "07278001a73c1c85e1cbf086716504e53a81c6f2a794ccfcce315c99b2319d0a"
+  },
+  {
+    "source": "numpy_impl/review/tables/sensitivity.tex",
+    "destination": "code/numpy_impl/review/tables/sensitivity.tex",
+    "sha256": "fd408d3f50021dfd01f87f1401e2c697e0bfe2df5185a7d501c5df87b92441e5"
+  },
+  {
+    "source": "numpy_impl/review/tables/sigma_table.tex",
+    "destination": "code/numpy_impl/review/tables/sigma_table.tex",
+    "sha256": "cee3540e417c131f47d988aba743e9505f2d3651afa917f80ba47a678177645d"
+  },
+  {
+    "source": "numpy_impl/SNAPSHOT.json",
+    "destination": "code/numpy_impl/SNAPSHOT.json",
+    "sha256": "13e0cd569bd18057fe7dad3b6ba915e7a338873effae2635cdc3bce1a0f78b09"
+  },
+  {
+    "source": "numpy_impl/src/actionable/__init__.py",
+    "destination": "code/numpy_impl/src/actionable/__init__.py",
+    "sha256": "8fe91182f28bc3ebad3774ec1aa422667393d20cd2d9d98a1690ec3edfbba2fd"
+  },
+  {
+    "source": "numpy_impl/src/actionable/analysis.py",
+    "destination": "code/numpy_impl/src/actionable/analysis.py",
+    "sha256": "b159367aaa1567721735e68e2443393f90057951c25e8bc95c912fd897b486d1"
+  },
+  {
+    "source": "numpy_impl/src/actionable/core.py",
+    "destination": "code/numpy_impl/src/actionable/core.py",
+    "sha256": "94b14977f143dd65beca6e360ad0a22532ce2ce4ca139604a55800645d0813c1"
+  },
+  {
+    "source": "numpy_impl/src/actionable/module_angle.py",
+    "destination": "code/numpy_impl/src/actionable/module_angle.py",
+    "sha256": "9837ffa119a6e60c78c0f43a4fc70522d16014dbafd37891cbd6e8197e360a9d"
+  },
+  {
+    "source": "numpy_impl/src/actionable/plotting.py",
+    "destination": "code/numpy_impl/src/actionable/plotting.py",
+    "sha256": "5b2927cb57cf770910d220e23b893483a15681a6413ee671f9e2ba6374bc8974"
+  },
+  {
+    "source": "numpy_impl/tests/test_core.py",
+    "destination": "code/numpy_impl/tests/test_core.py",
+    "sha256": "2e88360ec7f73df6a5cd2e8d7873c7fdf248f4b09ab032435cdefa463de0fb8c"
+  },
+  {
+    "source": "requirements-pinned.txt",
+    "destination": "requirements-pinned.txt",
+    "sha256": "7dc5729f3974dad88853a1438d0b949cb193b3dc5b7d77a11d0e337ecabdb011"
+  },
+  {
+    "source": "requirements.txt",
+    "destination": "requirements.txt",
+    "sha256": "1d431029ad604b8eff0791f6707018a798a3b5bc72ea9ec962654b214cd5896b"
+  },
+  {
+    "source": "review/make_figures.py",
+    "destination": "code/review/make_figures.py",
+    "sha256": "2fa32cfa89d57df64f23fc34becb1f2ca1d6c4ace6c06581ec8935ad59b34724"
+  },
+  {
+    "source": "review/make_review_numbers.py",
+    "destination": "code/review/make_review_numbers.py",
+    "sha256": "8aef0c9ded2062d84961df25d3b322eda0cc467209569ded1cdbdc7c0b871359"
+  },
+  {
+    "source": "smoke_test.py",
+    "destination": "code/smoke_test.py",
+    "sha256": "7b9a046478dd0b53b62532fde6939820639b1a322bfb7fcf6ead40ec813f3e44"
+  },
+  {
+    "source": "numpy_impl/experiments/.gitkeep",
+    "destination": "code/numpy_impl/experiments/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "numpy_impl/results/figures/.gitkeep",
+    "destination": "code/numpy_impl/results/figures/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "numpy_impl/results/figures/exp2_1d.png",
+    "destination": "code/numpy_impl/results/figures/exp2_1d.png",
+    "sha256": "17abadc59ab8fc64f792f54c096eb2e38edb9bc7f6a0b58f5c0b14fa1ccfdf68"
+  },
+  {
+    "source": "numpy_impl/results/figures/exp3_sharpness.png",
+    "destination": "code/numpy_impl/results/figures/exp3_sharpness.png",
+    "sha256": "d234b6ce63ce162bef38879ce5d87813a3eab487f94a5f0ee0f90e9362fbd251"
+  },
+  {
+    "source": "numpy_impl/results/figures/exp4_module_angle.png",
+    "destination": "code/numpy_impl/results/figures/exp4_module_angle.png",
+    "sha256": "3e76f0ac01fe5cec7a46c8a558323ecd4d2d796f4203835c98decbe897d9c249"
+  },
+  {
+    "source": "numpy_impl/results/figures/exp5_sigma.png",
+    "destination": "code/numpy_impl/results/figures/exp5_sigma.png",
+    "sha256": "bc1bd027a80702bf602039c87c1f2fbe8755b86ee70864611a3445c1f3025027"
+  },
+  {
+    "source": "numpy_impl/results/figures/fig_ablation.png",
+    "destination": "code/numpy_impl/results/figures/fig_ablation.png",
+    "sha256": "63fb493a76d490e386018073c8c1c9d2c6e7f7fe2427405facf280a578ef3454"
+  },
+  {
+    "source": "numpy_impl/results/figures/fig_main.png",
+    "destination": "code/numpy_impl/results/figures/fig_main.png",
+    "sha256": "477a23bb10ba7877d930052b06238d8e1af35faf3391055b77f23d8f44d11ac2"
+  },
+  {
+    "source": "numpy_impl/results/figures/fig_oned.png",
+    "destination": "code/numpy_impl/results/figures/fig_oned.png",
+    "sha256": "17abadc59ab8fc64f792f54c096eb2e38edb9bc7f6a0b58f5c0b14fa1ccfdf68"
+  },
+  {
+    "source": "numpy_impl/results/figures/fig_predictions.png",
+    "destination": "code/numpy_impl/results/figures/fig_predictions.png",
+    "sha256": "6eed5ee3a1e91c24406a74142904430fe8d4ec5dd5bf3c7065a4d681b619f95e"
+  },
+  {
+    "source": "numpy_impl/results/figures/fig_seeds.png",
+    "destination": "code/numpy_impl/results/figures/fig_seeds.png",
+    "sha256": "02fa4260a7011ef6d8884e8f4cfcc8c5e6b009630ac842ae0a790e79fe19dc81"
+  },
+  {
+    "source": "numpy_impl/results/figures/fig_sigma.png",
+    "destination": "code/numpy_impl/results/figures/fig_sigma.png",
+    "sha256": "2ecb58da3cfe7336aa21774d5b17443476b8a6e9f877dbc87c6b08a20d3691f3"
+  },
+  {
+    "source": "numpy_impl/results/runs/.gitkeep",
+    "destination": "code/numpy_impl/results/runs/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/freq_space.png",
+    "sha256": "7ff15d9a0a129587777382c3e83fa18c347ff25bbcc5834230073e01aa7b5586"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/rate_maps.png",
+    "sha256": "bfdf5a4636877bd98e071437ec481bc39abcd8764a9775d7d57103af37311640"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_actionability/training.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_actionability/training.png",
+    "sha256": "b0a2f571170dc1658b97ff549b53c8397c805a0d10fef90b3f79df53e164a957"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/freq_space.png",
+    "sha256": "859bc0e1e1be32b4fa4d01d764384011dc1b7cee044435a39983ec491cd1bed4"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/rate_maps.png",
+    "sha256": "bb7d83d4e9ac4e68f3edc061e145579cedd8603187053d465e7cdfa47bba69d7"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_functional/training.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_functional/training.png",
+    "sha256": "04ae3dd2b879633557c7ecece94b13931aaeb9c2955194fe93e1a480b504ab31"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/freq_space.png",
+    "sha256": "f079043694d7ee29fee444bf2908cac27f9bdd59e861f8c1a74c623c38920fcc"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/rate_maps.png",
+    "sha256": "1c0a3e74cc9857d2476129239b69653abc30ad45e9c2c93ee55c2baf50b49401"
+  },
+  {
+    "source": "numpy_impl/results/runs/abl_no_positivity/training.png",
+    "destination": "code/numpy_impl/results/runs/abl_no_positivity/training.png",
+    "sha256": "9d7816f53ac96882a0a2c863720f730aa2d34d405346e2d5f1f029a4ed21a132"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/freq_space.png",
+    "sha256": "26466f14bd65cd0b3a9a0e4564ebd31295027b1f68522b388c0bef2f906e09b2"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/rate_maps.png",
+    "sha256": "d17dd9427b72ccb3b41e912a0371c7c2af56ff7643715713fee6b13b310898f8"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed1/training.png",
+    "sha256": "19a8fae22c49d1e6e79a400ee6af179d8b890c3e4e865230a5f85c1798a081c9"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/freq_space.png",
+    "sha256": "81a0b87b05fb95e82426811b2813dba4a658cb73466c7382f3fc334bcec4521d"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/rate_maps.png",
+    "sha256": "bacf7680c02a0a4093730e7f0467c715c155afda3819fe0f98b73153b7dc02e3"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed2/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed2/training.png",
+    "sha256": "4903c795f08a862dc3c677fec8599f2d96a0eb13b45f60e62ba0d5e7477af7a7"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/freq_space.png",
+    "sha256": "5382c7c212449528d07005c5c110a2119b0adc59e8431a9f946a4d5910ae59f3"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/rate_maps.png",
+    "sha256": "74ec9259d96521db605c3eef76b9b7a118c52720fc200173e5bec64f1922d84c"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed3/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed3/training.png",
+    "sha256": "af92522811117167ef5ab91978e2b9e1842840de2ea31834c8ce0aa3ec4ce4c9"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/freq_space.png",
+    "sha256": "1363cdb7bb3a3dba4376b890294404f31e7f4a24fe321a0505da8515831bf81c"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/rate_maps.png",
+    "sha256": "0c21bd6a03be8bf26cd5db31f733c9ad09d046cc1cc1a109fdfc6f3d309dadf3"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed4/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed4/training.png",
+    "sha256": "4546c440c93147d078c64fb4595a6e7e11dcddded5f8c6850467d75a084b963c"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/freq_space.png",
+    "sha256": "e55f24b6ad4e125024d9363581ff10dd1ffe391e3dd9fc73cd93c3973468ee15"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/rate_maps.png",
+    "sha256": "25a66b8b5647dfa6e2beb55f51a41383412f896c844d75d297679f59e4417386"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed5/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed5/training.png",
+    "sha256": "c67dcfcdcc3e0c9a1e16ebb9798134666604c498bfc9def30d767c92d3a8d310"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/freq_space.png",
+    "sha256": "58287bc030928b0073e71e79ee31e6ee07f8324391f6864761146d2cf46dd1a5"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/rate_maps.png",
+    "sha256": "7874dd70fb0d1140dfad7050d1443185f43f6bd62999d58053876ddee9b9478f"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed6/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed6/training.png",
+    "sha256": "984113026e6ba7200b9b095a0e756163ef36b61f122af529fc4b7670d00208ba"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/freq_space.png",
+    "sha256": "7bf967f6b9202fff687888a06325a4ef50bb1d04da3504cd05b3ebf9f6dccd31"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/rate_maps.png",
+    "sha256": "1075a0151d81bd098ed9dda2a11c93ea215aa7179b25eec3150758c69e4f6873"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed7/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed7/training.png",
+    "sha256": "f8dbafe73703da847c595edb47b2a4b4d06ff335535feb1c2ab67b0dc15b8b6c"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/freq_space.png",
+    "sha256": "a7b4d13787e7f4719d0dbbfffc0f779377917e7b4afc287dc9aab7f86a8e557a"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/rate_maps.png",
+    "sha256": "9a106164c37157c17015f835be8e2a2fd26a9c03755733dde45f8f99cce44122"
+  },
+  {
+    "source": "numpy_impl/results/runs/base50_sigma0.2_seed8/training.png",
+    "destination": "code/numpy_impl/results/runs/base50_sigma0.2_seed8/training.png",
+    "sha256": "31efa3f8f9193824f1516897707c38664d37c44a4058a46727292115b3dc7b7c"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/freq_space.png",
+    "sha256": "3e78f23e453f2b0fa40f846c4def14ddc3bc614a5005d8e95b4f427d4ea368bc"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/rate_maps.png",
+    "sha256": "5880eb4bc0264fa6a56e5699e67be1f06b3d0f218558457b8e5e4047d9aa958c"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N25/training.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N25/training.png",
+    "sha256": "1ea12656edf4de6c6be3b94cf0fa2174b023df0d518d7aee0a2c9de2f90fbc9d"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/freq_space.png",
+    "sha256": "e8dae1d9bbf25d055963185bbebddcc756a3990868f08d744d81727f95fbb70b"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/rate_maps.png",
+    "sha256": "420ad897ef5d496397d2487d853583369d18acfdeb91fec27af77b6cee5fe82c"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N36/training.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N36/training.png",
+    "sha256": "2b6917d458107b7112c5d203e6fded79cb747862fa41b876ce980e21409f3a51"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/freq_space.png",
+    "sha256": "edb4e947ee36947b5cf9586961ec4be96a0621198182fa6e60ae69026d5c5e23"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/rate_maps.png",
+    "sha256": "9831d51a47fb5b6b3db6cf16de17209db8bd5f79420f814001d67f922441ef77"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N49/training.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N49/training.png",
+    "sha256": "257bcc321436fc06d569d934821db312bc72acd985dc12429125511182df0993"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/freq_space.png",
+    "sha256": "f298dcbda5efcf59466a8da306c80ff9d2ef374d2cba2c9dc8b3f0ac67cd412b"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/rate_maps.png",
+    "sha256": "a35a2cf94dc5ddd528d47589126855059ec2aefbef5fe73ee4630815767ae8a5"
+  },
+  {
+    "source": "numpy_impl/results/runs/figB10_N64/training.png",
+    "destination": "code/numpy_impl/results/runs/figB10_N64/training.png",
+    "sha256": "6f832decb7e68fdb64da6d517ebe294e2be80d0bcde5f3c9b9581ef4977094a6"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/freq_space.png",
+    "sha256": "aeb812bda20d9893d208ec851288ec358297ca3f6057301123ffc3a848b9b29a"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/rate_maps.png",
+    "sha256": "702fb0aa4b0c193438a5d10285a74daa24f72f1af5259ab859c149ced0c142e8"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed0/training.png",
+    "sha256": "24b23934d1394ad63f047186ca50d299f489990eb2e4e8fb9e483a491a0deb1a"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/freq_space.png",
+    "sha256": "a9aa9336ace9b7a1813045b0cdfbf415d44d0aeba00aff0e7056fa31c84966b4"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/rate_maps.png",
+    "sha256": "2cecaf4fd8b5e65e81bb0ef35788ac0f7fa3af6cc33f9ff7f373392b8a3aedd1"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed1/training.png",
+    "sha256": "8f025c43d2f2ba813fb53706e3b5fc94071191a609fffe1915800a578ce89828"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/freq_space.png",
+    "sha256": "aed7769fe7eaa26ed7ebc235727a6312ba0020482a0810b967451547d4563c56"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/rate_maps.png",
+    "sha256": "3c2d8020799586ef06b4849f32d656892aa905d23fad0b043334c5abb751c36f"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma0.2_seed2/training.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma0.2_seed2/training.png",
+    "sha256": "31d5ddd02f4d850034304eea5f8e4d08dfa87afc2ef665b85fc6352066531ac1"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/freq_space.png",
+    "sha256": "0dd181c4bfc57feb6ea6da4b293751902f542d740139d5f57d9a4c53a42fc271"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/rate_maps.png",
+    "sha256": "187fbc1b97e952e173058c49319c6d88a1ad95ccf94afc98c4d11d5e4b2a170f"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed0/training.png",
+    "sha256": "3a9cf70a6b1fdb286d768331a1edbcfcb7c490f309769a577d98e8d87e287db4"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/freq_space.png",
+    "sha256": "a32e72355f9a4adb407bf8bfe38e6e29b82ca87ede0d4fd11aab5cd7e79ac505"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/rate_maps.png",
+    "sha256": "a452ebbd8dc5e4934b945782ecc6e8f3d59c373db1851285affffbdba4647707"
+  },
+  {
+    "source": "numpy_impl/results/runs/main_sigma1.0_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/main_sigma1.0_seed1/training.png",
+    "sha256": "ee49bb10a920b01568f0bf54325fb797d53e9e0837e33dcda3b932627757ae44"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_D20/freq_space.png",
+    "sha256": "7abdd77ceccc488eeb043c344ba2231598ad39af82a7b6d3d2bb1fdb8d2a1ccb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_D20/rate_maps.png",
+    "sha256": "19a3205c72f55a992a7c6d8036aaad0563f763c8a01d21b8583daff48eb02ddc"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_D20/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_D20/training.png",
+    "sha256": "186bd34ff145d75e438aa3d6d04866195ebda503bcdb0a6b4195ea34e934ef02"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/freq_space.png",
+    "sha256": "82797dff6d069d39f61ccbe016a3c4007d12a87ce36d6d1c25e642086ae06e8c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/rate_maps.png",
+    "sha256": "1f518ef3fae3fb7c482276a7ad437915fa6edf1effaf59ca577a6b3952c4e65c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd2/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd2/training.png",
+    "sha256": "b23e9f281decbf8144cfd30499b1f572707c9b9fbdf0169317ab47882af21fc9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/freq_space.png",
+    "sha256": "6fba2cd0ed59a51ee2faf5a3e2076dc6dacf455bba7e925dfef11b9bd5bed7da"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/rate_maps.png",
+    "sha256": "7bd49b4c6782e0797ed2bc0d1e5f1c4c626af64303c3cfe3357de4195e4772f9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_freqstd8/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_freqstd8/training.png",
+    "sha256": "bc9b271946a92997fe904090889ee1e67f8ae1ad8cc7b280d70aa6478e1b47b6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/freq_space.png",
+    "sha256": "3f14cd6783a39e67b5d90dd2d7720a89c389e642fb6c3f64cb38c788a994b107"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/rate_maps.png",
+    "sha256": "b577688bf974822a0f22c6bc0dc2fd1385ed1fa601de340def88a68b29bd170c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma0.2/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma0.2/training.png",
+    "sha256": "e6949d232143066287907c9e3e55c76a3940690c3e0565a3cf1ebf234879511c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/freq_space.png",
+    "sha256": "e4a707ddcf5173f821a6bb8e6076192c5174597c5e0b99cd58a198c320e0e8f0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/rate_maps.png",
+    "sha256": "b79e00a59c3c59b3f0b7750e6d8ff9db5ac312555c0ebc7bcb6105e6a46cbd5f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_kn-4_sigma1.0/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_kn-4_sigma1.0/training.png",
+    "sha256": "ac3e3727a403ecee96420a27b88d7275660182432785af5c05183f927f6a371e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/freq_space.png",
+    "sha256": "04c63ffad826cbfd2369ba98a6608894c0a7db8eceffbc245fe9e7fb13e5034c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/rate_maps.png",
+    "sha256": "13d56a0fd525a65db43df40e4603236573100b6d62da2a962fe51db06cb4f2d8"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed0/training.png",
+    "sha256": "e9df2040d46b295d626f5224293d3ddfc377f94d5d67462f7a74b4070a61ff9e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/freq_space.png",
+    "sha256": "3d629554d3c0d73782863204e93f530c5f367b763ad43c379596faf4af7ba199"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/rate_maps.png",
+    "sha256": "0fc2d05c99c7dbda9404589f1ebef41d8e97763adf79bc27e3425efcc31e6156"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_l0.2_sigma0.2_seed1/training.png",
+    "sha256": "e093cf1b30aef88df8fbd8f7b32c0e2ec41cb49aef124779eaa1f538080a2c31"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/freq_space.png",
+    "sha256": "a9dbb622927f3ee65cf7f1d2aed0cba246698d8c47134448f1fecaa99d975515"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/rate_maps.png",
+    "sha256": "5f01d581aa308c6b8d849932090cddbf8e50dfe36986f0dce33983d45e00c5ea"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma0.2/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma0.2/training.png",
+    "sha256": "0cf209d9e6dae211a4c095f629d46adb10e48ac71ed0368f1390ad1f6fd383df"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/freq_space.png",
+    "sha256": "79d05961a13e13f00dd31ce966a63d8368f7b887004b0a92c5d848e87bb9d9be"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/rate_maps.png",
+    "sha256": "967fe09d399e995629fcf4b10908dd2b0eaee86e84eaa7d770fe260d51a376e2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sens_normmean_sigma1.0/training.png",
+    "destination": "code/numpy_impl/results/runs/sens_normmean_sigma1.0/training.png",
+    "sha256": "03f5de838ee4fcd1729aea518cc2509403ad1eba5df0168dfcd63c02844292c6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/freq_space.png",
+    "sha256": "00b36aea951d2b5044e508889e0880f2d15254761b7da42d7f73923ebaa180ab"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/rate_maps.png",
+    "sha256": "ff62d53fc53eb2bad2111f2f8760d35c9930c330d38ae0b222f4922b6257ab98"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed0/training.png",
+    "sha256": "0619067db50222b11842200a395ea7d92df87435ac63d52594cc32d8cb61fe14"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/freq_space.png",
+    "sha256": "5cffeab43c1310c87102af3c0e005b57b788e162e6bf16029409c2a3df84dc34"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/rate_maps.png",
+    "sha256": "c473fac708549de5030faaa190522698e13352b72bf0a6479ca577c5da951922"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.15_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.15_seed1/training.png",
+    "sha256": "94c71f3ebb6e46235d601ba8cb6ce0991cea74086857082430514049dff0b75e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/freq_space.png",
+    "sha256": "c65df7c22168393df067e09fc6b2b45a11148cb2eb153d9c2c4bc3710d01dd8d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/rate_maps.png",
+    "sha256": "f33542c2a656625521f078926c83405057aa41b8a6a1463c6709140185d2b4e6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed0/training.png",
+    "sha256": "d2a3e0a8969750ca800346fea3ce2ce976cd0ca2a5df561647b41db4fbd5bc67"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/freq_space.png",
+    "sha256": "ef1c322c7ad523fac989276a6429d73b90d65e565e50368d51293c3a793277bd"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/rate_maps.png",
+    "sha256": "1a5b62d0eb357866854c42208f4c9711fc21d0db8a4f7772c0377c5235a8cdc7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.1_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.1_seed1/training.png",
+    "sha256": "345d1180f0fb93fce64e2c3bbb6ff06203d84b2a54b05366fa63f667f39f842b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/freq_space.png",
+    "sha256": "7429eba1efa0eaabfbb8ad9a18526b78563f1a724fa8333a565f33661900d6b4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/rate_maps.png",
+    "sha256": "1edd6a2524e86cc40524f30d8eec086ccd6ef832ce825b60068c5ed07e14efcb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed0/training.png",
+    "sha256": "cf594d2b85776167476a29c24f1e9d3bda2b2a921dbba4fe14332f627dc17f9d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/freq_space.png",
+    "sha256": "dab374a382fb302bfe0b059168f0e62dd468017572b3407aaae81e21b37ff410"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/rate_maps.png",
+    "sha256": "411e08d07ecd9406b6dfbfdeed07b9fb6c6e29a604e888a5bd1ab4214d94921c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.3_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.3_seed1/training.png",
+    "sha256": "4c9d531b159b2f680adb4858918ed39332db4488156addf253932c09891e72f7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/freq_space.png",
+    "sha256": "a822d89ac4444a0d7e4295660bd340f2ce97883bccdaca6d0bbd905257f33dc0"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/rate_maps.png",
+    "sha256": "322c57686cb23b6f7f5fd1579097edf0dfd3751a86d6969d29a3d686bdb1330f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed0/training.png",
+    "sha256": "95d1b143de103adfce4f9e6aee4d749866a97cb3182b10fe92cc592b1be63ff9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/freq_space.png",
+    "sha256": "aa9aefc070c511cf28b8ef91046d573aa0fd0a36a1bd53f883afaabba01e23ab"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/rate_maps.png",
+    "sha256": "bb4ab5f6076c6fa9a60b013f6693075333435fac8a50ea0b35da85f572350d15"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.4_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.4_seed1/training.png",
+    "sha256": "376c939fc68faece7a826c1cfd724dacf6eb5f2de234a593d3e5c916197582a6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/freq_space.png",
+    "sha256": "8972fd16261b47eec21f998e0266fd0da8e87442f7f624a4bd0e6d41b7c11905"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/rate_maps.png",
+    "sha256": "9a2cea2e9576a5cf16504f4196071f75307e93f47bb1580fc35cad62d1ea190c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweep_sigma0.7_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweep_sigma0.7_seed0/training.png",
+    "sha256": "21eb96fdb002a04203a65de02b9622787e7b0d36b67ebf8cf75265d6901b7d5c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/freq_space.png",
+    "sha256": "92cc4f5d787799a4e8fb4292b56c56d9e3b0f9a96273a443446e265564b472ca"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/rate_maps.png",
+    "sha256": "3d08ce0e8be01e7e95b47fd16fb67aab9d6e3748aa3ace1d6e3dc53293362066"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed0/training.png",
+    "sha256": "620dd6bd9dab94ef53e986441a6c68ca0e3849e571a325d357e0b3e2fdf00544"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/freq_space.png",
+    "sha256": "4344087a049ae125b96f41f9a31ae585cd9c0cec45c8b5033fc60a88b8f8bc93"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/rate_maps.png",
+    "sha256": "785faf1728b9d01c64cac492ecab5229db7af468cae269956f807ae3d882c810"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.15_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.15_seed1/training.png",
+    "sha256": "3e4ca637a99a214a1876947ec3ae5af2da4a825de3ca76498828acbc6df31cce"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/freq_space.png",
+    "sha256": "f5eeb692b41e67e38a9c09be133ccc4e5df46ee20ef6aa1d966ab05dfd775380"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/rate_maps.png",
+    "sha256": "41b94940a89e01fa8119cad64d6cd9bd994f54f5a0c99706280608fa72a6b495"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed0/training.png",
+    "sha256": "4b7413b34ee6d053e2f794002f8889db480064787a539629cf41f84e9550d0e9"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/freq_space.png",
+    "sha256": "42128ff306e3c1b72fecda82513d54786c24d29fe252b922bea98c1362e967bb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/rate_maps.png",
+    "sha256": "10c0ca02538bfb990e4b06b1e603f5b2dc1095ed805dadd8bc1ea817c6f4a81a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.1_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.1_seed1/training.png",
+    "sha256": "a054133b57dabf027f9f5f8ae8e30e80083c69d5c58d5e82c5fe66ceebee1563"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/freq_space.png",
+    "sha256": "87d99fa2ef08025bb334dd3129287eb095e68eb635fd609124851052d6ad7075"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/rate_maps.png",
+    "sha256": "5e585acf1d377ce048386a153f495d0c697273629e8d13706737abac8a8eb48f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed0/training.png",
+    "sha256": "e294e330803bf76d4220888417ca8c3017cbe2f16b53a9348cfb01d5a96b3cd4"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/freq_space.png",
+    "sha256": "a4ed65a1f0a84c27d9e7c3a747eafa3f731f9ec4fda64bd149b4d04525f43162"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/rate_maps.png",
+    "sha256": "b9a6274e6f746e2b5e1792aa50bf408506dce049c4159ac6903e0c171daa4b4e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.3_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.3_seed1/training.png",
+    "sha256": "d9623db5c250c84b52d889b77c5eee6be1477e4160bbd02361febe0a496fdfff"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/freq_space.png",
+    "sha256": "060b0cc8fa809795c47575b088972d85dff02f23bc7f0e9725f52b163062117d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/rate_maps.png",
+    "sha256": "e3d87ec625ab64bc010144332ba4041848d287fc21fb9ae6f066dc97c42481c7"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed0/training.png",
+    "sha256": "3e2965367dcfe69b55716fb880a49df03bfb83cacf4be21d1d072f5ddd0b387c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/freq_space.png",
+    "sha256": "90f0df0c9f8d3f5fd93e1c8ebaf082b875490d9805989dc41d8cef9bac322bac"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/rate_maps.png",
+    "sha256": "8d8efb6242cb1e4d027e5e8314a3a8a5d04aee4e8394fe96c6eacfc3e88a1108"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.4_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.4_seed1/training.png",
+    "sha256": "4fc14a36d40564f662feea3bc96f04bc1b22917317bb57e1afff18c6d7565329"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/freq_space.png",
+    "sha256": "e4418cb65567d88a23ea7050f611e707e9ec44ffc8cc782df4f4a33c88d55302"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/rate_maps.png",
+    "sha256": "10c46f65488be54c0d3715538317f8096a9c8b5d388c153db28388a63ff71865"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed0/training.png",
+    "sha256": "35204140b33087a07725436096dc4cbc1a506a6fe9d84b50fb2d7200d24531fc"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/freq_space.png",
+    "sha256": "05d53ab2924ddadaa71d08a25e4b5d5a44a6745cc1b4944097fc4c6d08ca7e9f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/rate_maps.png",
+    "sha256": "82085d3764e29220c72833d5e7a5a057f0482b648eb941704a150a8de953310e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma0.7_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma0.7_seed1/training.png",
+    "sha256": "4ffd6265d9154529b4a73a4dee635120d55d792c2667a0578625aff77cc6beb3"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/freq_space.png",
+    "sha256": "0433dad45a25f9df784ecb5c5efbac0b96aa6889de6c115cac7cb6d7705744e8"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/rate_maps.png",
+    "sha256": "ceb1ae4f06f3e77614e5a9c65d23a705ae5d0cc4892a84857834823820ae1160"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed0/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed0/training.png",
+    "sha256": "243c25d8631eff3fb1112eb0a81116e6edb078f9690891d26c8b416296fc05f1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/freq_space.png",
+    "sha256": "761ddad921358e734b4e4356629c25c0ac1d7406c660b335a024f68de313303d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/rate_maps.png",
+    "sha256": "74999639b9df66157b4f13cacd6d2331d2e633a293f0a9d441b6969d6c3614c2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl02_sigma1.0_seed1/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl02_sigma1.0_seed1/training.png",
+    "sha256": "6f1c73a09bca9d4e32740bab885f4f4cbdd1fbd6c21dd184adebfa391dba027a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/freq_space.png",
+    "sha256": "ab04d9aa9b1d953cbef04f7f3938bf117c4c3bb90e652b1ba0a0cdfdb3bbca78"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/rate_maps.png",
+    "sha256": "1c0f035bb8c4137b9be58340fe24c19f9492ae4976208acaf82dbaba7a14ce2b"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4/training.png",
+    "sha256": "a1e51a23116900b9d3ec17b53239e8ed9721a533b75da6b568b500b4457cdad6"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/freq_space.png",
+    "sha256": "618aa32d80c922ca494ef67fa16b0ab07bc481c68fb55844063548666dc94900"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/rate_maps.png",
+    "sha256": "b76d06272f73d78efe6f89a9dc900d19c31c51a24b4c9778ce73feeb376b9284"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.1_sigma0.4_N100/training.png",
+    "sha256": "a05e307af1d519511030eb543754fe45865ec716a380899d5fe41d2962da291e"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/freq_space.png",
+    "sha256": "bdb95308f8ec1df42eed61d9cab7377f27d3d6a9bdfc434d5be707359e156731"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/rate_maps.png",
+    "sha256": "7b3d1107b92380d644eeabe9ed104692174c5702ee1cc7cb6c99907a02ee795a"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.2_sigma0.4/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.2_sigma0.4/training.png",
+    "sha256": "3e2965367dcfe69b55716fb880a49df03bfb83cacf4be21d1d072f5ddd0b387c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/freq_space.png",
+    "sha256": "7bbbe6468789814818bd6cf2721748e34e5a3441bdbdc46ebca24a235410f8ea"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/rate_maps.png",
+    "sha256": "0a07e4f8e0eb0cc3f5a1a5f5e06e71ae549ae071c853aa8832befafaa4d38ea1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l0.3_sigma0.4/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l0.3_sigma0.4/training.png",
+    "sha256": "ce684138d348a194abef168bb255d6d3f4c31283550bced556d1adb88086a4b1"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/freq_space.png",
+    "sha256": "04d685966a6ae573d16f81c416e90aad2bba331b5911036a1e001596a733819c"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/rate_maps.png",
+    "sha256": "f253e5369fdf4fb0eff39a1c27caf6dbbe25885710c39fefe1ed8bafc07d3a74"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepl_l1.0_sigma0.4/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepl_l1.0_sigma0.4/training.png",
+    "sha256": "7999dd89a95b5049d84402f7d09628d84690acd6c2b5db3c934eec86d2d322b2"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/freq_space.png",
+    "sha256": "04cb89943ff02779d7e817fb691469ed3b5ac45cdc6b23d5c65bae6b03bb0f77"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/rate_maps.png",
+    "sha256": "d5f7b01907c9379b10e7fdd7b20b31da837a63b7b5ba49fc0cbdc3fd18a5aa85"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N100/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N100/training.png",
+    "sha256": "66c38548a7352a6dd8df8db34c407d645bc198ea3cb98e187153f8b414d67e06"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/freq_space.png",
+    "sha256": "944923625f6ed6e8cf98f88dedb0489a16e7b012474cae03889e3759b8fe1288"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/rate_maps.png",
+    "sha256": "27bd1b8f249811a4c94e3f512213a708634950bbbc741319d50c872321757eea"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N16/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N16/training.png",
+    "sha256": "34a1fbaa87b01ae09428c0976af34cf9df053b666d78836fa09cf543ea00ccfb"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/freq_space.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/freq_space.png",
+    "sha256": "eefdef9aae50c918a865ebb0c81b673cb93052002704e32ccafabe23617d862f"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/rate_maps.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/rate_maps.png",
+    "sha256": "948974ba6715606af57f1d12a2cadc8dab1d4373903098a16fefb443bbc6917d"
+  },
+  {
+    "source": "numpy_impl/results/runs/sweepN_N32/training.png",
+    "destination": "code/numpy_impl/results/runs/sweepN_N32/training.png",
+    "sha256": "76b1922066c4a95bbe7b6dab6ff55449585fa8985c44ebd12bc5bfa088c291ae"
+  },
+  {
+    "source": "numpy_impl/results/tables/.gitkeep",
+    "destination": "code/numpy_impl/results/tables/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "numpy_impl/src/.gitkeep",
+    "destination": "code/numpy_impl/src/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "numpy_impl/tests/.gitkeep",
+    "destination": "code/numpy_impl/tests/.gitkeep",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

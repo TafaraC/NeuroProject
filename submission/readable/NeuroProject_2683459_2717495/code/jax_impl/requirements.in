@@ -1,0 +1,6 @@
+# Direct runtime dependencies. requirements.txt pins the resolved environment.
+jax
+numpy
+scipy
+matplotlib
+optax

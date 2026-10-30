@@ -1,0 +1,38 @@
+{
+  "constructed_control_not_training": true,
+  "formula": "1.5+cos(u)+cos(v)+cos(u+v) = |1+exp(iu)+exp(-iv)|^2/2",
+  "neurons": 64,
+  "frequency_pairs": 3,
+  "frequency_magnitude": 6.0,
+  "phase_seed": 991,
+  "sampling_seed": 24680,
+  "batches": 128,
+  "shifts": 15,
+  "shift_std": 3.0,
+  "occupancy_std": 1.0,
+  "target_under_test": 0.02,
+  "maximum_analytic_room_energy_relative_error": 7.154001080422745e-08,
+  "minimum_sampled_raw_rate": 3.2372283742532204e-08,
+  "numpy_version": "2.5.4",
+  "source_sha256": "142199f6bf874d8e164b3dba83e24dea7d43ebad83be3a675d301a9f375bbe35",
+  "measurements": [
+    {
+      "samples": 50,
+      "mean_norm_loss": 0.09610194615185635,
+      "standard_error_over_batches": 0.0057524609366833195,
+      "fraction_of_batches_at_or_below_target": 0.0390625
+    },
+    {
+      "samples": 150,
+      "mean_norm_loss": 0.027383950743845677,
+      "standard_error_over_batches": 0.001285167705541083,
+      "fraction_of_batches_at_or_below_target": 0.34375
+    },
+    {
+      "samples": 600,
+      "mean_norm_loss": 0.006440893349735469,
+      "standard_error_over_batches": 0.0002912662147900973,
+      "fraction_of_batches_at_or_below_target": 1.0
+    }
+  ]
+}

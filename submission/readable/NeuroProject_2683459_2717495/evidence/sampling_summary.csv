@@ -1,0 +1,4 @@
+original_run,samples,mean_norm_loss,standard_error_over_batches,fraction_of_batches_at_or_below_target
+jax_impl/results/constraint_control,50,0.09610194615185635,0.0057524609366833195,0.0390625
+jax_impl/results/constraint_control,150,0.027383950743845677,0.001285167705541083,0.34375
+jax_impl/results/constraint_control,600,0.006440893349735469,0.0002912662147900973,1.0

@@ -1,0 +1,7 @@
+# Pure NumPy/SciPy/Matplotlib: no deep-learning framework is needed (all gradients are derived by hand and
+# checked against finite differences in tests/test_core.py).
+# Developed and tested with Python 3.13, numpy 2.5.3, scipy 1.18.1, matplotlib 3.11.2.
+# Other recent versions are expected to work but have not been tested.
+numpy
+scipy
+matplotlib

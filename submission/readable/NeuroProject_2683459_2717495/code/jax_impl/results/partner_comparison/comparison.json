@@ -1,0 +1,36 @@
+{
+  "partner_revision": "7db3147a434adb20b9b0514e3201bec40700d99b",
+  "partner_source_sha256": "94b14977f143dd65beca6e360ad0a22532ce2ce4ca139604a55800645d0813c1",
+  "fixture_inputs_sha256": "9b6482ae1297ad554f6313e54d7c35c63ee3047a63d0012f1eb3d3e983c8592b",
+  "passed_matched_equations": true,
+  "rtol": 2e-05,
+  "atol": 1e-07,
+  "expected": {
+    "functional": 0.09003713269808805,
+    "positivity": 0.12317182672086104,
+    "norm": 0.478722682735809,
+    "total": 2.335752133742041,
+    "weight_directional_derivative": -0.19989328354785837,
+    "frequency_directional_derivative": -0.7099288303002992
+  },
+  "partner_after_explicit_objective_alignment": {
+    "functional": 0.09003713269812026,
+    "positivity": 0.12317182672084406,
+    "norm": 0.4787226827355322,
+    "total": 2.3357521337428127,
+    "weight_directional_derivative": -0.19989328352205799,
+    "frequency_directional_derivative": -0.7099288302494503
+  },
+  "absolute_errors": {
+    "functional": 3.2210345501937354e-14,
+    "positivity": 1.697253448895708e-14,
+    "norm": 2.7677860003905153e-13,
+    "total": 7.718270467194088e-13,
+    "weight_directional_derivative": 2.5800389602537166e-11,
+    "frequency_directional_derivative": 5.0848880661646945e-11
+  },
+  "mismatches": {},
+  "native_total_with_unmodified_multipliers": 0.1748609489879267,
+  "aligned_total": 2.3357521337428127,
+  "interpretation": "Agreement on a small float64 loss/gradient fixture after explicitly aligning functional weighting. It does NOT establish matched training, initialisation, constraints, evaluation metrics, or reproduction success."
+}

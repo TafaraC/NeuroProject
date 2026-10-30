@@ -35,3 +35,16 @@ results/checkpoints/*
 !results/checkpoints/.gitkeep
 results/logs/*
 !results/logs/.gitkeep
+
+# Readable submission: rebuildable archive, local caches and signed personal forms stay out of Git.
+submission/readable/*.zip
+submission/readable/**/.work/
+submission/readable/declaration_originals/
+submission/readable/NeuroProject_2683459_2717495/declarations/*.pdf
+# Keep the packaged run logs that the evidence and snapshot manifests refer to.
+!submission/readable/NeuroProject_2683459_2717495/code/**/*.log
+
+# Course-supplied materials (brief, review template, reviewed paper) are not redistributed.
+_CN_2026__Project-2.pdf
+_CN_2026__Review_Template.zip
+project_paper.pdf

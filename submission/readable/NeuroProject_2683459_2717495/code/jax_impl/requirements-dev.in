@@ -1,0 +1,6 @@
+# Notebook and development tools; resolved versions in requirements-dev.txt.
+-r requirements.in
+jupyterlab
+ipykernel
+pytest
+ruff

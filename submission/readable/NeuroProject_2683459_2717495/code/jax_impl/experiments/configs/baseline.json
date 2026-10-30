@@ -1,0 +1,8 @@
+{
+  "neurons": 64,
+  "frequencies": 31,
+  "sigma": 0.4,
+  "spatial_scale": 0.5,
+  "steps": 150000,
+  "seed": 0
+}

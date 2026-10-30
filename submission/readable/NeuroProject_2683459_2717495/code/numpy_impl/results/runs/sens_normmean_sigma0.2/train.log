@@ -1,0 +1,12 @@
+[      0/50000] Lf=2.528e-09 Lp=0.409 Lb=0.0836 lam_p=0.1 lam_n=0.005 (0s)
+[   5000/50000] Lf=3.342e-09 Lp=0 Lb=0.000966 lam_p=1e-08 lam_n=2.23e-05 (28s)
+[  10000/50000] Lf=3.891e-10 Lp=0 Lb=0.00202 lam_p=1e-08 lam_n=1.16e-07 (56s)
+[  15000/50000] Lf=3.093e-09 Lp=0 Lb=0.00263 lam_p=1e-08 lam_n=1e-08 (85s)
+[  20000/50000] Lf=3.169e-09 Lp=0 Lb=0.0031 lam_p=1e-08 lam_n=1e-08 (116s)
+[  25000/50000] Lf=4.358e-10 Lp=6.08e-07 Lb=0.00173 lam_p=1e-08 lam_n=1e-08 (149s)
+[  30000/50000] Lf=1.871e-10 Lp=0 Lb=0.002 lam_p=1e-08 lam_n=1e-08 (183s)
+[  35000/50000] Lf=1.541e-10 Lp=5.4e-07 Lb=0.00309 lam_p=1e-08 lam_n=1e-08 (218s)
+[  40000/50000] Lf=6.704e-10 Lp=1.86e-07 Lb=0.00159 lam_p=1e-08 lam_n=1e-08 (253s)
+[  45000/50000] Lf=2.363e-09 Lp=0 Lb=0.00242 lam_p=1e-08 lam_n=1e-08 (288s)
+[  49999/50000] Lf=3.503e-10 Lp=0 Lb=0.0016 lam_p=1e-08 lam_n=1e-08 (325s)
+[sens_normmean_sigma0.2] done: 1 modules (0 hexagonal), 0% of cells with analytic gridness>0.3, actionability error 1.4e-13

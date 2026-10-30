@@ -1,0 +1,8 @@
+{
+  "format_version": 1,
+  "inputs_sha256": "9b6482ae1297ad554f6313e54d7c35c63ee3047a63d0012f1eb3d3e983c8592b",
+  "basis_order": "1, cos(k0.x), sin(k0.x), cos(k1.x), sin(k1.x), ...",
+  "normalisation": "Per-neuron original-room L2 SUM, reused in every shifted room",
+  "sigma": "Standard deviation; variance = sigma squared",
+  "reference": "NumPy explicit pairwise differences; central finite-difference derivatives"
+}
